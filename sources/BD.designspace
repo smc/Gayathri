@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<designspace format="3">
+	<sources>
+	<source filename="BD-Regular.ufo" name="regular">
+			<location>
+				<dimension name="weight" xvalue="150"/>
+			</location>
+			<features copy="1" />
+			<info copy="1" />
+			<lib copy="1" />
+		</source>
+	</sources>
+</designspace>
