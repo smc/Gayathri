@@ -1,4 +1,3 @@
-
 image: "debian:stretch"
 
 build:
@@ -21,3 +20,20 @@ test:
     - pip3 install -r requirements.txt
   script:
     - make test
+
+pages:
+  stage: deploy
+  before_script:
+    - apt-get update -y
+    - apt-get install -y make python3-pip
+    - pip3 install -r requirements.txt
+  script:
+    - make webfonts
+    - mkdir .public
+    - cp -r build tests .public
+    - mv .public public
+  artifacts:
+    paths:
+    - public
+  only:
+    - master
