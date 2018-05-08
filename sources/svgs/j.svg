@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!-- Creator: CorelDRAW X8 -->
-<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="482px" height="2048px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-viewBox="0 0 482 2048"
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="505px" height="1698px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 505 1698"
  xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
   <style type="text/css">
    <![CDATA[
-    .fil0 {fill:#009846;fill-rule:nonzero}
+    .fil0 {fill:#1F1B20}
    ]]>
   </style>
  </defs>
  <g id="Layer_x0020_1">
   <metadata id="CorelCorpID_0Corel-Layer"/>
-  <path class="fil0" d="M337 1072c0,-20 33,-37 72,-37 40,0 73,17 73,37l0 1102c0,85 -27,162 -100,211 -55,36 -125,52 -205,52 -42,0 -87,-5 -132,-14 -37,-8 -55,-29 -40,-47 15,-19 57,-27 94,-20 28,6 55,9 78,9 35,0 65,-7 90,-24 55,-36 70,-104 70,-167l0 -1102zm72 -348c20,0 39,8 52,21 13,13 21,31 21,51 0,20 -8,39 -21,52 -13,13 -32,21 -52,21 -20,0 -38,-8 -51,-21 -13,-13 -21,-32 -21,-52 0,-20 8,-38 21,-51 13,-13 31,-21 51,-21zm51 21c-13,-13 -31,-21 -51,-21 -19,0 -37,8 -51,21 -13,13 -21,32 -21,51 0,20 8,38 21,51 14,13 32,22 51,22 20,0 38,-9 51,-22 14,-13 22,-31 22,-51 0,-19 -8,-38 -22,-51zm-51 -21c40,0 73,33 73,72 0,40 -33,73 -73,73 -39,0 -72,-33 -72,-73 0,-39 33,-72 72,-72z"/>
+  <path class="fil0" d="M332 335c0,-24 38,-43 85,-43 47,0 85,19 85,43l0 1095c0,25 -2,48 -6,69 -14,66 -47,113 -95,144 -57,38 -130,55 -213,55 -43,0 -89,-5 -135,-15 -44,-9 -64,-33 -47,-55 18,-22 67,-32 110,-23 26,5 50,8 72,8 30,0 56,-7 77,-21 30,-20 52,-52 62,-101 4,-18 5,-38 5,-61l0 -1095zm85 -335c25,0 46,10 62,26 16,16 26,37 26,62 0,24 -10,46 -26,62 -16,15 -37,25 -62,25 -24,0 -46,-10 -62,-25 -15,-16 -25,-38 -25,-62 0,-25 10,-46 25,-62 16,-16 38,-26 62,-26z"/>
  </g>
 </svg>
