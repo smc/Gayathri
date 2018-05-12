@@ -160,7 +160,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 	<key>openTypeNameUniqueID</key>
 	<string>BD Regular SMC</string>
 	<key>openTypeNameVersion</key>
-	<string>1.5</string>
+	<string>1.0</string>
 	<key>openTypeOS2CodePageRanges</key>
 	<array>
 		<integer>0</integer>
@@ -278,7 +278,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 	<key>versionMajor</key>
 	<integer>1</integer>
 	<key>versionMinor</key>
-	<integer>5</integer>
+	<integer>0</integer>
 	<key>xHeight</key>
 	<real>1000.0</real>
 </dict>
