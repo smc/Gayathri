@@ -21,7 +21,7 @@ PDF=$(FONTS:%=$(BLDDIR)/$(NAME)-%.pdf)
 $(BLDDIR)/%.otf: $(SRCDIR)/%.ufo
 	@echo "  BUILD    $(@F)"
 	@mkdir -p $(BLDDIR)
-	@fontmake  -o otf -u $<
+	@fontmake --verbose=WARNING -o otf -u $<
 	@mv master_otf/*.otf $(BLDDIR)/
 	@rm -rf master_otf
 
