@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="shu1" format="2">
-  <advance width="1928"/>
+  <advance width="1917.0"/>
   <outline>
-    <component base="u_sign_drop" xOffset="1181.0" yOffset="133.0"/>
+    <component base="u_sign_drop" xOffset="1267.1408193794045" yOffset="112.09813868785778"/>
     <component base="sh"/>
   </outline>
   <lib>
