@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="o1" format="2">
-  <advance width="2677"/>
+  <advance width="2612.208409063143"/>
   <unicode hex="0D4A"/>
   <outline>
-    <component base="hyphen" xOffset="1212.0" yOffset="78.0"/>
+    <component base="hyphen" xOffset="1212.0" yOffset="-27.0"/>
     <component base="e1" yOffset="7.0"/>
     <component base="a2" xOffset="1676.0" yOffset="4.0"/>
   </outline>
