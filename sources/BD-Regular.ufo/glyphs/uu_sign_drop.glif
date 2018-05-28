@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uu_sign_drop" format="2">
-  <advance width="710.0593364182419"/>
+  <advance width="710.0859725890124"/>
   <outline>
     <contour>
       <point x="530.0" y="-257.0" type="curve" smooth="yes"/>
@@ -10,17 +10,17 @@
       <point x="140.0" y="-498.0"/>
       <point x="10.0" y="-421.0"/>
       <point x="10.0" y="-257.0" type="curve" smooth="yes"/>
-      <point x="10.0" y="-110.0"/>
-      <point x="114.0" y="-27.0"/>
-      <point x="229.0" y="-10.0" type="curve" smooth="yes"/>
-      <point x="260.0" y="-6.0"/>
-      <point x="293.0" y="-2.0"/>
+      <point x="10.0" y="-156.0"/>
+      <point x="59.0" y="-85.0"/>
+      <point x="128.0" y="-45.0" type="curve" smooth="yes"/>
+      <point x="184.0" y="-12.0"/>
+      <point x="261.0" y="-2.0"/>
       <point x="326.0" y="-1.0" type="curve" smooth="yes"/>
-      <point x="359.0" y="-1.0"/>
-      <point x="391.0" y="-3.0"/>
-      <point x="422.0" y="-7.0" type="curve" smooth="yes"/>
-      <point x="592.0" y="-31.0"/>
-      <point x="703.0" y="-153.0"/>
+      <point x="431.0" y="0.0"/>
+      <point x="535.0" y="-20.0"/>
+      <point x="612.0" y="-96.0" type="curve" smooth="yes"/>
+      <point x="669.0" y="-153.0"/>
+      <point x="702.0" y="-232.0"/>
       <point x="700.0" y="-326.0" type="curve" smooth="yes"/>
       <point x="696.0" y="-541.0"/>
       <point x="511.0" y="-667.0"/>
