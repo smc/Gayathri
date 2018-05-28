@@ -3,25 +3,25 @@
   <advance width="305.0"/>
   <outline>
     <contour>
-      <point x="-218.0" y="-210.3750855578371" type="line" smooth="yes"/>
-      <point x="-263.0" y="-210.3750855578371"/>
-      <point x="-300.0" y="-187.3750855578371"/>
-      <point x="-300.0" y="-162.3750855578371" type="curve" smooth="yes"/>
-      <point x="-300.0" y="-137.3750855578371"/>
-      <point x="-263.0" y="-113.3750855578371"/>
-      <point x="-218.0" y="-113.3750855578371" type="curve" smooth="yes"/>
-      <point x="43.0" y="-113.3750855578371" type="line"/>
-      <point x="43.0" y="954.6249144421629" type="line" smooth="yes"/>
-      <point x="43.0" y="979.6249144421629"/>
-      <point x="79.0" y="999.6249144421629"/>
-      <point x="124.0" y="999.6249144421629" type="curve" smooth="yes"/>
-      <point x="169.0" y="999.6249144421629"/>
-      <point x="205.0" y="979.6249144421629"/>
-      <point x="205.0" y="954.6249144421629" type="curve" smooth="yes"/>
-      <point x="205.0" y="-160.3750855578371" type="line" smooth="yes"/>
-      <point x="205.0" y="-200.3750855578371"/>
-      <point x="155.0" y="-210.3750855578371"/>
-      <point x="124.0" y="-210.3750855578371" type="curve" smooth="yes"/>
+      <point x="-218.0" y="-210.0" type="line" smooth="yes"/>
+      <point x="-263.0" y="-210.0"/>
+      <point x="-300.0" y="-187.0"/>
+      <point x="-300.0" y="-162.0" type="curve" smooth="yes"/>
+      <point x="-300.0" y="-137.0"/>
+      <point x="-263.0" y="-113.0"/>
+      <point x="-218.0" y="-113.0" type="curve" smooth="yes"/>
+      <point x="43.0" y="-113.0" type="line"/>
+      <point x="43.0" y="955.0" type="line" smooth="yes"/>
+      <point x="43.0" y="980.0"/>
+      <point x="79.0" y="1000.0"/>
+      <point x="124.0" y="1000.0" type="curve" smooth="yes"/>
+      <point x="169.0" y="1000.0"/>
+      <point x="205.0" y="980.0"/>
+      <point x="205.0" y="955.0" type="curve" smooth="yes"/>
+      <point x="205.0" y="-160.0" type="line" smooth="yes"/>
+      <point x="205.0" y="-200.0"/>
+      <point x="155.0" y="-210.0"/>
+      <point x="124.0" y="-210.0" type="curve" smooth="yes"/>
     </contour>
   </outline>
   <lib>
