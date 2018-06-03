@@ -568,6 +568,8 @@
 	<string>k3k3u1.glif</string>
 	<key>k3k3u2</key>
 	<string>k3k3u2.glif</string>
+	<key>k3k4</key>
+	<string>k3k4.glif</string>
 	<key>k3l3</key>
 	<string>k3l3.glif</string>
 	<key>k3l3u1</key>
@@ -588,6 +590,8 @@
 	<string>k3n1u2.glif</string>
 	<key>k3r1</key>
 	<string>k3r1.glif</string>
+	<key>k3r2</key>
+	<string>k3r2.glif</string>
 	<key>k3r3</key>
 	<string>k3r3.glif</string>
 	<key>k3r3u1</key>
@@ -600,6 +604,10 @@
 	<string>k3th3r1.glif</string>
 	<key>k3th3th4</key>
 	<string>k3th3th4.glif</string>
+	<key>k3th3th4r1</key>
+	<string>k3th3th4r1.glif</string>
+	<key>k3th3th4r3</key>
+	<string>k3th3th4r3.glif</string>
 	<key>k3th3th4u1</key>
 	<string>k3th3th4u1.glif</string>
 	<key>k3th3th4u2</key>
@@ -618,6 +626,8 @@
 	<string>k4.glif</string>
 	<key>k4r1</key>
 	<string>k4r1.glif</string>
+	<key>k4r2</key>
+	<string>k4r2.glif</string>
 	<key>k4r3</key>
 	<string>k4r3.glif</string>
 	<key>k4r3u1</key>
@@ -874,6 +884,8 @@
 	<string>ngk1.glif</string>
 	<key>ngk1r1</key>
 	<string>ngk1r1.glif</string>
+	<key>ngk1r2</key>
+	<string>ngk1r2.glif</string>
 	<key>ngk1u1</key>
 	<string>ngk1u1.glif</string>
 	<key>ngk1u2</key>
@@ -1612,6 +1624,8 @@
 	<string>visarga.glif</string>
 	<key>vocalic_r_sign_drop</key>
 	<string>vocalic_r_sign_drop.glif</string>
+	<key>vocalic_rr_sign_drop</key>
+	<string>vocalic_rr_sign_drop.glif</string>
 	<key>w</key>
 	<string>w.glif</string>
 	<key>wcircumflex</key>
