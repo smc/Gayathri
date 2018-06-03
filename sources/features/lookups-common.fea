@@ -337,6 +337,7 @@ lookup psts_vowel_signs_common {
     sub k4 u1  by k4u1;
     sub k4 u2  by k4u2;
     sub k4 r1  by k4r1;
+    sub k4 r2  by k4r2;
     sub k4r3 u1  by k4r3u1;
     sub k4r3 u2  by k4r3u2;
     sub ng u1  by ngu1;
@@ -344,6 +345,7 @@ lookup psts_vowel_signs_common {
     sub ngk1 u1  by ngk1u1;
     sub ngk1 u2  by ngk1u2;
     sub ngk1 r1  by ngk1r1;
+    sub ngk1 r2  by ngk1r2;
     sub ngng u1  by ngngu1;
     sub ngng u2  by ngngu2;
     sub ch1 u1  by ch1u1;
