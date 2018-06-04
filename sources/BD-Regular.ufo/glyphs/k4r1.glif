@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="k4r1" format="2">
-  <advance width="2345.0"/>
+  <advance width="2346.0"/>
   <outline>
-    <component base="vocalic_r_sign_drop" xOffset="1192.0151220145049" yOffset="319.17605505799315"/>
-    <component base="k4"/>
+    <component base="vocalic_r_sign_drop" xOffset="1191.8321050550214" yOffset="291.5481188292689"/>
+    <component base="k4" xOffset="0.22262726272947475" yOffset="-0.37765603087440525"/>
   </outline>
   <lib>
     <dict>
