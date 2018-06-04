@@ -676,6 +676,7 @@
 		<string>Ocircumflex</string>
 		<string>acircumflex</string>
 		<string>ccircumflex</string>
+		<string>vocalic_rr_sign_drop</string>
 		<string>Gcircumflex</string>
 		<string>Hcircumflex</string>
 		<string>ecircumflex</string>
@@ -864,7 +865,6 @@
 		<string>verticalbarvirama</string>
 		<string>circularvirama</string>
 		<string>k1r2</string>
-		<string>vocalic_rr_sign_drop</string>
 		<string>k3r2</string>
 		<string>k3th3th4r1</string>
 		<string>k3th3th4r3</string>
