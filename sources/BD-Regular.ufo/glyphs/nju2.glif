@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nju2" format="2">
-  <advance width="2502.0"/>
+  <advance width="2481.0"/>
   <outline>
-    <component base="uu_sign_drop" xScale="1.10072" yScale="0.986102" xOffset="1910.830889153124" yOffset="84.71092614612236"/>
+    <component base="uu_sign_drop" xScale="1.10072" yScale="0.986102" xOffset="1710.704579351241" yOffset="48.163983390416476"/>
     <component base="nj"/>
   </outline>
   <lib>
