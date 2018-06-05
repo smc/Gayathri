@@ -175,6 +175,8 @@ lookup pres_reph_mlym {
     sub k4 r4  by k4r3;
     sub k1th1 r4 by k1th1r3;
     sub k1th1 xx r3 by k1th1r3;
+    sub ch2 xx r3 by ch2r3;
+    sub ch2 r4 by ch2r3;
     sub ch3xx r3 by ch3r3;
     sub ch3 r4  by ch3r3;
     sub t1xx r3  by t1r3;
@@ -233,6 +235,7 @@ lookup pres_reph {
     sub r4 k3  by k3r3;
     sub r4 k3th3th4 by k3th3th4r3;
     sub r4 k4  by k4r3;
+    sub r4 ch2 by ch2r3;
     sub r4 ch3  by ch3r3;
     sub r4 t1  by t1r3;
     sub r4 t3  by t3r3;
