@@ -361,6 +361,7 @@ lookup psts_vowel_signs_common {
     sub ch3 u1  by ch3u1;
     sub ch3 u2  by ch3u2;
     sub ch3 r1  by ch3r1;
+    sub ch3 r2  by ch3r2;
     sub ch3ch3 u1  by ch3ch3u1;
     sub ch3ch3 u2  by ch3ch3u2;
     sub ch3ch3 r1  by ch3ch3r1;
