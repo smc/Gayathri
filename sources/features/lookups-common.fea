@@ -237,6 +237,7 @@ lookup pres_reph {
     sub r4 k4  by k4r3;
     sub r4 ch2 by ch2r3;
     sub r4 ch3  by ch3r3;
+    sub r4 ch4 by ch4r3;
     sub r4 t1  by t1r3;
     sub r4 t3  by t3r3;
     sub r4 nht1  by nht1r3;
@@ -362,6 +363,8 @@ lookup psts_vowel_signs_common {
     sub ch3 u2  by ch3u2;
     sub ch3 r1  by ch3r1;
     sub ch3 r2  by ch3r2;
+    sub ch4 r1  by ch4r1;
+    sub ch4 r2  by ch4r2;
     sub ch3ch3 u1  by ch3ch3u1;
     sub ch3ch3 u2  by ch3ch3u2;
     sub ch3ch3 r1  by ch3ch3r1;
