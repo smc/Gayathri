@@ -384,6 +384,7 @@ lookup psts_vowel_signs_common {
     sub t1 u1  by t1u1;
     sub t1 u2  by t1u2;
     sub t1 r1  by t1r1;
+    sub t1 r2  by t1r2;
     sub t1t1 u1  by t1t1u1;
     sub t1t1 u2  by t1t1u2;
     sub t1r3 u1  by t1r3u1;
