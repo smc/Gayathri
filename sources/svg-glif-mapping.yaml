@@ -1,0 +1,35 @@
+font:
+    transform: 1 0 0 -1 0 0
+    ufo: sources/BD-Regular.ufo
+    version: 2 # UFO version
+svgs:
+    ക:
+        left: 90
+        right: 90
+        unicode: 0D15
+        glyph_name: k1
+    ഖ:
+        left: 100
+        right: 100
+        unicode: 0D16
+        glyph_name: k2
+    ല:
+        left: 100
+        right: 100
+        unicode: 0D32
+        glyph_name: l3
+    ങ:
+        left: 90
+        right: 90
+        unicode: 0D19
+        glyph_name: ng
+    ൡ:
+        left: 90
+        right: 90
+        unicode: 0D61
+        glyph_name: ml_ll
+    ജ:
+        left: 100
+        right: 100
+        unicode: 0D1C
+        glyph_name: ch3
