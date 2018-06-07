@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nht1u2" format="2">
-  <advance width="2675"/>
+  <advance width="2612.0044695192164"/>
   <outline>
-    <component base="uu_sign_drop" xOffset="2022.0" yOffset="89.0"/>
+    <component base="uu_sign_drop" xOffset="1904.1705277553638" yOffset="64.20669328470453"/>
     <component base="nht1" yOffset="-4.0"/>
   </outline>
   <lib>
