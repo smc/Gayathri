@@ -109,7 +109,7 @@ def main(args=None):
     try:
         svg_config = config['svgs'][name]
     except KeyError:
-        print("Error: Configuration not found for svg : %r" % name)
+        print("Skip: Configuration not found for svg : %r" % name)
         return
 
     # Get the font metadata from UFO
