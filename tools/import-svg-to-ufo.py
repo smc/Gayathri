@@ -1,5 +1,9 @@
 #!/usr/bin/env python
-""" Convert SVG paths to UFO glyphs. """
+"""
+Convert SVG paths to UFO glyphs and that to a UFO font
+Author: Santhosh Thottingal <santhosh.thottingal@gmail.com>
+Copyright 2018, MIT License
+"""
 
 from __future__ import print_function, absolute_import
 
@@ -7,12 +11,12 @@ __requires__ = ["FontTools", "ufoLib"]
 
 from fontTools.misc.py23 import SimpleNamespace
 from fontTools.svgLib import SVGPath
-from ufoLib import UFOReader, UFOWriter, UFOLibError
+from ufoLib import UFOReader, writePlistAtomically, UFOLibError
 from ufoLib.pointPen import SegmentToPointPen
 from ufoLib.glifLib import writeGlyphToString
+from ufoLib.plistlib import readPlist
 import argparse
 import os
-
 
 class InfoObject(object):
     pass
@@ -109,7 +113,7 @@ def main(args=None):
     try:
         svg_config = config['svgs'][name]
     except KeyError:
-        print("Skip: Configuration not found for svg : %r" % name)
+        print("\033[93mSkip: Configuration not found for svg : %r\033[0m" % name)
         return
 
     # Get the font metadata from UFO
@@ -117,10 +121,18 @@ def main(args=None):
     reader = UFOReader(ufo_font_path)
     infoObject = InfoObject()
     reader.readInfo(infoObject)
-    glyphInfo = reader.readLib()
+    familyName = getattr(infoObject, 'familyName')
 
-    if svg_config['glyph_name'] not in glyphInfo['public.glyphOrder']:
-        print("Error: Glyph %s not found in the font" % svg_config['glyph_name'] )
+    contentsPlistPath = ufo_font_path + '/glyphs/contents.plist'
+
+    try:
+        with open(contentsPlistPath, "rb") as f:
+            contentsPlist = readPlist(f)
+    except:
+        raise UFOLibError("The file %s could not be read." % contentsPlistPath)
+
+    if svg_config['glyph_name'] not in contentsPlist:
+        print("\033[91mError: Glyph %s not found in the font\033[0m" % svg_config['glyph_name'])
         return
 
     # Calculate the transformation to do
@@ -131,8 +143,9 @@ def main(args=None):
     if 'unicode' in svg_config:
         unicodeVal = unicode_hex_list(svg_config['unicode'])
     else:
-        unicodeVal=None
+        unicodeVal = None
     glyphWidth = width + int(svg_config['left']) + int(svg_config['right'])
+
     glif = svg2glif(svg,
                     name=svg_config['glyph_name'],
                     width=glyphWidth,
@@ -140,16 +153,24 @@ def main(args=None):
                     unicodes=unicodeVal,
                     transform=transform,
                     version=config['font']['version'])
+
     if options.outfile is None:
-        output_file = ufo_font_path + '/glyphs/' + \
-            svg_config['glyph_name'] + '.glif'
+        output_file = ufo_font_path + '/glyphs/' + svg_config['glyph_name'] + '.glif'
     else:
         output_file = options.outfile
     with open(output_file, 'w', encoding='utf-8') as f:
         f.write(glif)
-    print("[%s] %s -> %s ✔️" % (getattr(infoObject, 'familyName'), name, output_file))
-    # TODO: Use UFOWriter to update UFO with this glif
-    # writer = UFOWriter(ufo_font_path, formatVersion=config['font']['version'])
+
+    print("\033[94m[%s]\033[0m \033[92mConvert\033[0m %s -> %s \033[92m✔️\033[0m" %
+          (familyName, name, output_file))
+
+    # If this is a new glyph, add it to the UFO/glyphs/contents.plist
+    if svg_config['glyph_name'] not in contentsPlist:
+        contentsPlist[svg_config['glyph_name']
+                      ] = svg_config['glyph_name'] + '.glif'
+        writePlistAtomically(contentsPlist, contentsPlistPath)
+        print("\033[94m[%s]\033[0m \033[92mAdd\033[0m %s -> %s \033[92m✔️\033[0m" %
+              (familyName, svg_config['glyph_name'] + '.glif'))
 
 
 if __name__ == "__main__":
