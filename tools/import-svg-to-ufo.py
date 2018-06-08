@@ -109,7 +109,7 @@ def main(args=None):
     try:
         svg_config = config['svgs'][name]
     except KeyError:
-        print("Configuration not found for svg : %r" % name)
+        print("Error: Configuration not found for svg : %r" % name)
         return
 
     # Get the font metadata from UFO
@@ -117,7 +117,11 @@ def main(args=None):
     reader = UFOReader(ufo_font_path)
     infoObject = InfoObject()
     reader.readInfo(infoObject)
-    # print("Reading UFO %r" % getattr(infoObject, 'familyName') )
+    glyphInfo = reader.readLib()
+
+    if svg_config['glyph_name'] not in glyphInfo['public.glyphOrder']:
+        print("Error: Glyph %s not found in the font" % svg_config['glyph_name'] )
+        return
 
     # Calculate the transformation to do
     transform = transform_list(config['font']['transform'])
@@ -132,12 +136,14 @@ def main(args=None):
                     unicodes=unicode_hex_list(svg_config['unicode']),
                     transform=transform,
                     version=config['font']['version'])
-
     if options.outfile is None:
-        print(glif)
+        output_file = ufo_font_path + '/glyphs/' + \
+            svg_config['glyph_name'] + '.glif'
     else:
-        with open(options.outfile, 'w', encoding='utf-8') as f:
-            f.write(glif)
+        output_file = options.outfile
+    with open(output_file, 'w', encoding='utf-8') as f:
+        f.write(glif)
+    print("[%s] %s -> %s ✔️" % (getattr(infoObject, 'familyName'), name, output_file))
     # TODO: Use UFOWriter to update UFO with this glif
     # writer = UFOWriter(ufo_font_path, formatVersion=config['font']['version'])
 
