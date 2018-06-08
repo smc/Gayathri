@@ -52,5 +52,10 @@ install: otf
 
 test: otf $(PDF)
 
+glifs:
+	@for svg in `ls sources/svgs/*.svg`;do \
+		$(PY) tools/import-svg-to-ufo.py $$svg;\
+	done;
+
 clean:
 	@rm -rf $(BLDDIR)
