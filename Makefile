@@ -52,7 +52,7 @@ install: otf
 
 test: otf $(PDF)
 
-glifs:
+glyphs:
 	@for svg in `ls sources/svgs/*.svg`;do \
 		$(PY) tools/import-svg-to-ufo.py $$svg;\
 	done;
