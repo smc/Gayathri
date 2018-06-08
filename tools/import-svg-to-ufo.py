@@ -99,7 +99,7 @@ def main(args=None):
     # Parse SVG to read the width, height attributes defined in it
     svgObj = parseSvg(svg_file)
     width = float(svgObj.attrib['width'].replace("px", " "))
-
+    height = float(svgObj.attrib['height'].replace("px", " "))
     name = os.path.splitext(os.path.basename(svg_file))[0]
 
     with open(svg_file, "r", encoding="utf-8") as f:
@@ -126,7 +126,7 @@ def main(args=None):
     # Calculate the transformation to do
     transform = transform_list(config['font']['transform'])
     transform[4] += int(svg_config['left'])  # X offset = left bearing
-    transform[5] += int(getattr(infoObject, 'xHeight'))  # Y offset = x-height
+    transform[5] += height + int(svg_config['bottom'])   # Y offset
 
     if 'unicode' in svg_config:
         unicodeVal = unicode_hex_list(svg_config['unicode'])
