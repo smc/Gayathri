@@ -128,12 +128,16 @@ def main(args=None):
     transform[4] += int(svg_config['left'])  # X offset = left bearing
     transform[5] += int(getattr(infoObject, 'xHeight'))  # Y offset = x-height
 
+    if 'unicode' in svg_config:
+        unicodeVal = unicode_hex_list(svg_config['unicode'])
+    else:
+        unicodeVal=None
     glyphWidth = width + int(svg_config['left']) + int(svg_config['right'])
     glif = svg2glif(svg,
                     name=svg_config['glyph_name'],
                     width=glyphWidth,
                     height=getattr(infoObject, 'unitsPerEm'),
-                    unicodes=unicode_hex_list(svg_config['unicode']),
+                    unicodes=unicodeVal,
                     transform=transform,
                     version=config['font']['version'])
     if options.outfile is None:
