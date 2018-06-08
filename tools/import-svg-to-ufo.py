@@ -18,6 +18,7 @@ from ufoLib.plistlib import readPlist
 import argparse
 import os
 
+
 class InfoObject(object):
     pass
 
@@ -89,15 +90,17 @@ def parse_args(args):
     parser.add_argument(
         "outfile", metavar="OUTPUT.glif", help="Output GLIF file (default: "
         "print to stdout)", nargs='?')
-
+    parser.add_argument(
+        "-c", "--config", help="The yaml configuration file containing the svg "
+        "to glif mapping", type=str, default="sources/svg-glif-mapping.yaml")
     return parser.parse_args(args)
 
 
 def main(args=None):
     from io import open
-    config = getConfig("sources/svg-glif-mapping.yaml")
-    options = parse_args(args)
 
+    options = parse_args(args)
+    config = getConfig(options.config)
     svg_file = options.infile
 
     # Parse SVG to read the width, height attributes defined in it
