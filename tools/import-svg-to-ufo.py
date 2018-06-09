@@ -11,7 +11,7 @@ __requires__ = ["FontTools", "ufoLib"]
 
 from fontTools.misc.py23 import SimpleNamespace
 from fontTools.svgLib import SVGPath
-from ufoLib import UFOReader, writePlistAtomically, UFOLibError
+from ufoLib import UFOReader, UFOWriter, writePlistAtomically, UFOLibError
 from ufoLib.pointPen import SegmentToPointPen
 from ufoLib.glifLib import writeGlyphToString
 from ufoLib.plistlib import readPlist
@@ -111,6 +111,8 @@ def main(args=None):
     ufo_font_path = config['font']['ufo']
     # Get the font metadata from UFO
     reader = UFOReader(ufo_font_path)
+    writer = UFOWriter(ufo_font_path)
+
     infoObject = InfoObject()
     reader.readInfo(infoObject)
     familyName = getattr(infoObject, 'familyName')
@@ -137,7 +139,8 @@ def main(args=None):
     except:
         raise UFOLibError("The file %s could not be read." % contentsPlistPath)
 
-    if svg_config['glyph_name'] in contentsPlist:
+    glyph_name = svg_config['glyph_name']
+    if glyph_name in contentsPlist:
         existing_glyph = True
     else:
         existing_glyph = False
@@ -169,13 +172,14 @@ def main(args=None):
           (familyName, name, output_file))
 
     # If this is a new glyph, add it to the UFO/glyphs/contents.plist
-    if existing_glyph == False:
-        contentsPlist[svg_config['glyph_name']
-                      ] = svg_config['glyph_name'] + '.glif'
+    if not existing_glyph:
+        contentsPlist[glyph_name] = glyph_name + '.glif'
         writePlistAtomically(contentsPlist, contentsPlistPath)
         print("\033[94m[%s]\033[0m \033[92mAdd\033[0m %s -> %s \033[92m✔️\033[0m" %
-              (familyName, svg_config['glyph_name'] + '.glif'))
-
+              (familyName, glyph_name, glyph_name + '.glif'))
+        lib_obj = reader.readLib()
+        lib_obj['public.glyphOrder'].append(glyph_name)
+        writer.writeLib(lib_obj)
 
 if __name__ == "__main__":
     import sys
