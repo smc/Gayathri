@@ -108,6 +108,12 @@ def main(args=None):
     width = float(svgObj.attrib['width'].replace("px", " "))
     height = float(svgObj.attrib['height'].replace("px", " "))
     name = os.path.splitext(os.path.basename(svg_file))[0]
+    ufo_font_path = config['font']['ufo']
+    # Get the font metadata from UFO
+    reader = UFOReader(ufo_font_path)
+    infoObject = InfoObject()
+    reader.readInfo(infoObject)
+    familyName = getattr(infoObject, 'familyName')
 
     with open(svg_file, "r", encoding="utf-8") as f:
         svg = f.read()
@@ -118,36 +124,31 @@ def main(args=None):
     except KeyError:
         print("\033[93mSkip: Configuration not found for svg : %r\033[0m" % name)
         return
-
-    # Get the font metadata from UFO
-    ufo_font_path = config['font']['ufo']
-    reader = UFOReader(ufo_font_path)
-    infoObject = InfoObject()
-    reader.readInfo(infoObject)
-    familyName = getattr(infoObject, 'familyName')
+    if 'unicode' in svg_config:
+        unicodeVal = unicode_hex_list(svg_config['unicode'])
+    else:
+        unicodeVal = None
+    glyphWidth = width + int(svg_config['left']) + int(svg_config['right'])
 
     contentsPlistPath = ufo_font_path + '/glyphs/contents.plist'
-
     try:
         with open(contentsPlistPath, "rb") as f:
             contentsPlist = readPlist(f)
     except:
         raise UFOLibError("The file %s could not be read." % contentsPlistPath)
 
-    if svg_config['glyph_name'] not in contentsPlist:
-        print("\033[91mError: Glyph %s not found in the font\033[0m" % svg_config['glyph_name'])
-        return
+    if svg_config['glyph_name'] in contentsPlist:
+        existing_glyph = True
+    else:
+        existing_glyph = False
 
     # Calculate the transformation to do
     transform = transform_list(config['font']['transform'])
+    base = 0
+    if 'base' in svg_config:
+        base=int(svg_config['base'])
     transform[4] += int(svg_config['left'])  # X offset = left bearing
-    transform[5] += height + int(svg_config['bottom'])   # Y offset
-
-    if 'unicode' in svg_config:
-        unicodeVal = unicode_hex_list(svg_config['unicode'])
-    else:
-        unicodeVal = None
-    glyphWidth = width + int(svg_config['left']) + int(svg_config['right'])
+    transform[5] += height + base # Y offset
 
     glif = svg2glif(svg,
                     name=svg_config['glyph_name'],
@@ -168,7 +169,7 @@ def main(args=None):
           (familyName, name, output_file))
 
     # If this is a new glyph, add it to the UFO/glyphs/contents.plist
-    if svg_config['glyph_name'] not in contentsPlist:
+    if existing_glyph == False:
         contentsPlist[svg_config['glyph_name']
                       ] = svg_config['glyph_name'] + '.glif'
         writePlistAtomically(contentsPlist, contentsPlistPath)
