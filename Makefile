@@ -21,7 +21,7 @@ PDF=$(FONTS:%=$(BLDDIR)/$(NAME)-%.pdf)
 $(BLDDIR)/%.otf: $(SRCDIR)/%.ufo
 	@echo "  BUILD    $(@F)"
 	@mkdir -p $(BLDDIR)
-	@fontmake --verbose=WARNING -o otf -u $<
+	@fontmake --verbose=WARNING -S -o otf -u $<
 	@mv master_otf/*.otf $(BLDDIR)/
 	@rm -rf master_otf
 
@@ -51,6 +51,11 @@ install: otf
 	install -D -m 0644 $(BLDDIR)/*.otf ${DESTDIR}${INSTALLPATH}/
 
 test: otf $(PDF)
+
+glyphs:
+	@for svg in `ls sources/svgs/*.svg`;do \
+		$(PY) tools/import-svg-to-ufo.py $$svg;\
+	done;
 
 clean:
 	@rm -rf $(BLDDIR)
