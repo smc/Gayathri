@@ -9,6 +9,12 @@ svgs:
         base: -24
         unicode: '0030'
         glyph_name: zero
+    '0_small':
+        left: 0
+        right: 0
+        base: 1000
+        unicode: '2070'
+        glyph_name: zero_super
     ൦:
         left: 100
         right: 100
@@ -21,6 +27,12 @@ svgs:
         base: -24
         unicode: '0031'
         glyph_name: one
+    '1_small':
+        left: 0
+        right: 0
+        base: 1000
+        unicode: '00B9'
+        glyph_name: one_super
     ൧:
         left: 100
         right: 100
@@ -32,6 +44,12 @@ svgs:
         right: 100
         unicode: '0032'
         glyph_name: two
+    '2_small':
+        left: 0
+        right: 0
+        base: 1000
+        unicode: '00B2'
+        glyph_name: two_super
     ൨:
         left: 100
         right: 100
@@ -44,6 +62,12 @@ svgs:
         base: -24
         unicode: '0033'
         glyph_name: three
+    '3_small':
+        left: 0
+        right: 0
+        base: 1000
+        unicode: '00B3'
+        glyph_name: three_super
     ൩:
         left: 100
         right: 60
@@ -56,6 +80,12 @@ svgs:
         base: -24
         unicode: '0034'
         glyph_name: four
+    '4_small':
+        left: 0
+        right: 0
+        base: 1000
+        unicode: '2074'
+        glyph_name: four_super
     ൪:
         left: 100
         right: 190
@@ -68,6 +98,12 @@ svgs:
         base: -24
         unicode: '0035'
         glyph_name: five
+    '5_small':
+        left: 0
+        right: 0
+        base: 1000
+        unicode: '2075'
+        glyph_name: five_super
     ൫:
         left: 100
         right: 100
@@ -80,6 +116,12 @@ svgs:
         base: -24
         unicode: '0036'
         glyph_name: six
+    '6_small':
+        left: 0
+        right: 0
+        base: 1000
+        unicode: '2076'
+        glyph_name: six_super
     ൬:
         left: 100
         right: 100
@@ -92,6 +134,12 @@ svgs:
         base: -24
         unicode: '0037'
         glyph_name: seven
+    '7_small':
+        left: 0
+        right: 0
+        base: 1000
+        unicode: '2077'
+        glyph_name: seven_super
     ൭:
         left: 100
         right: 100
@@ -104,6 +152,12 @@ svgs:
         base: -24
         unicode: '0038'
         glyph_name: eight
+    '8_small':
+        left: 0
+        right: 0
+        base: 1000
+        unicode: '2078'
+        glyph_name: eight_super
     ൮:
         left: 100
         right: 100
@@ -116,6 +170,12 @@ svgs:
         base: -24
         unicode: '0039'
         glyph_name: nine
+    '9_small':
+        left: 0
+        right: 0
+        base: 1000
+        unicode: '2079'
+        glyph_name: nine_super
     ൯:
         left: 100
         right: 100
