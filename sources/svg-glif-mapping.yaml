@@ -867,6 +867,36 @@ svgs:
         right: 100
         base: -486
         glyph_name: k1k1r3
+    ക്ത:
+        left: 100
+        right: 100
+        base: -24
+        glyph_name: k1th1
+    ക്തു:
+        left: 100
+        right: 100
+        base: -456
+        glyph_name: k1th1u1
+    ക്തൂ:
+        left: 100
+        right: 100
+        base: -456
+        glyph_name: k1th1u2
+    ക്തൃ:
+        left: 100
+        right: 100
+        base: -486
+        glyph_name: k1th1r1
+    ക്തൃൃ:
+        left: 100
+        right: 100
+        base: -486
+        glyph_name: k1th1r2
+    ക്ത്ര:
+        left: 100
+        right: 100
+        base: -24
+        glyph_name: k1th1r3
     ക്ര:
         left: 100
         right: 100
@@ -883,6 +913,11 @@ svgs:
         base: -12
         unicode: 0D16
         glyph_name: k2
+    ഖ്ര:
+        left: 100
+        right: 100
+        base: -486
+        glyph_name: k2r3
     ഗ:
         left: 100
         right: 100
@@ -1128,6 +1163,26 @@ svgs:
         right: 100
         base: -24
         glyph_name: njch1
+    ഞ്ഛ:
+        left: 100
+        right: 100
+        base: -24
+        glyph_name: njch2
+    ഞ്ഛു:
+        left: 100
+        right: 100
+        base: -456
+        glyph_name: njch2u1
+    ഞ്ഛൂ:
+        left: 100
+        right: 100
+        base: -456
+        glyph_name: njch2u2
+    ഞ്ഛൃ:
+        left: 100
+        right: 100
+        base: -486
+        glyph_name: njch2r1
     ഞ്ജ:
         left: 100
         right: 100
@@ -1405,6 +1460,11 @@ svgs:
         right: 100
         unicode: 0D25
         glyph_name: th2
+    ഥ്ര:
+        left: 100
+        right: 100
+        base: -486
+        glyph_name: th2r3
     ദ:
         left: 100
         right: 100
@@ -1620,29 +1680,64 @@ svgs:
         base: -12
         unicode: 0D2A
         glyph_name: p1
+    പ്ര:
+        left: 100
+        right: 100
+        base: -486
+        glyph_name: p1r3
     ഫ:
         left: 100
         right: 100
         base: -12
         unicode: 0D2B
         glyph_name: p2
+    ഫ്ര:
+        left: 100
+        right: 100
+        base: -486
+        glyph_name: p2r3
     ബ:
         left: 100
         right: 100
         base: -24
         unicode: 0D2C
         glyph_name: p3
+    ബ്ര:
+        left: 100
+        right: 100
+        base: -486
+        glyph_name: p3r3
     ഭ:
         left: 100
         right: 100
         base: -20
         unicode: 0D2D
         glyph_name: p4
+    ഭു:
+        left: 100
+        right: 100
+        base: -456
+        glyph_name: p4u1
+    ഭൂ:
+        left: 100
+        right: 100
+        base: -456
+        glyph_name: p4u2
     ഭൃ:
         left: 100
         right: 100
         base: -486
         glyph_name: p4r1
+    ഭൃൃ:
+        left: 100
+        right: 100
+        base: -486
+        glyph_name: p4r2
+    ഭ്ര:
+        left: 100
+        right: 100
+        base: -486
+        glyph_name: p4r3
     ം:
         left: 80
         right: 80
