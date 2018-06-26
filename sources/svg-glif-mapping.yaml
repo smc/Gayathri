@@ -1280,6 +1280,131 @@ svgs:
         base: -24
         unicode: 0D24
         glyph_name: th1
+    തു:
+        left: 100
+        right: 100
+        base: -456
+        glyph_name: th1u1
+    തൂ:
+        left: 100
+        right: 100
+        base: -456
+        glyph_name: th1u2
+    തൃ:
+        left: 100
+        right: 100
+        base: -486
+        glyph_name: th1r1
+    തൃൃ:
+        left: 100
+        right: 100
+        base: -486
+        glyph_name: th1r2
+    ത്ത:
+        left: 100
+        right: 100
+        base: -24
+        glyph_name: th1th1
+    ത്തു:
+        left: 100
+        right: 100
+        base: -456
+        glyph_name: th1th1u1
+    ത്തൂ:
+        left: 100
+        right: 100
+        base: -456
+        glyph_name: th1th1u2
+    ത്തൃ:
+        left: 100
+        right: 100
+        base: -486
+        glyph_name: th1th1r1
+    ത്തൃൃ:
+        left: 100
+        right: 100
+        base: -486
+        glyph_name: th1th1r2
+    ത്ത്ര:
+        left: 100
+        right: 100
+        base: -486
+        glyph_name: th1th1r3
+    ത്ഥ:
+        left: 100
+        right: 100
+        base: -24
+        glyph_name: th1th2
+    ത്ന:
+        left: 100
+        right: 100
+        base: -24
+        glyph_name: th1n1
+    ത്ഭ:
+        left: 100
+        right: 100
+        base: -24
+        glyph_name: th1p4
+    ത്ഭു:
+        left: 100
+        right: 100
+        base: -456
+        glyph_name: th1p4u1
+    ത്ഭ്ര:
+        left: 100
+        right: 100
+        base: -486
+        glyph_name: th1p4r3
+    ത്ഭൃ:
+        left: 100
+        right: 100
+        base: -486
+        glyph_name: th1p4r1
+    ത്മ:
+        left: 100
+        right: 100
+        base: -24
+        glyph_name: th1m1
+    ത്ഭു:
+        left: 100
+        right: 100
+        base: -456
+        glyph_name: th1p4u1
+    ത്ര:
+        left: 100
+        right: 100
+        base: -486
+        glyph_name: th1r3
+    ത്സ:
+        left: 100
+        right: 100
+        base: -24
+        glyph_name: th1s1
+    ത്സ:
+        left: 100
+        right: 100
+        base: -24
+        glyph_name: th1s1
+    ത്സൃ:
+        left: 100
+        right: 100
+        base: -486
+        glyph_name: th1s1r1
+    ത്സൃൃ:
+        left: 100
+        right: 100
+        base: -486
+        glyph_name: th1s1r2
+    ത്സ്ഥ:
+        left: 100
+        right: 100
+        base: -24
+        glyph_name: th1s1th2
+    ത്സ്ര:
+        left: 100
+        right: 100
+        base: -486
+        glyph_name: th1s1r3
     ഥ:
         left: 100
         right: 100
