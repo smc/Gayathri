@@ -1766,12 +1766,22 @@ svgs:
         base: -424
         unicode: 0D41
         glyph_name: u1
+    ു_short:
+        left: 30
+        right: 30
+        base: -500
+        glyph_name: u_sign_drop
     ൂ:
         left: 0
         right: 100
         base: -596
         unicode: 0D42
         glyph_name: u2
+    ൂ_short:
+        left: 10
+        right: 10
+        base: -667
+        glyph_name: uu_sign_drop
     െ:
         left: 100
         right: 80
@@ -1796,18 +1806,25 @@ svgs:
         base: 1085
         unicode: 0D4D
         glyph_name: xx
-    ്ഋ_short:
-        left: -300
+    ൃ_short:
+        left: -120
         right: 0
         base: -486
         glyph_name: vocalic_r_sign_drop
-    ്ഋഋ_short:
-        left: -189
+    ൃ:
+        left: 30
+        right: -120
+        base: -486
+        unicode: 0D43
+        glyph_name: r1
+    ൄ_short:
+        left: -120
         right: 0
         base: -486
         glyph_name: vocalic_rr_sign_drop
-    ്ഋഋ:
-        left: -300
-        right: 0
+    ൄ:
+        left: 30
+        right: -120
         base: -486
-        glyph_name: vocalic_rr_sign_drop
+        unicode: 0D44
+        glyph_name: r2
