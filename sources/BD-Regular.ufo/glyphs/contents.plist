@@ -396,6 +396,8 @@
 	<string>egrave.glif</string>
 	<key>eight</key>
 	<string>eight.glif</string>
+	<key>eight_super</key>
+	<string>eight_super.glif</string>
 	<key>ellipsis</key>
 	<string>ellipsis.glif</string>
 	<key>emacron</key>
@@ -414,8 +416,12 @@
 	<string>f.glif</string>
 	<key>five</key>
 	<string>five.glif</string>
+	<key>five_super</key>
+	<string>five_super.glif</string>
 	<key>four</key>
 	<string>four.glif</string>
+	<key>four_super</key>
+	<string>four_super.glif</string>
 	<key>g</key>
 	<string>g.glif</string>
 	<key>gcircumflex</key>
@@ -546,6 +552,8 @@
 	<string>k1th1.glif</string>
 	<key>k1th1r1</key>
 	<string>k1th1r1.glif</string>
+	<key>k1th1r2</key>
+	<string>k1th1r2.glif</string>
 	<key>k1th1r3</key>
 	<string>k1th1r3.glif</string>
 	<key>k1th1u1</key>
@@ -562,6 +570,8 @@
 	<string>k2.glif</string>
 	<key>k2r1</key>
 	<string>k2r1.glif</string>
+	<key>k2r3</key>
+	<string>k2r3.glif</string>
 	<key>k2u1</key>
 	<string>k2u1.glif</string>
 	<key>k2u2</key>
@@ -728,6 +738,8 @@
 	<string>m1p1u2.glif</string>
 	<key>m1r1</key>
 	<string>m1r1.glif</string>
+	<key>m1r2</key>
+	<string>m1r2.glif</string>
 	<key>m1r3</key>
 	<string>m1r3.glif</string>
 	<key>m1r3u1</key>
@@ -800,6 +812,8 @@
 	<string>n1m1.glif</string>
 	<key>n1m1r1</key>
 	<string>n1m1r1.glif</string>
+	<key>n1m1r3</key>
+	<string>n1m1r3.glif</string>
 	<key>n1m1u1</key>
 	<string>n1m1u1.glif</string>
 	<key>n1m1u2</key>
@@ -808,6 +822,8 @@
 	<string>n1n1.glif</string>
 	<key>n1n1r1</key>
 	<string>n1n1r1.glif</string>
+	<key>n1n1r2</key>
+	<string>n1n1r2.glif</string>
 	<key>n1n1r3</key>
 	<string>n1n1r3.glif</string>
 	<key>n1n1r3u1</key>
@@ -820,6 +836,10 @@
 	<string>n1n1u2.glif</string>
 	<key>n1r1</key>
 	<string>n1r1.glif</string>
+	<key>n1r2</key>
+	<string>n1r2.glif</string>
+	<key>n1r3</key>
+	<string>n1r3.glif</string>
 	<key>n1rh</key>
 	<string>n1rh.glif</string>
 	<key>n1rhu1</key>
@@ -830,6 +850,8 @@
 	<string>n1th1.glif</string>
 	<key>n1th1r1</key>
 	<string>n1th1r1.glif</string>
+	<key>n1th1r2</key>
+	<string>n1th1r2.glif</string>
 	<key>n1th1r3</key>
 	<string>n1th1r3.glif</string>
 	<key>n1th1r3u1</key>
@@ -844,6 +866,8 @@
 	<string>n1th2.glif</string>
 	<key>n1th2r1</key>
 	<string>n1th2r1.glif</string>
+	<key>n1th2r3</key>
+	<string>n1th2r3.glif</string>
 	<key>n1th2u1</key>
 	<string>n1th2u1.glif</string>
 	<key>n1th2u2</key>
@@ -852,6 +876,8 @@
 	<string>n1th3.glif</string>
 	<key>n1th3r1</key>
 	<string>n1th3r1.glif</string>
+	<key>n1th3r2</key>
+	<string>n1th3r2.glif</string>
 	<key>n1th3r3</key>
 	<string>n1th3r3.glif</string>
 	<key>n1th3r3u1</key>
@@ -940,10 +966,18 @@
 	<string>nht2.glif</string>
 	<key>nht3</key>
 	<string>nht3.glif</string>
+	<key>nht3r1</key>
+	<string>nht3r1.glif</string>
+	<key>nht3r3</key>
+	<string>nht3r3.glif</string>
 	<key>nht3u1</key>
 	<string>nht3u1.glif</string>
 	<key>nht3u2</key>
 	<string>nht3u2.glif</string>
+	<key>nht4</key>
+	<string>nht4.glif</string>
+	<key>nht4r1</key>
+	<string>nht4r1.glif</string>
 	<key>nhu1</key>
 	<string>nhu1.glif</string>
 	<key>nhu2</key>
@@ -952,6 +986,8 @@
 	<string>nhxx.glif</string>
 	<key>nine</key>
 	<string>nine.glif</string>
+	<key>nine_super</key>
+	<string>nine_super.glif</string>
 	<key>nj</key>
 	<string>nj.glif</string>
 	<key>njch1</key>
@@ -962,6 +998,14 @@
 	<string>njch1u1.glif</string>
 	<key>njch1u2</key>
 	<string>njch1u2.glif</string>
+	<key>njch2</key>
+	<string>njch2.glif</string>
+	<key>njch2r1</key>
+	<string>njch2r1.glif</string>
+	<key>njch2u1</key>
+	<string>njch2u1.glif</string>
+	<key>njch2u2</key>
+	<string>njch2u2.glif</string>
 	<key>njch3</key>
 	<string>njch3.glif</string>
 	<key>njch3u1</key>
@@ -1006,6 +1050,8 @@
 	<string>omacron.glif</string>
 	<key>one</key>
 	<string>one.glif</string>
+	<key>one_super</key>
+	<string>one_super.glif</string>
 	<key>orumaa</key>
 	<string>orumaa.glif</string>
 	<key>oslash</key>
@@ -1110,6 +1156,8 @@
 	<string>p4.glif</string>
 	<key>p4r1</key>
 	<string>p4r1.glif</string>
+	<key>p4r2</key>
+	<string>p4r2.glif</string>
 	<key>p4r3</key>
 	<string>p4r3.glif</string>
 	<key>p4r3u1</key>
@@ -1166,6 +1214,8 @@
 	<string>r3.glif</string>
 	<key>r3cil</key>
 	<string>r3cil.glif</string>
+	<key>r3r1</key>
+	<string>r3r1.glif</string>
 	<key>r3u1</key>
 	<string>r3u1.glif</string>
 	<key>r3u2</key>
@@ -1228,6 +1278,8 @@
 	<string>s1p1.glif</string>
 	<key>s1r1</key>
 	<string>s1r1.glif</string>
+	<key>s1r2</key>
+	<string>s1r2.glif</string>
 	<key>s1r3</key>
 	<string>s1r3.glif</string>
 	<key>s1r3u1</key>
@@ -1276,6 +1328,8 @@
 	<string>semicolon.glif</string>
 	<key>seven</key>
 	<string>seven.glif</string>
+	<key>seven_super</key>
+	<string>seven_super.glif</string>
 	<key>sh</key>
 	<string>sh.glif</string>
 	<key>sh1p1</key>
@@ -1290,6 +1344,8 @@
 	<string>shnhu2.glif</string>
 	<key>shr1</key>
 	<string>shr1.glif</string>
+	<key>shr3</key>
+	<string>shr3.glif</string>
 	<key>sht1</key>
 	<string>sht1.glif</string>
 	<key>sht1r3</key>
@@ -1312,6 +1368,8 @@
 	<string>shxx.glif</string>
 	<key>six</key>
 	<string>six.glif</string>
+	<key>six_super</key>
+	<string>six_super.glif</string>
 	<key>slash</key>
 	<string>slash.glif</string>
 	<key>space</key>
@@ -1410,12 +1468,16 @@
 	<string>th1n1.glif</string>
 	<key>th1p4</key>
 	<string>th1p4.glif</string>
+	<key>th1p4r1</key>
+	<string>th1p4r1.glif</string>
 	<key>th1p4u1</key>
 	<string>th1p4u1.glif</string>
 	<key>th1p4u2</key>
 	<string>th1p4u2.glif</string>
 	<key>th1r1</key>
 	<string>th1r1.glif</string>
+	<key>th1r2</key>
+	<string>th1r2.glif</string>
 	<key>th1r3</key>
 	<string>th1r3.glif</string>
 	<key>th1r3u1</key>
@@ -1426,6 +1488,12 @@
 	<string>th1s1.glif</string>
 	<key>th1s1r1</key>
 	<string>th1s1r1.glif</string>
+	<key>th1s1r2</key>
+	<string>th1s1r2.glif</string>
+	<key>th1s1r3</key>
+	<string>th1s1r3.glif</string>
+	<key>th1s1th2</key>
+	<string>th1s1th2.glif</string>
 	<key>th1s1u1</key>
 	<string>th1s1u1.glif</string>
 	<key>th1s1u2</key>
@@ -1434,6 +1502,8 @@
 	<string>th1th1.glif</string>
 	<key>th1th1r1</key>
 	<string>th1th1r1.glif</string>
+	<key>th1th1r2</key>
+	<string>th1th1r2.glif</string>
 	<key>th1th1r3</key>
 	<string>th1th1r3.glif</string>
 	<key>th1th1r3u1</key>
@@ -1462,6 +1532,8 @@
 	<string>th2.glif</string>
 	<key>th2_half</key>
 	<string>th2_half.glif</string>
+	<key>th2r3</key>
+	<string>th2r3.glif</string>
 	<key>th2u1</key>
 	<string>th2u1.glif</string>
 	<key>th2u2</key>
@@ -1472,6 +1544,8 @@
 	<string>th3.glif</string>
 	<key>th3r1</key>
 	<string>th3r1.glif</string>
+	<key>th3r2</key>
+	<string>th3r2.glif</string>
 	<key>th3r3</key>
 	<string>th3r3.glif</string>
 	<key>th3r3u1</key>
@@ -1486,6 +1560,12 @@
 	<string>th3th3u2.glif</string>
 	<key>th3th4</key>
 	<string>th3th4.glif</string>
+	<key>th3th4r1</key>
+	<string>th3th4r1.glif</string>
+	<key>th3th4r2</key>
+	<string>th3th4r2.glif</string>
+	<key>th3th4r3</key>
+	<string>th3th4r3.glif</string>
 	<key>th3th4u1</key>
 	<string>th3th4u1.glif</string>
 	<key>th3th4u2</key>
@@ -1516,8 +1596,12 @@
 	<string>thorn.glif</string>
 	<key>three</key>
 	<string>three.glif</string>
+	<key>three_super</key>
+	<string>three_super.glif</string>
 	<key>two</key>
 	<string>two.glif</string>
+	<key>two_super</key>
+	<string>two_super.glif</string>
 	<key>u</key>
 	<string>u.glif</string>
 	<key>u1</key>
@@ -1660,6 +1744,8 @@
 	<string>y1k1k1.glif</string>
 	<key>y1k1k1u1</key>
 	<string>y1k1k1u1.glif</string>
+	<key>y1r1</key>
+	<string>y1r1.glif</string>
 	<key>y1th1</key>
 	<string>y1th1.glif</string>
 	<key>y1u1</key>
@@ -1696,6 +1782,14 @@
 	<string>z1ch1u1.glif</string>
 	<key>z1ch1u2</key>
 	<string>z1ch1u2.glif</string>
+	<key>z1ch2</key>
+	<string>z1ch2.glif</string>
+	<key>z1ch2r1</key>
+	<string>z1ch2r1.glif</string>
+	<key>z1ch2u1</key>
+	<string>z1ch2u1.glif</string>
+	<key>z1ch2u2</key>
+	<string>z1ch2u2.glif</string>
 	<key>z1l3</key>
 	<string>z1l3.glif</string>
 	<key>z1l3u1</key>
@@ -1738,6 +1832,8 @@
 	<string>zdotaccent.glif</string>
 	<key>zero</key>
 	<string>zero.glif</string>
+	<key>zero_super</key>
+	<string>zero_super.glif</string>
 	<key>zh</key>
 	<string>zh.glif</string>
 	<key>zh1ch1</key>

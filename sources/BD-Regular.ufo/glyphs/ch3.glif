@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ch3" format="2">
-  <advance width="1708.0258313993772"/>
+  <advance height="2048" width="1708.0"/>
   <unicode hex="0D1C"/>
   <outline>
     <contour>
@@ -158,10 +158,4 @@
       <point x="948.0" y="233.0"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>org.fontforge.glyphclass</key>
-      <string>baseglyph</string>
-    </dict>
-  </lib>
 </glyph>

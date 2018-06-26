@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="v2" format="2">
-  <advance width="305.0"/>
+  <advance height="2048" width="305.0"/>
   <outline>
     <contour>
       <point x="-218.0" y="-210.0" type="line" smooth="yes"/>
@@ -24,10 +24,4 @@
       <point x="124.0" y="-210.0" type="curve" smooth="yes"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>org.fontforge.glyphclass</key>
-      <string>baseligature</string>
-    </dict>
-  </lib>
 </glyph>

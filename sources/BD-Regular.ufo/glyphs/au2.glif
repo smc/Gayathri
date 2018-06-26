@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="au2" format="2">
-  <advance width="1333.0"/>
+  <advance height="2048" width="1343.0"/>
   <unicode hex="0D57"/>
   <outline>
     <contour>
@@ -74,10 +74,4 @@
       <point x="256.0" y="568.0"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>org.fontforge.glyphclass</key>
-      <string>baseglyph</string>
-    </dict>
-  </lib>
 </glyph>

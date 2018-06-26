@@ -1,29 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="quotesingle" format="2">
-  <advance width="380.2216692477346"/>
+  <advance height="2048" width="380.0"/>
   <unicode hex="0027"/>
   <outline>
     <contour>
-      <point x="191.10703536878165" y="1404.0" type="curve" smooth="yes"/>
-      <point x="147.10703536878165" y="1404.0"/>
-      <point x="97.38455188041394" y="1372.020890096157"/>
-      <point x="100.10703536878165" y="1334.0" type="curve" smooth="yes"/>
-      <point x="129.10703536878165" y="929.0" type="line" smooth="yes"/>
-      <point x="131.61597393446604" y="893.9613752033356"/>
-      <point x="160.10703536878165" y="883.0"/>
-      <point x="189.10703536878165" y="883.0" type="curve" smooth="yes"/>
-      <point x="219.10703536878165" y="883.0"/>
-      <point x="248.52692845078596" y="892.9674723522671"/>
-      <point x="251.10703536878165" y="929.0" type="curve" smooth="yes"/>
-      <point x="280.1070353687817" y="1334.0" type="line" smooth="yes"/>
-      <point x="282.900725043889" y="1373.0153213245858"/>
-      <point x="234.10703536878165" y="1404.0"/>
+      <point x="191.0" y="1402.0" type="curve" smooth="yes"/>
+      <point x="147.0" y="1402.0"/>
+      <point x="97.0" y="1370.0"/>
+      <point x="100.0" y="1332.0" type="curve" smooth="yes"/>
+      <point x="129.0" y="927.0" type="line" smooth="yes"/>
+      <point x="132.0" y="892.0"/>
+      <point x="160.0" y="881.0"/>
+      <point x="189.0" y="881.0" type="curve" smooth="yes"/>
+      <point x="219.0" y="881.0"/>
+      <point x="248.0" y="891.0"/>
+      <point x="251.0" y="927.0" type="curve" smooth="yes"/>
+      <point x="280.0" y="1332.0" type="line" smooth="yes"/>
+      <point x="283.0" y="1371.0"/>
+      <point x="234.0" y="1402.0"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>org.fontforge.glyphclass</key>
-      <string>baseglyph</string>
-    </dict>
-  </lib>
 </glyph>

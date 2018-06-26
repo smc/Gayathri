@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="xx" format="2">
-  <advance width="182.0"/>
+  <advance height="2048" width="182.0"/>
   <unicode hex="0D4D"/>
   <outline>
     <contour>
@@ -36,10 +36,4 @@
       <point x="22.0" y="1228.0"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>org.fontforge.glyphclass</key>
-      <string>mark</string>
-    </dict>
-  </lib>
 </glyph>
