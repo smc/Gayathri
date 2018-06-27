@@ -239,7 +239,7 @@ svgs:
     braceleft:
         left: 50
         right: 50
-        base: -509
+        base: -370
         unicode: 007B
         glyph_name: braceleft
     b:
@@ -452,7 +452,7 @@ svgs:
     parenthesisleft:
         left: 100
         right: 100
-        base: -520
+        base: -470
         unicode: '0028'
         glyph_name: parenleft
     less-thansign:

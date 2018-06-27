@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="parenright" format="2">
-  <advance width="695.3184008516153"/>
+  <advance width="679.0"/>
   <unicode hex="0029"/>
   <outline>
-    <component base="parenleft" xScale="-0.999023" xyScale="0.0447388" yxScale="-0.0447998" yScale="-0.999023" xOffset="710.4913823812326" yOffset="718.0"/>
+    <component base="parenleft" xScale="-1" xOffset="679"/>
   </outline>
   <lib>
     <dict>
