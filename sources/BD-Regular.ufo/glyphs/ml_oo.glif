@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ml_oo" format="2">
-  <advance width="2230.208409063143"/>
+  <advance width="2234"/>
   <unicode hex="0D13"/>
   <outline>
-    <component base="a2" xOffset="1294.0" yOffset="-1.0"/>
+    <component base="a2" xOffset="1304.0" yOffset="-1.0"/>
     <component base="ml_o"/>
   </outline>
   <lib>

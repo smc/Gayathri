@@ -452,7 +452,7 @@ svgs:
     parenthesisleft:
         left: 100
         right: 100
-        base: -470
+        base: -380
         unicode: '0028'
         glyph_name: parenleft
     less-thansign:
