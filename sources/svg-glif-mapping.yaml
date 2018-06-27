@@ -830,16 +830,16 @@ svgs:
     കൂ:
         left: 100
         right: 100
-        base: -412
+        base: -486
         glyph_name: k1u2
     കൃ:
-        left: 90
-        right: 90
+        left: 100
+        right: 100
         base: -486
         glyph_name: k1r1
     കൃൃ:
-        left: 90
-        right: 90
+        left: 100
+        right: 100
         base: -486
         glyph_name: k1r2
     ക്ക:
@@ -2078,7 +2078,7 @@ svgs:
     ു_short:
         left: 30
         right: 30
-        base: -500
+        base: -440
         glyph_name: u_sign_drop
     ൂ:
         left: 0
