@@ -765,7 +765,7 @@ svgs:
         glyph_name: ml_a
     ആ:
         left: 100
-        right: 90
+        right: 100
         base: -412
         unicode: 0D06
         glyph_name: ml_aa
@@ -788,8 +788,8 @@ svgs:
         unicode: 0D0B
         glyph_name: ml_r
     ൡ:
-        left: 90
-        right: 90
+        left: 100
+        right: 100
         base: -412
         unicode: 0D61
         glyph_name: ml_ll
@@ -818,8 +818,9 @@ svgs:
         unicode: 0D7F
         glyph_name: k1cil
     ക:
-        left: 90
-        right: 90
+        left: 100
+        right: 100
+        base: -24
         unicode: 0D15
         glyph_name: k1
     കു:
@@ -875,12 +876,12 @@ svgs:
     ക്തു:
         left: 100
         right: 100
-        base: -412
+        base: -486
         glyph_name: k1th1u1
     ക്തൂ:
         left: 100
         right: 100
-        base: -412
+        base: -486
         glyph_name: k1th1u2
     ക്തൃ:
         left: 100
@@ -2089,7 +2090,7 @@ svgs:
     ൂ_short:
         left: 10
         right: 10
-        base: -667
+        base: -600
         glyph_name: uu_sign_drop
     െ:
         left: 100
