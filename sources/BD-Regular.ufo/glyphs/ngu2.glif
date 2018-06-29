@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ngu2" format="2">
-  <advance width="1958.692041425483"/>
+  <advance width="1958"/>
   <outline>
-    <component base="uu_sign_drop" xOffset="1258.7258482758625" yOffset="69.73362758620681"/>
+    <component base="uu_sign_drop" xOffset="1234"/>
     <component base="ng"/>
   </outline>
   <lib>
