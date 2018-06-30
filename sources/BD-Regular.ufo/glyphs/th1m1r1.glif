@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="th1m1r1" format="2">
-  <advance width="2767"/>
+  <advance width="2509.0"/>
   <outline>
-    <component base="vocalic_r_sign_drop" xOffset="1668.62593665105" yOffset="37.86543356167846"/>
+    <component base="vocalic_r_sign_drop" xOffset="1401.62593665105" yOffset="37.86543356167846"/>
     <component base="th1m1"/>
   </outline>
   <lib>
