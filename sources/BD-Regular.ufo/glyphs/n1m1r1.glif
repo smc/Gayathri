@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="n1m1r1" format="2">
-  <advance width="2081"/>
+  <advance width="1928.0"/>
   <outline>
-    <component base="vocalic_r_sign_drop" xOffset="996.5215639134367" yOffset="42.128018994530294"/>
+    <component base="vocalic_r_sign_drop" xOffset="821" />
     <component base="n1m1"/>
   </outline>
   <lib>
