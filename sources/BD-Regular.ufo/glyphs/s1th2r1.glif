@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="s1th2r1" format="2">
-  <advance width="3588"/>
+  <advance width="3332.0"/>
   <outline>
-    <component base="vocalic_r_sign_drop" xOffset="2417.0" yOffset="324.0"/>
     <component base="s1th2"/>
+    <component base="vocalic_r_sign_drop" xOffset="2225"/>
   </outline>
   <lib>
     <dict>

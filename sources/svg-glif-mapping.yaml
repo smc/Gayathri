@@ -1823,7 +1823,7 @@ svgs:
     രൂ:
         left: 100
         right: 100
-        base: -412
+        base: -486
         glyph_name: r3u2
     രൃ:
         left: 100
@@ -1861,17 +1861,17 @@ svgs:
     ശു:
         left: 100
         right: 100
-        base: -412
+        base: -486
         glyph_name: z1u1
     ശൂ:
         left: 100
         right: 100
-        base: -456
+        base: -486
         glyph_name: z1u2
     ശൃ:
         left: 100
         right: 100
-        base: -412
+        base: -486
         glyph_name: z1r1
     ശ്ച:
         left: 100
@@ -1886,12 +1886,12 @@ svgs:
     ശ്ഛു:
         left: 100
         right: 100
-        base: -412
+        base: -486
         glyph_name: z1ch2u1
     ശ്ഛൂ:
         left: 100
         right: 100
-        base: -412
+        base: -486
         glyph_name: z1ch2u2
     ശ്ഛൃ:
         left: 100
@@ -1949,12 +1949,12 @@ svgs:
     ഹു:
         left: 100
         right: 100
-        base: -412
+        base: -486
         glyph_name: h1u1
     ഹൂ:
         left: 100
         right: 100
-        base: -412
+        base: -486
         glyph_name: h1u2
     ഹൃ:
         left: 100
@@ -2122,7 +2122,7 @@ svgs:
         glyph_name: vocalic_r_sign_drop
     ൃ:
         left: 30
-        right: -120
+        right: -1
         base: -486
         unicode: 0D43
         glyph_name: r1
