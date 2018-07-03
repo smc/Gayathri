@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="p2l3u1" format="2">
-  <advance width="2002.8122605363988"/>
+  <advance width="1949"/>
   <outline>
-    <component base="u_sign_drop" xOffset="1352.8122605363985" yOffset="-395.2337164750958"/>
+    <component base="u_sign_drop" xOffset="1452.8122605363985" yOffset="-418"/>
     <component base="p2l3"/>
   </outline>
   <lib>
