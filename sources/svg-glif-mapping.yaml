@@ -2137,3 +2137,23 @@ svgs:
         base: -486
         unicode: 0D44
         glyph_name: r2
+    ക_small:
+        left: 0
+        right: 0
+        base: -600
+        glyph_name: _k1
+    കു_small:
+        left: 0
+        right: 0
+        base: -600
+        glyph_name: _k1u1
+    കൂ_small:
+        left: 0
+        right: 0
+        base: -868
+        glyph_name: _k1u2
+    കൃ_small:
+        left: 0
+        right: 0
+        base: -868
+        glyph_name: _k1r1
