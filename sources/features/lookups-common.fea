@@ -213,13 +213,19 @@ lookup pres_reph_mlym {
     sub m1p1 r4  by m1p1r3;
     sub m1p1 xx r3  by m1p1r3;
     sub m1 r4  by m1r3;
-    sub l3xx l3  by l3l3;
+		sub y1k1 xx r3 by y1k1r3;
+		sub y1k1 r4 by y1k1r3;
+		sub l3xx l3  by l3l3;
     sub v1xx r3  by v1r3;
     sub v1 r4  by v1r3;
     sub z1xx r3  by z1r3;
     sub z1 r4  by z1r3;
+		sub shk1 r4 by shk1r3;
+		sub shk1 xx r3 by shk1r3;
     sub sht1 r4  by sht1r3;
     sub sht1 xx r3  by sht1r3;
+		sub s1k1 r4  by s1k1r3;
+		sub s1k1 xx r3  by s1k1r3;
     sub s1th1 r4  by s1th1r3;
     sub s1th1 xx r3  by s1th1r3;
     sub s1xx r3  by s1r3;
@@ -258,9 +264,12 @@ lookup pres_reph {
     sub r4 p4  by p4r3;
     sub r4 m1p1  by m1p1r3;
     sub r4 m1  by m1r3;
+		sub r4 y1k1 by y1k1r3;
     sub r4 v1  by v1r3;
     sub r4 z1  by z1r3;
+		sub r4 shk1 by shk1r3;
     sub r4 sht1  by sht1r3;
+		sub r4 s1k1 by s1k1r3;
     sub r4 s1th1  by s1th1r3;
     sub r4 s1  by s1r3;
     sub r4 h1  by h1r3;
@@ -616,4 +625,3 @@ lookup psts_vowel_signs_common {
     sub rhrh u1  by rhrhu1;
     sub rhrh u2  by rhrhu2;
 } psts_vowel_signs_common;
-
