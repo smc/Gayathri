@@ -2174,3 +2174,53 @@ svgs:
         right: 0
         base: -904
         glyph_name: _k1r3
+    ക്ക_small:
+        left: 0
+        right: 0
+        base: -636
+        glyph_name: _k1k1
+    ക്കു_small:
+        left: 0
+        right: 0
+        base: -636
+        glyph_name: _k1k1u1
+    ക്കൂ_small:
+        left: 0
+        right: 0
+        base: -904
+        glyph_name: _k1k1u2
+    ക്കൃ_small:
+        left: 0
+        right: 0
+        base: -904
+        glyph_name: _k1k1r1
+    ക്ക്ര_small:
+        left: 0
+        right: 0
+        base: -904
+        glyph_name: _k1k1r3
+    ഗ_small:
+        left: 0
+        right: 0
+        base: -636
+        glyph_name: _k3
+    ഗു_small:
+        left: 0
+        right: 0
+        base: -636
+        glyph_name: _k3u1
+    ഗൂ_small:
+        left: 0
+        right: 0
+        base: -904
+        glyph_name: _k3u2
+    ഗൃ_small:
+        left: 0
+        right: 0
+        base: -904
+        glyph_name: _k3r1
+    ഗ്ര_small:
+      left: 0
+      right: 0
+      base: -904
+      glyph_name: _k3r3
