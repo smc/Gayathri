@@ -132,6 +132,8 @@ def main(args=None):
     else:
         unicodeVal = None
     glyphWidth = width + int(svg_config['left']) + int(svg_config['right'])
+    if glyphWidth < 0 :
+        raise UFOLibError("Glyph %s has negative width." % name)
 
     contentsPlistPath = ufo_font_path + '/glyphs/contents.plist'
     try:
@@ -141,7 +143,8 @@ def main(args=None):
         raise UFOLibError("The file %s could not be read." % contentsPlistPath)
 
     glyph_name = svg_config['glyph_name']
-    glyph_file_name = re.sub(r'([A-Z]){1}', lambda pat: pat.group(1)+'_', glyph_name) + '.glif'
+    # Replace all capital letters with a following '_' to avoid file name clash in Windows
+    glyph_file_name = re.sub(r'([A-Z]){1}', lambda pat: pat.group(1) + '_', glyph_name) + '.glif'
     if glyph_name in contentsPlist:
         existing_glyph = True
     else:
