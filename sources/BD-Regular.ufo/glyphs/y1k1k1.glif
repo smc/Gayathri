@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="y1k1k1" format="2">
-  <advance width="1830.0126960841621"/>
-  <outline>
-    <component base="_k1k1" xOffset="235.71323754789273" yOffset="-0.43605363984670475"/>
-    <component base="y1"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>org.fontforge.glyphclass</key>
-      <string>baseligature</string>
-    </dict>
-  </lib>
+	<advance width="1830.0126960842"/>
+	<outline>
+		<component base="_k1k1" xOffset="235.7132375479" yOffset="-0.4360536398"/>
+		<component base="y1"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>org.fontforge.glyphclass</key>
+			<string>baseligature</string>
+		</dict>
+	</lib>
 </glyph>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="k3k3u2" format="2">
-  <advance width="1683"/>
-  <outline>
-    <component base="k3" xOffset="-0.17048722849540354" yOffset="-2.7334295400922883"/>
-    <component base="_k3u2" xOffset="318.1590557646935" yOffset="-0.1889175998435917"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>org.fontforge.glyphclass</key>
-      <string>baseligature</string>
-    </dict>
-  </lib>
+	<advance width="1683"/>
+	<outline>
+		<component base="k3" xOffset="-0.1704872285" yOffset="-2.7334295401"/>
+		<component base="_k3u2" xOffset="318.1590557647" yOffset="-0.1889175998"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>org.fontforge.glyphclass</key>
+			<string>baseligature</string>
+		</dict>
+	</lib>
 </glyph>

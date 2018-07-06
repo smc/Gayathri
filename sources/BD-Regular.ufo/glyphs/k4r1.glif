@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="k4r1" format="2">
-  <advance width="2344.744379883523"/>
-  <outline>
-    <component base="vocalic_r_sign_drop" xOffset="1247.5260946264227" yOffset="-1.3113079434323254"/>
-    <component base="k4" xOffset="-0.2556201164770755" yOffset="-0.568971501667491"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>org.fontforge.glyphclass</key>
-      <string>baseligature</string>
-    </dict>
-  </lib>
+	<advance width="2344.7443798835"/>
+	<outline>
+		<component base="vocalic_r_sign_drop" xOffset="1247.5260946264" yOffset="-1.3113079434"/>
+		<component base="k4" xOffset="-0.2556201165" yOffset="-0.5689715017"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>org.fontforge.glyphclass</key>
+			<string>baseligature</string>
+		</dict>
+	</lib>
 </glyph>
