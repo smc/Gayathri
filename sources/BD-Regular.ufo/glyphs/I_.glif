@@ -1,29 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="I" format="2">
-  <advance width="380.0"/>
+  <advance height="2048" width="363.0"/>
   <unicode hex="0049"/>
   <outline>
     <contour>
-      <point x="280.0" y="1342.2646996758772" type="line" smooth="yes"/>
-      <point x="280.0" y="1369.2646996758772"/>
-      <point x="240.0" y="1391.2646996758772"/>
-      <point x="190.0" y="1391.2646996758772" type="curve" smooth="yes"/>
-      <point x="140.0" y="1391.2646996758772"/>
-      <point x="100.0" y="1369.2646996758772"/>
-      <point x="100.0" y="1342.2646996758772" type="curve" smooth="yes"/>
-      <point x="100.0" y="26.264699675877182" type="line" smooth="yes"/>
-      <point x="100.0" y="-1.735300324122818"/>
-      <point x="140.0" y="-23.735300324122818"/>
-      <point x="190.0" y="-23.735300324122818" type="curve" smooth="yes"/>
-      <point x="240.0" y="-23.735300324122818"/>
-      <point x="280.0" y="-1.735300324122818"/>
-      <point x="280.0" y="26.264699675877182" type="curve" smooth="yes"/>
+      <point x="263.0" y="21.0" type="line" smooth="yes"/>
+      <point x="263.0" y="-4.0"/>
+      <point x="227.0" y="-24.0"/>
+      <point x="182.0" y="-24.0" type="curve" smooth="yes"/>
+      <point x="136.0" y="-24.0"/>
+      <point x="100.0" y="-4.0"/>
+      <point x="100.0" y="21.0" type="curve" smooth="yes"/>
+      <point x="100.0" y="1336.0" type="line" smooth="yes"/>
+      <point x="100.0" y="1361.0"/>
+      <point x="136.0" y="1381.0"/>
+      <point x="182.0" y="1381.0" type="curve" smooth="yes"/>
+      <point x="227.0" y="1381.0"/>
+      <point x="263.0" y="1361.0"/>
+      <point x="263.0" y="1336.0" type="curve" smooth="yes"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>org.fontforge.glyphclass</key>
-      <string>baseglyph</string>
-    </dict>
-  </lib>
 </glyph>
