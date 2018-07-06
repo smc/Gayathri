@@ -2143,6 +2143,12 @@ svgs:
         base: -486
         unicode: 0D44
         glyph_name: r2
+    ml_l1_sign_small:
+        left: -1500
+        right: 200
+        base: -500
+        unicode: 0D62
+        glyph_name: l1
     ക_small:
         left: 0
         right: 0
@@ -2167,4 +2173,4 @@ svgs:
         left: 0
         right: 0
         base: -904
-        glyph_name: _k1r3  
+        glyph_name: _k1r3
