@@ -40,9 +40,12 @@ ttf: $(TTF)
 otf: $(OTF)
 webfonts: $(WOFF2)
 lint: ufolint
+ufo: glyphs ufonormalizer lint
+
 ufolint: $(SRCDIR)/*.ufo
 	$@ $^
-
+ufonormalizer: $(SRCDIR)/*.ufo
+	$@ $^
 install: otf
 	@mkdir -p ${DESTDIR}${INSTALLPATH}
 	install -D -m 0644 $(BLDDIR)/*.otf ${DESTDIR}${INSTALLPATH}/
