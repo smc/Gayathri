@@ -17,6 +17,7 @@ from ufoLib.glifLib import writeGlyphToString
 from ufoLib.plistlib import readPlist
 import argparse
 import os
+import re
 
 
 class InfoObject(object):
@@ -140,6 +141,7 @@ def main(args=None):
         raise UFOLibError("The file %s could not be read." % contentsPlistPath)
 
     glyph_name = svg_config['glyph_name']
+    glyph_file_name = re.sub(r'([A-Z]){1}', lambda pat: pat.group(1)+'_', glyph_name) + '.glif'
     if glyph_name in contentsPlist:
         existing_glyph = True
     else:
@@ -162,7 +164,7 @@ def main(args=None):
                     version=config['font']['version'])
 
     if options.outfile is None:
-        output_file = ufo_font_path + '/glyphs/' + svg_config['glyph_name'] + '.glif'
+        output_file = ufo_font_path + '/glyphs/' + glyph_file_name
     else:
         output_file = options.outfile
     with open(output_file, 'w', encoding='utf-8') as f:
@@ -173,10 +175,10 @@ def main(args=None):
 
     # If this is a new glyph, add it to the UFO/glyphs/contents.plist
     if not existing_glyph:
-        contentsPlist[glyph_name] = glyph_name + '.glif'
+        contentsPlist[glyph_name] = glyph_file_name
         writePlistAtomically(contentsPlist, contentsPlistPath)
         print("\033[94m[%s]\033[0m \033[92mAdd\033[0m %s -> %s \033[92m✔️\033[0m" %
-              (familyName, glyph_name, glyph_name + '.glif'))
+              (familyName, glyph_name, glyph_file_name))
         lib_obj = reader.readLib()
         lib_obj['public.glyphOrder'].append(glyph_name)
         writer.writeLib(lib_obj)
