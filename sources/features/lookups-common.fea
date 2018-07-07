@@ -338,6 +338,8 @@ lookup psts_vowel_signs_common {
     sub k3 r2  by k3r2;
     sub k3k3 u1  by k3k3u1;
     sub k3k3 u2  by k3k3u2;
+		sub k3k3r3 u1 by k3k3r3u1;
+		sub k3k3r3 u2 by k3k3r3u2;
     sub k3k3 r1  by k3k3r1;
     sub k3th3 u1  by k3th3u1;
     sub k3th3 u2  by k3th3u2;
