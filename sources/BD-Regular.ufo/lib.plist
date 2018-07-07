@@ -2,11 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 	<dict>
-		<key>org.unifiedfontobject.normalizer.modTimes</key>
-		<string>version: 0.3.5
-1530895606.4 fontinfo.plist
-1530895606.4 layercontents.plist
-1530895606.4 metainfo.plist</string>
 		<key>public.glyphOrder</key>
 		<array>
 			<string>.notdef</string>

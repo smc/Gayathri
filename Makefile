@@ -45,7 +45,7 @@ ufo: glyphs ufonormalizer lint
 ufolint: $(SRCDIR)/*.ufo
 	$@ $^
 ufonormalizer: $(SRCDIR)/*.ufo
-	$@ $^
+	$@ -m $^
 install: otf
 	@mkdir -p ${DESTDIR}${INSTALLPATH}
 	install -D -m 0644 $(BLDDIR)/*.otf ${DESTDIR}${INSTALLPATH}/
