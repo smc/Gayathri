@@ -36,6 +36,9 @@ lookup akhn_conditional_stacking {
 		ignore sub y1' xx' th1' xx [r3 th1];
 		sub y1' xx' th1' by y1th1;
 
+		ignore sub l3' xx' k1' [r2 l1 l2];
+		sub l3' xx' k1' by l3k1;
+
 		ignore sub z1' xx' m1' [u1 u2 r1 r2 l1 l2];
 		ignore sub z1' xx' m1' xx [r3 m1];
     sub z1' xx' m1' by z1m1;
