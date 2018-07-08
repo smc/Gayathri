@@ -608,6 +608,8 @@ lookup psts_vowel_signs_common {
     sub sh u1  by shu1;
     sub sh u2  by shu2;
     sub sh r1  by shr1;
+		sub shk1r3 u1 by shk1r3u1;
+		sub shk1r3 u2 by shk1r3u2;
     sub sht1 u1  by sht1u1;
     sub sht1 u2  by sht1u2;
     sub sht2 u1  by sht2u1;
