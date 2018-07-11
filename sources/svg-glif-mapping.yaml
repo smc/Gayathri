@@ -1687,6 +1687,11 @@ svgs:
         base: -12
         unicode: 0D2A
         glyph_name: p1
+    പ്പ:
+        left: 100
+        right: 100
+        base: -12
+        glyph_name: p1p1
     പ്ര:
         left: 100
         right: 100
@@ -2209,6 +2214,11 @@ svgs:
         right: 0
         base: -904
         glyph_name: _k1k1r3
+    ഖ_small:
+        left: 0
+        right: 0
+        base: -636
+        glyph_name: _k2
     ഗ_small:
         left: 0
         right: 0
@@ -2237,30 +2247,205 @@ svgs:
     ച_small:
       left: 0
       right: 0
-      base: -598
+      base: -636
       glyph_name: _ch1
     ഛ_small:
       left: 0
       right: 0
-      base: -612
+      base: -636
       glyph_name: _ch2
     ഛു_small:
       left: 0
       right: 0
-      base: -880
+      base: -904
       glyph_name: _ch2u1
     ഛൂ_small:
       left: 0
       right: 0
-      base: -880
+      base: -904
       glyph_name: _ch2u2
     ഛൃ_small:
       left: 0
       right: 0
-      base: -880
+      base: -904
       glyph_name: _ch2r1
     ഛ്ര_small:
       left: 0
       right: 0
-      base: -880
+      base: -904
       glyph_name: _ch2r3
+    ജ_small:
+      left: 0
+      right: 0
+      base: -636
+      glyph_name: _ch3
+    ജു_small:
+      left: 0
+      right: 0
+      base: -904
+      glyph_name: _ch3u1
+    ജൂ_small:
+      left: 0
+      right: 0
+      base: -904
+      glyph_name: _ch3u2
+    ജൃ_small:
+      left: 0
+      right: 0
+      base: -904
+      glyph_name: _ch3r1
+    ട_small:
+      left: 0
+      right: 0
+      base: -636
+      glyph_name: _t1
+    ട്ര_small:
+      left: 0
+      right: 0
+      base: -636
+      glyph_name: _t1r3
+    ഠ_small:
+      left: 0
+      right: 0
+      base: -636
+      glyph_name: _t2
+    ഡ_small:
+      left: 0
+      right: 0
+      base: -636
+      glyph_name: _t3
+    ഢ_small:
+      left: 0
+      right: 0
+      base: -636
+      glyph_name: _t4
+    ണ_small:
+      left: 0
+      right: 0
+      base: -636
+      glyph_name: _nh
+    ണു_small:
+      left: 0
+      right: 0
+      base: -636
+      glyph_name: _nhu1
+    ണൂ_small:
+      left: 0
+      right: 0
+      base: -904
+      glyph_name: _nhu2
+    ത_small:
+      left: 0
+      right: 0
+      base: -636
+      glyph_name: _th1
+    തു_small:
+      left: 0
+      right: 0
+      base: -904
+      glyph_name: _th1u1
+    തൂ_small:
+      left: 0
+      right: 0
+      base: -904
+      glyph_name: _th1u2
+    തൃ_small:
+      left: 0
+      right: 0
+      base: -904
+      glyph_name: _th1r1
+    തൃൃ_small:
+      left: 0
+      right: 0
+      base: -904
+      glyph_name: _th1r2
+    ത്ത_small:
+      left: 0
+      right: 0
+      base: -636
+      glyph_name: _th1th1
+    ത്തു_small:
+      left: 0
+      right: 0
+      base: -904
+      glyph_name: _th1th1u1
+    ത്തൂ_small:
+      left: 0
+      right: 0
+      base: -904
+      glyph_name: _th1th1u2
+    ത്ര_small:
+      left: 0
+      right: 0
+      base: -904
+      glyph_name: _th1r3
+    ദ_small:
+      left: 0
+      right: 0
+      base: -636
+      glyph_name: _th3
+    ദൃ_small:
+      left: 0
+      right: 0
+      base: -904
+      glyph_name: _th3r1
+    ധ_small:
+      left: 0
+      right: 0
+      base: -636
+      glyph_name: _th4
+    ധൃ_small:
+      left: 0
+      right: 0
+      base: -904
+      glyph_name: _th4r1
+    ധൃൃ_small:
+      left: 0
+      right: 0
+      base: -904
+      glyph_name: _th4r2
+    ന_small:
+      left: 0
+      right: 0
+      base: -636
+      glyph_name: _n1
+    നു_small:
+      left: 0
+      right: 0
+      base: -636
+      glyph_name: _n1u1
+    നൂ_small:
+      left: 0
+      right: 0
+      base: -862
+      glyph_name: _n1u2
+    ന്ന_small:
+      left: 0
+      right: 0
+      base: -636
+      glyph_name: _n1n1
+    ന്നു_small:
+      left: 0
+      right: 0
+      base: -636
+      glyph_name: _n1n1u1
+    ന്നൂ_small:
+      left: 0
+      right: 0
+      base: -862
+      glyph_name: _n1n1u2
+    പ_small:
+      left: 0
+      right: 0
+      base: -636
+      glyph_name: _p1
+    പ്ര_small:
+      left: 0
+      right: 0
+      base: -904
+      glyph_name: _p1r3
+    ഫ_samll:
+      left: 0
+      right: 0
+      base: -636
+      glyph_name: _p2

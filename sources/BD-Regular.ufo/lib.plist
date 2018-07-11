@@ -961,10 +961,6 @@
 			<string>va_sign</string>
 			<string>th2_half</string>
 			<string>vocalic_r_sign_drop</string>
-			<string>_nh</string>
-			<string>_nhu1</string>
-			<string>_nhu2</string>
-			<string>_th1</string>
 			<string>_k1</string>
 			<string>_k1u1</string>
 			<string>_k1u2</string>
@@ -980,15 +976,52 @@
 			<string>_k1k1u2</string>
 			<string>_k1k1r1</string>
 			<string>_k1k1r3</string>
-			<string>_s1</string>
-			<string>_rh</string>
-			<string>_m1</string>
+			<string>_k2</string>
 			<string>_ch1</string>
 			<string>_ch2</string>
 			<string>_ch2u1</string>
 			<string>_ch2u2</string>
 			<string>_ch2r1</string>
 			<string>_ch2r3</string>
+			<string>_ch3</string>
+			<string>_ch3u1</string>
+			<string>_ch3u2</string>
+			<string>_ch3r1</string>
+			<string>_ch3r3</string>
+			<string>_t1</string>
+			<string>_t1r3</string>
+			<string>_t2</string>
+			<string>_t3</string>
+			<string>_t4</string>
+			<string>_nh</string>
+			<string>_nhu1</string>
+			<string>_nhu2</string>
+			<string>_th1</string>
+			<string>_th1u1</string>
+			<string>_th1u2</string>
+			<string>_th1r1</string>
+			<string>_th1r2</string>
+			<string>_th1th1</string>
+			<string>_th1th1u1</string>
+			<string>_th1th1u2</string>
+			<string>_th1r3</string>
+			<string>_th3</string>
+			<string>_th3r1</string>
+			<string>_th4</string>
+			<string>_th4r1</string>
+			<string>_th4r2</string>
+			<string>_n1</string>
+			<string>_n1u1</string>
+			<string>_n1u2</string>
+			<string>_n1n1u1</string>
+			<string>_n1n1u2</string>
+			<string>_p1</string>
+			<string>_p1r3</string>
+			<string>_p2</string>
+			<string>_s1</string>
+			<string>_rh</string>
+			<string>_m1</string>
+			<string>_n1n1</string>
 		</array>
 	</dict>
 </plist>
