@@ -202,12 +202,12 @@
 		<string>_ch3.glif</string>
 		<key>_ch3r1</key>
 		<string>_ch3r1.glif</string>
-		<key>_ch3r3u2</key>
-		<string>_ch3r3u2.glif</string>
 		<key>_ch3u1</key>
 		<string>_ch3u1.glif</string>
 		<key>_ch3u2</key>
 		<string>_ch3u2.glif</string>
+		<key>_h1</key>
+		<string>_h1.glif</string>
 		<key>_k1</key>
 		<string>_k1.glif</string>
 		<key>_k1k1</key>
@@ -266,10 +266,20 @@
 		<string>_p1r3.glif</string>
 		<key>_p2</key>
 		<string>_p2.glif</string>
+		<key>_p3</key>
+		<string>_p3.glif</string>
+		<key>_p4</key>
+		<string>_p4.glif</string>
 		<key>_rh</key>
 		<string>_rh.glif</string>
 		<key>_s1</key>
 		<string>_s1.glif</string>
+		<key>_s1r1</key>
+		<string>_s1r1.glif</string>
+		<key>_s1r2</key>
+		<string>_s1r2.glif</string>
+		<key>_s1r3</key>
+		<string>_s1r3.glif</string>
 		<key>_t1</key>
 		<string>_t1.glif</string>
 		<key>_t1r3</key>
@@ -308,6 +318,18 @@
 		<string>_th4r1.glif</string>
 		<key>_th4r2</key>
 		<string>_th4r2.glif</string>
+		<key>_v1</key>
+		<string>_v1.glif</string>
+		<key>_z1</key>
+		<string>_z1.glif</string>
+		<key>_z1r1</key>
+		<string>_z1r1.glif</string>
+		<key>_z1r3</key>
+		<string>_z1r3.glif</string>
+		<key>_z1u1</key>
+		<string>_z1u1.glif</string>
+		<key>_z1u2</key>
+		<string>_z1u2.glif</string>
 		<key>a</key>
 		<string>a.glif</string>
 		<key>a2</key>
