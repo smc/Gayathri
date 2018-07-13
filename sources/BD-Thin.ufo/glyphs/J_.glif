@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="J" format="2">
+	<unicode hex="004A"/>
+	<advance height="2048" width="861"/>
+	<outline>
+		<contour>
+			<point x="50" y="331" type="curve" smooth="yes"/>
+			<point x="50" y="357"/>
+			<point x="87" y="377"/>
+			<point x="132" y="377" type="curve" smooth="yes"/>
+			<point x="177" y="377"/>
+			<point x="213" y="357"/>
+			<point x="213" y="331" type="curve" smooth="yes"/>
+			<point x="213" y="190"/>
+			<point x="302" y="67"/>
+			<point x="449" y="67" type="curve" smooth="yes"/>
+			<point x="598" y="67"/>
+			<point x="688" y="195"/>
+			<point x="688" y="337" type="curve" smooth="yes"/>
+			<point x="688" y="1336" type="line" smooth="yes"/>
+			<point x="688" y="1361"/>
+			<point x="724" y="1381"/>
+			<point x="769" y="1381" type="curve" smooth="yes"/>
+			<point x="814" y="1381"/>
+			<point x="851" y="1361"/>
+			<point x="851" y="1336" type="curve" smooth="yes"/>
+			<point x="851" y="337" type="line" smooth="yes"/>
+			<point x="851" y="105"/>
+			<point x="662" y="-24"/>
+			<point x="449" y="-24" type="curve" smooth="yes"/>
+			<point x="238" y="-24"/>
+			<point x="50" y="103"/>
+		</contour>
+	</outline>
+</glyph>

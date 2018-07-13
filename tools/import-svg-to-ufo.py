@@ -116,7 +116,7 @@ def main(args=None):
 
     infoObject = InfoObject()
     reader.readInfo(infoObject)
-    familyName = getattr(infoObject, 'familyName')
+    fontName = getattr(infoObject, 'postscriptFullName')
 
     with open(svg_file, "r", encoding="utf-8") as f:
         svg = f.read()
@@ -174,14 +174,14 @@ def main(args=None):
         f.write(glif)
 
     print("\033[94m[%s]\033[0m \033[92mConvert\033[0m %s -> %s \033[92m✔️\033[0m" %
-          (familyName, name, output_file))
+          (fontName, name, output_file))
 
     # If this is a new glyph, add it to the UFO/glyphs/contents.plist
     if not existing_glyph:
         contentsPlist[glyph_name] = glyph_file_name
         writePlistAtomically(contentsPlist, contentsPlistPath)
         print("\033[94m[%s]\033[0m \033[92mAdd\033[0m %s -> %s \033[92m✔️\033[0m" %
-              (familyName, glyph_name, glyph_file_name))
+              (fontName, glyph_name, glyph_file_name))
         lib_obj = reader.readLib()
         lib_obj['public.glyphOrder'].append(glyph_name)
         writer.writeLib(lib_obj)

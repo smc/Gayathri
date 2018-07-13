@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 
 NAME=BD
-FONTS=Regular
+FONTS=Regular Bold Thin
 INSTALLPATH=/usr/share/fonts/opentype/malayalam
 PY=python3
 version=`cat VERSION`
@@ -45,7 +45,9 @@ ufo: glyphs ufonormalizer lint
 ufolint: $(SRCDIR)/*.ufo
 	$@ $^
 ufonormalizer: $(SRCDIR)/*.ufo
-	$@ -m $^
+	@for variant in $^;do \
+		ufonormalizer -m $$variant;\
+	done;
 install: otf
 	@mkdir -p ${DESTDIR}${INSTALLPATH}
 	install -D -m 0644 $(BLDDIR)/*.otf ${DESTDIR}${INSTALLPATH}/
@@ -53,8 +55,10 @@ install: otf
 test: otf $(PDF)
 
 glyphs:
-	@for svg in `ls sources/svgs/*.svg`;do \
-		$(PY) tools/import-svg-to-ufo.py $$svg;\
+	@for variant in $(FONTS);do \
+		for svg in `ls sources/design/$$variant/A*.svg`;do \
+			$(PY) tools/import-svg-to-ufo.py -c "sources/design/config/$$variant-svg-glif-mapping.yaml" $$svg;\
+		done;\
 	done;
 
 clean:
