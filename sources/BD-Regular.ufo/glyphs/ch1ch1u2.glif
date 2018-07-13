@@ -2,8 +2,8 @@
 <glyph name="ch1ch1u2" format="2">
 	<advance width="1597"/>
 	<outline>
-		<component base="uu_sign_drop" xOffset="897" yOffset="-404"/>
 		<component base="ch1ch1"/>
+		<component base="uu_sign_drop_small" xOffset="1071" yOffset="-328"/>
 	</outline>
 	<lib>
 		<dict>
