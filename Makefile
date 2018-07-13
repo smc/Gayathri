@@ -56,7 +56,7 @@ test: otf $(PDF)
 
 glyphs:
 	@for variant in $(FONTS);do \
-		for svg in `ls sources/design/$$variant/A*.svg`;do \
+		for svg in `ls sources/design/$$variant/*.svg`;do \
 			$(PY) tools/import-svg-to-ufo.py -c "sources/design/config/$$variant-svg-glif-mapping.yaml" $$svg;\
 		done;\
 	done;
