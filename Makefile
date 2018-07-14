@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 
 NAME=BD
-FONTS=Regular Bold Thin
+FONTS=Regular #Bold Thin
 INSTALLPATH=/usr/share/fonts/opentype/malayalam
 PY=python3
 version=`cat VERSION`

@@ -4,7 +4,7 @@ languagesystem mlym dflt;
 
 include (BD-Regular.ufo/tables.fea)
 include (features/lookups-common.fea)
-include (BD-Regular.ufo/lookups.fea)
+#include (BD-Regular.ufo/lookups.fea)
 include (features/features.fea)
 include (BD-Regular.ufo/gpos.fea)
 include (BD-Regular.ufo/kerning.fea)
