@@ -429,6 +429,9 @@
 			<string>k1n1u2</string>
 			<string>k1n1r1</string>
 			<string>k1n1r3</string>
+			<string>k1m1</string>
+			<string>k1m1u1</string>
+			<string>k1m1u2</string>
 			<string>k1r3</string>
 			<string>k1r3u1</string>
 			<string>k1r3u2</string>
@@ -439,6 +442,12 @@
 			<string>k1shu1</string>
 			<string>k1shu2</string>
 			<string>k1s1</string>
+			<string>k1s1u1</string>
+			<string>k1s1u2</string>
+			<string>k1s1r1</string>
+			<string>k1s1r3</string>
+			<string>k1s1r3u1</string>
+			<string>k1s1r3u2</string>
 			<string>k2u1</string>
 			<string>k2u2</string>
 			<string>k2r1</string>
@@ -1049,9 +1058,6 @@
 			<string>_s1r3</string>
 			<string>_h1</string>
 			<string>_rh</string>
-			<string>k1m1</string>
-			<string>k1m1u1</string>
-			<string>k1m1u2</string>
 		</array>
 	</dict>
 </plist>
