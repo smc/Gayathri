@@ -119,7 +119,7 @@ lookup akhn_conditional_stacking {
 		sub k1' xx' sh' xx' nh' by k1shnh;
 
 		ignore sub k4' xx' n1' [r2 l1 l2];
-		ignore sub k4' xx' n1' xx r3 [u1 u2];
+		ignore sub k4' xx' n1' xx r3;
 		sub k4' xx' n1' by k4n1;
 
 		ignore sub ch1' xx' ch2' [r2 l1 l2];
@@ -311,8 +311,6 @@ lookup pres_reph_mlym {
     sub k3th3th4 r4 by k3th3th4r3;
 		sub k4xx r3  by k4r3;
 		sub k4 r4  by k4r3;
-		sub k4n1 xx r3 by k4n1r3;
-		sub k4n1 r4 by k4n1r3;
 		sub ch1ch2 xx r3 by ch1ch2r3;
 		sub ch1ch2 r4 by ch1ch2r3;
     sub ch2 xx r3 by ch2r3;
@@ -396,7 +394,6 @@ lookup pres_reph {
 		sub r4 k3k3 by k3k3r3;
     sub r4 k3th3th4 by k3th3th4r3;
     sub r4 k4  by k4r3;
-		sub r4 k4n1 by k4n1r3;
 		sub r4 ch1ch2  by ch1ch2r3;
     sub r4 ch2 by ch2r3;
     sub r4 ch3  by ch3r3;
