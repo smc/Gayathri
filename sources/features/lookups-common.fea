@@ -99,8 +99,7 @@ lookup blws_la_sign_excludes {
 
 # GSUB
 lookup akhn_conditional_stacking {
-    ignore sub k1' xx' s1' [u1 u2 r1 r2 l1 l2];
-    ignore sub k1' xx' s1' xx r3;
+    ignore sub k1' xx' s1' [r2 l1 l2];
     sub k1' xx' s1'  by k1s1;
 
 		ignore sub k1' xx' t1' [r1 r2 l1 l2];
@@ -299,6 +298,8 @@ lookup pres_reph_mlym {
     sub k1th1 xx r3 by k1th1r3;
 		sub k1n1 r4 by k1n1r3;
 		sub k1n1 xx r3 by k1n1r3;
+		sub k1s1 xx r3 by k1s1r3;
+		sub k1s1 r4 by k1s1r3;
 		sub ch1ch2 xx r3 by ch1ch2r3;
 		sub ch1ch2 r4 by ch1ch2r3;
     sub ch2 xx r3 by ch2r3;
@@ -371,11 +372,12 @@ lookup pres_reph_mlym {
 
 lookup pres_reph {
   lookupflag 0;
-    sub r4 k1k1  by k1k1r3;
-		sub r4 k1t1 by k1t1r3;
-    sub r4 k1th1  by k1th1r3;
-		sub r4 k1n1 by k1n1r3;
     sub r4 k1  by k1r3;
+		sub r4 k1k1  by k1k1r3;
+		sub r4 k1t1 by k1t1r3;
+		sub r4 k1th1  by k1th1r3;
+		sub r4 k1n1 by k1n1r3;
+		sub r4 k1s1 by k1s1r3;
     sub r4 k3  by k3r3;
 		sub r4 k3k3 by k3k3r3;
     sub r4 k3th3th4 by k3th3th4r3;
@@ -472,6 +474,11 @@ lookup psts_vowel_signs_common {
 		sub k1n1 u2 by k1n1u2;
 		sub k1m1 u1 by k1m1u1;
 		sub k1m1 u2 by k1m1u2;
+		sub k1s1 u1 by k1s1u1;
+		sub k1s1 u2 by k1s1u2;
+		sub k1s1 r1 by k1s1r1;
+		sub k1s1r3 u1 by k1s1r3u1;
+		sub k1s1r3 u2 by k1s1r3u2;
 		sub k1n1 u2 by k1n1u2;
     sub k1r3 u1  by k1r3u1;
     sub k1r3 u2  by k1r3u2;
