@@ -301,6 +301,8 @@ lookup pres_reph_mlym {
 		sub k1n1 xx r3 by k1n1r3;
 		sub k1s1 xx r3 by k1s1r3;
 		sub k1s1 r4 by k1s1r3;
+		sub k2 xx r3 by k2r3;
+		sub k2 r4 by k2r3;
 		sub k3xx r3  by k3r3;
     sub k3 r4  by k3r3;
 		sub k3k3 xx r3 by k3k3r3;
@@ -389,6 +391,7 @@ lookup pres_reph {
 		sub r4 k1th1  by k1th1r3;
 		sub r4 k1n1 by k1n1r3;
 		sub r4 k1s1 by k1s1r3;
+		sub r4 k2 by k2r3;
     sub r4 k3  by k3r3;
 		sub r4 k3k3 by k3k3r3;
     sub r4 k3th3th4 by k3th3th4r3;
@@ -507,6 +510,8 @@ lookup psts_vowel_signs_common {
     sub k2 u1  by k2u1;
     sub k2 u2  by k2u2;
     sub k2 r1  by k2r1;
+		sub k2r3 u1 by k2r3u1;
+		sub k2r3 u2 by k2r3u2;
     sub k3 u1  by k3u1;
     sub k3 u2  by k3u2;
     sub k3 r1  by k3r1;
