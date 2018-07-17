@@ -118,6 +118,9 @@ lookup akhn_conditional_stacking {
 		sub k1' xx' sh' xx' m1' by k1shm1;
 		sub k1' xx' sh' xx' nh' by k1shnh;
 
+		ignore sub k1' xx' rh' xx' rh' [r1 r2 l1 l2];
+		sub k1' xx' rh' xx' rh' by k1rhrh;
+
 		ignore sub k4' xx' n1' [r2 l1 l2];
 		ignore sub k4' xx' n1' xx r3;
 		sub k4' xx' n1' by k4n1;
@@ -301,6 +304,8 @@ lookup pres_reph_mlym {
 		sub k1n1 xx r3 by k1n1r3;
 		sub k1s1 xx r3 by k1s1r3;
 		sub k1s1 r4 by k1s1r3;
+		sub k1rhrh r4 by k1rhrhr3;
+		sub k1rhrh xx r3 by k1rhrhr3;
 		sub k2 xx r3 by k2r3;
 		sub k2 r4 by k2r3;
 		sub k3xx r3  by k3r3;
@@ -389,6 +394,7 @@ lookup pres_reph {
 		sub r4 k1th1  by k1th1r3;
 		sub r4 k1n1 by k1n1r3;
 		sub r4 k1s1 by k1s1r3;
+		sub r4 k1rhrh by k1rhrhr3;
 		sub r4 k2 by k2r3;
     sub r4 k3  by k3r3;
 		sub r4 k3k3 by k3k3r3;
@@ -492,6 +498,10 @@ lookup psts_vowel_signs_common {
 		sub k1s1 r1 by k1s1r1;
 		sub k1s1r3 u1 by k1s1r3u1;
 		sub k1s1r3 u2 by k1s1r3u2;
+		sub k1rhrh u1 by k1rhrhu1;
+		sub k1rhrh u2 by k1rhrhu2;
+		sub k1rhrhr3 u1 by k1rhrhr3u1;
+		sub k1rhrhr3 u2 by k1rhrhr3u2;
 		sub k1n1 u2 by k1n1u2;
     sub k1r3 u1  by k1r3u1;
     sub k1r3 u2  by k1r3u2;
