@@ -583,6 +583,8 @@ lookup psts_vowel_signs_common {
     sub ch2 u1  by ch2u1;
     sub ch2 u2  by ch2u2;
     sub ch2 r1  by ch2r1;
+		sub ch2r3 u1 by ch2r3u1;
+		sub ch2r3 u2 by ch2r3u2;
     sub ch3 u1  by ch3u1;
     sub ch3 u2  by ch3u2;
     sub ch3 r1  by ch3r1;
@@ -596,6 +598,8 @@ lookup psts_vowel_signs_common {
     sub ch3r3 u2  by ch3r3u2;
     sub ch4 u1  by ch4u1;
     sub ch4 u2  by ch4u2;
+		sub ch4r3 u1 by ch4r3u1;
+		sub ch4r3 u2 by ch4r3u2;
     sub nj u1  by nju1;
     sub nj u2  by nju2;
     sub njch1 u1  by njch1u1;
