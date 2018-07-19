@@ -244,7 +244,7 @@ lookup akhn_conjuncts {
     sub k3 xx th3 xx th4  by k3th3th4;
     sub k3 xx n1  by k3n1;
     sub k3 xx m1  by k3m1;
-    sub ng xx k1  by ngk1;
+		sub ng xx k1  by ngk1;
     sub ng xx ng  by ngng;
     sub ch1 xx ch1  by ch1ch1;
     sub ch3 xx ch3  by ch3ch3;
@@ -319,6 +319,8 @@ lookup pres_reph_mlym {
     sub k3th3th4 r4 by k3th3th4r3;
 		sub k4xx r3  by k4r3;
 		sub k4 r4  by k4r3;
+		sub ngk1 r4 by ngk1r3;
+		sub ngk1 xx r3 by ngk1r3;
 		sub ch1ch2 xx r3 by ch1ch2r3;
 		sub ch1ch2 r4 by ch1ch2r3;
     sub ch2 xx r3 by ch2r3;
@@ -403,6 +405,7 @@ lookup pres_reph {
 		sub r4 k3k3 by k3k3r3;
     sub r4 k3th3th4 by k3th3th4r3;
     sub r4 k4  by k4r3;
+		sub r4 ngk1 by ngk1r3;
 		sub r4 ch1ch2  by ch1ch2r3;
     sub r4 ch2 by ch2r3;
     sub r4 ch3  by ch3r3;
@@ -564,6 +567,8 @@ lookup psts_vowel_signs_common {
     sub ngk1 u2  by ngk1u2;
     sub ngk1 r1  by ngk1r1;
     sub ngk1 r2  by ngk1r2;
+		sub ngk1r3 u1 by ngk1r3u1;
+		sub ngk1r3 u2 by ngk1r3u2;
     sub ngng u1  by ngngu1;
     sub ngng u2  by ngngu2;
     sub ch1 u1  by ch1u1;
