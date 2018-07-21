@@ -715,6 +715,8 @@ lookup psts_vowel_signs_common {
     sub th3th3 u2  by th3th3u2;
     sub th3th4 u1  by th3th4u1;
     sub th3th4 u2  by th3th4u2;
+		sub th3th4 r1  by th3th4r1;
+		sub th3th4 r2  by th3th4r2;
     sub th3r3 u1  by th3r3u1;
     sub th3r3 u2  by th3r3u2;
     sub th4 u1  by th4u1;
