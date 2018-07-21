@@ -2,7 +2,7 @@
 <glyph name="shm1" format="2">
 	<advance width="1928"/>
 	<outline>
-		<component base="_m1" xOffset="1002" yOffset="6"/>
+		<component base="_m1" xOffset="1002" yOffset="12"/>
 		<component base="sh"/>
 	</outline>
 </glyph>

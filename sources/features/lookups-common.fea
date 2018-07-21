@@ -308,6 +308,7 @@ lookup akhn_conjuncts {
     sub l3 xx l3  by l3l3;
     sub v1 xx v1  by v1v1;
     sub z1 xx ch1  by z1ch1;
+		sub z1 xx ch2  by z1ch2;
     sub z1 xx n1  by z1n1;
     sub z1 xx z1  by z1z1;
     sub s1 xx th2  by s1th2;
@@ -795,12 +796,14 @@ lookup psts_vowel_signs_common {
     sub p3l3 u2  by p3l3u2;
     sub p4 u1  by p4u1;
     sub p4 u2  by p4u2;
-    sub p4 r1  by p4r1;
+		sub p4 r1  by p4r1;
+		sub p4 r2  by p4r2;
     sub p4r3 u1  by p4r3u1;
     sub p4r3 u2  by p4r3u2;
     sub m1 u1  by m1u1;
     sub m1 u2  by m1u2;
     sub m1 r1  by m1r1;
+		sub m1 r2  by m1r2;
     sub m1p1 u1  by m1p1u1;
     sub m1p1 u2  by m1p1u2;
     sub m1p1 r1  by m1p1r1;
@@ -819,6 +822,7 @@ lookup psts_vowel_signs_common {
     sub y1 y2 u2  by y1y1u2;
     sub r3 u1  by r3u1;
     sub r3 u2  by r3u2;
+		sub r3 r1 by r3r1;
     sub l3 u1  by l3u1;
     sub l3 u2  by l3u2;
     sub l3xx p1  by l3p1;
@@ -850,6 +854,9 @@ lookup psts_vowel_signs_common {
     sub z1 r1  by z1r1;
     sub z1ch1 u1  by z1ch1u1;
     sub z1ch1 u2  by z1ch1u2;
+		sub z1ch2 u1  by z1ch2u1;
+		sub z1ch2 u2  by z1ch2u2;
+		sub z1ch2 r1  by z1ch2r1;
     sub z1n1 u1  by z1n1u1;
     sub z1n1 u2  by z1n1u2;
     sub z1r3 u1  by z1r3u1;

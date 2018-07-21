@@ -2,7 +2,7 @@
 <glyph name="sht2u1" format="2">
 	<advance width="1937"/>
 	<outline>
-		<component base="u_sign_drop" xScale="0.64856" yScale="0.669128" xOffset="1510" yOffset="-572"/>
+		<component base="u_sign_drop" xOffset="1510" yOffset="-572"/>
 		<component base="sht2"/>
 	</outline>
 	<lib>
