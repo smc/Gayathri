@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nhnhu2" format="2">
-	<advance width="2764"/>
+	<advance width="2506"/>
 	<outline>
-		<component base="_nhu2" xOffset="552" yOffset="16"/>
-		<component base="nh" yScale="0.975449" yOffset="25"/>
+		<component base="nh"/>
+		<component base="_nhu2" xOffset="690"/>
 	</outline>
 	<lib>
 		<dict>

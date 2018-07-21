@@ -2,8 +2,8 @@
 <glyph name="nhnh" format="2">
 	<advance width="2764"/>
 	<outline>
-		<component base="_nh" xOffset="811" yOffset="-3"/>
-		<component base="nh" yScale="0.975449" yOffset="25"/>
+		<component base="_nh" xOffset="811"/>
+		<component base="nh"/>
 	</outline>
 	<lib>
 		<dict>
