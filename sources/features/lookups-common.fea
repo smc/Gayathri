@@ -918,6 +918,8 @@ lookup psts_vowel_signs_common {
     sub h1m1 r1  by h1m1r1;
     sub h1r3 u1  by h1r3u1;
     sub h1r3 u2  by h1r3u2;
+		sub h1l3 u1  by h1l3u1;
+		sub h1l3 u2  by h1l3u2;
     sub lh u1  by lhu1;
     sub lh u2  by lhu2;
     sub lhlh u1  by lhlhu1;
@@ -928,4 +930,6 @@ lookup psts_vowel_signs_common {
     sub rh u2  by rhu2;
     sub rhrh u1  by rhrhu1;
     sub rhrh u2  by rhrhu2;
+		sub rhrhr3 u1 by rhrhr3u1;
+		sub rhrhr3 u2 by rhrhr3u2;
 } psts_vowel_signs_common;
