@@ -175,16 +175,27 @@ lookup akhn_conditional_stacking {
     ignore sub p3' xx' th3' xx [r3 th3];
     sub p3' xx' th3'  by p3th3;
 
+		ignore sub y1' xx' k1' [r1 r2 l1 l2];
+		ignore sub y1' xx' k1' xx r3;
+		ignore sub y1' xx' k1' xx k1 [r1 r2 l1 l2];
+		ignore sub y1' xx' k1' xx k1 xx r3;
+		sub y1' xx' k1' by y1k1;
+
     ignore sub y1' xx' th1' [u1 u2 r1 r2 l1 l2];
     ignore sub y1' xx' th1' xx [r3 th1];
     sub y1' xx' th1' by y1th1;
 
     ignore sub l3' xx' k1' [r2 l1 l2];
+		ignore sub l3' xx' k1' xx k1;
     sub l3' xx' k1' by l3k1;
 
     ignore sub z1' xx' m1' [u1 u2 r1 r2 l1 l2];
     ignore sub z1' xx' m1' xx [r3 m1];
     sub z1' xx' m1' by z1m1;
+
+		ignore sub z1' xx' z1' [r1 r2 l1 l2];
+		ignore sub z1' xx' z1' xx r3;
+		sub z1' xx' z1' by z1z1;
 
     ignore sub sh' xx' k1' [r2 l1 l2];
 		ignore sub sh' xx' k1' xx k1;
@@ -287,8 +298,7 @@ lookup akhn_conjuncts {
     sub p3 xx p3  by p3p3;
     sub m1 xx p1  by m1p1;
     sub m1 xx m1  by m1m1;
-    sub y1 xx k1 by y1k1;
-    sub y1 xx k1 xx k1 by y1k1k1;
+		sub y1k1 xx k1 by y1k1k1;
 	  sub y1 xx y1  by y1y1;
 	  sub l3 xx p1  by l3p1;
     sub l3 xx l3  by l3l3;
@@ -296,7 +306,6 @@ lookup akhn_conjuncts {
     sub z1 xx ch1  by z1ch1;
     sub z1 xx ch2  by z1ch2;
     sub z1 xx n1  by z1n1;
-    sub z1 xx z1  by z1z1;
     sub s1 xx k1 by s1k1;
     sub s1 xx k1 xx k1 by s1k1k1;
     sub s1 xx th2  by s1th2;
@@ -380,8 +389,6 @@ lookup pres_reph_mlym {
     sub m1p1 r4  by m1p1r3;
     sub m1p1 xx r3  by m1p1r3;
     sub m1 r4  by m1r3;
-    sub y1k1 xx r3 by y1k1r3;
-    sub y1k1 r4 by y1k1r3;
     sub l3k1 xx r3 by l3k1r3;
     sub l3k1 r4 by l3k1r3;
     sub l3xx l3  by l3l3;
@@ -449,7 +456,6 @@ lookup pres_reph {
     sub r4 p4  by p4r3;
     sub r4 m1p1  by m1p1r3;
     sub r4 m1  by m1r3;
-    sub r4 y1k1 by y1k1r3;
     sub r4 l3k1 by l3k1r3;
     sub r4 v1  by v1r3;
     sub r4 z1  by z1r3;
@@ -802,8 +808,8 @@ lookup psts_vowel_signs_common {
     sub y1 r1 by y1r1;
     sub y1k1 u1  by y1k1u1;
     sub y1k1 u2  by y1k1u2;
-    sub y1k1 r1  by y1k1r1;
     sub y1k1k1 u1  by y1k1k1u1;
+		sub y1k1k1 u2  by y1k1k1u2;
     sub y1 y2  by y1y1;
     sub y1y1 u1  by y1y1u1;
     sub y1 y2 u1  by y1y1u1;

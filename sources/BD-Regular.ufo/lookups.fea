@@ -99,7 +99,6 @@ lookup psts_vowel_signs {
 		sub y1xx k1k1  by y1k1k1;
 		sub y1k1 u1  by y1k1u1;
 		sub y1k1 u2  by y1k1u2;
-		sub y1k1 r1  by y1k1r1;
     sub y1k1k1 u1  by y1k1k1u1;
     sub s1k1 u1  by s1k1u1;
 		sub s1k1 u2  by s1k1u2;
