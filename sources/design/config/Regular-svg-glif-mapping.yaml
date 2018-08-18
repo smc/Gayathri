@@ -160,7 +160,7 @@ svgs:
         glyph_name: eight_super
     ൮:
         left: 80
-        right: 80
+        right: 100
         base: -412
         unicode: 0D6E
         glyph_name: uni0D6E
@@ -2075,7 +2075,7 @@ svgs:
         glyph_name: v2
     ാ:
         left: 80
-        right: 100
+        right: 80
         base: -24
         unicode: 0D3E
         glyph_name: a2
@@ -2093,7 +2093,7 @@ svgs:
         glyph_name: i2
     ു:
         left: 0
-        right: 100
+        right: 80
         base: -424
         unicode: 0D41
         glyph_name: u1
@@ -2124,20 +2124,20 @@ svgs:
         base: -440
         glyph_name: uu_sign_drop_small
     െ:
-        left: 100
+        left: 80
         right: 80
         base: -24
         unicode: 0D46
         glyph_name: e1
     േ:
-        left: 100
+        left: 80
         right: 80
         base: -24
         unicode: 0D47
         glyph_name: e2
     ൗ:
         left: 80
-        right: 100
+        right: 80
         base: -24
         unicode: 0D57
         glyph_name: au2
@@ -2166,7 +2166,7 @@ svgs:
     ml_l1_sign_small:
         left: -1275
         right: 100
-        base: -500
+        base: -636
         unicode: 0D62
         glyph_name: l1
     ക_small:
