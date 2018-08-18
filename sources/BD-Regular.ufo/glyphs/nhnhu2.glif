@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nhnhu2" format="2">
-	<advance width="2506"/>
-	<outline>
-		<component base="nh"/>
-		<component base="_nhu2" xOffset="690"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>org.fontforge.glyphclass</key>
-			<string>baseligature</string>
-		</dict>
-	</lib>
+  <advance width="2481.002587016708"/>
+  <outline>
+    <component base="nh"/>
+    <component base="_nhu2" xOffset="700"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontforge.glyphclass</key>
+      <string>baseligature</string>
+    </dict>
+  </lib>
 </glyph>
