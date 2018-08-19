@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 
 NAME=BD
-FONTS=Regular #Bold Thin
+FONTS=Regular Bold Thin
 INSTALLPATH=/usr/share/fonts/opentype/malayalam
 PY=python3
 version=`cat VERSION`
@@ -54,11 +54,11 @@ install: otf
 
 test: otf $(PDF)
 
-glyphs:
-	@for variant in $(FONTS);do \
-		for svg in `ls sources/design/$$variant/*.svg`;do \
-			$(PY) tools/import-svg-to-ufo.py -c "sources/design/config/$$variant-svg-glif-mapping.yaml" $$svg;\
-		done;\
+glyphs: $(FONTS:%=$(SRCDIR)/$(NAME)-%/glyphs)
+
+$(SRCDIR)/$(NAME)-%/glyphs:
+	@for svg in `ls $(SRCDIR)/design/$*/*.svg`;do \
+		$(PY) tools/import-svg-to-ufo.py -c $(SRCDIR)/design/config/$*.yaml $$svg; \
 	done;
 
 clean:
