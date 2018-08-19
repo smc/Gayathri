@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="p3th3" format="2">
-	<advance width="2325"/>
-	<outline>
-		<component base="p3"/>
-		<component base="_th3" xOffset="1589" yOffset="12"/>
-	</outline>
+  <advance width="2305.0356873365954"/>
+  <outline>
+    <component base="p3"/>
+    <component base="_th3" xOffset="1569" yOffset="12"/>
+  </outline>
 </glyph>

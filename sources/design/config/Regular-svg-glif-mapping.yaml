@@ -1678,7 +1678,7 @@ svgs:
         glyph_name: n1n1r3
     ന്മ:
         left: 80
-        right: 80
+        right: 100
         base: -24
         glyph_name: n1m1
     ന്ര:
@@ -1858,7 +1858,7 @@ svgs:
         unicode: 0D32
         glyph_name: l3
     വ:
-        left: 100
+        left: 80
         right: 100
         base: -12
         unicode: 0D35
@@ -1891,7 +1891,7 @@ svgs:
         glyph_name: z1r1
     ശ്ച:
         left: 80
-        right: 80
+        right: 100
         base: -24
         glyph_name: z1ch1
     ശ്ഛ:
@@ -1938,7 +1938,7 @@ svgs:
         glyph_name: s1
     സൃ:
         left: 80
-        right: 100
+        right: 80
         base: -486
         glyph_name: s1r1
     സൃൃ:
