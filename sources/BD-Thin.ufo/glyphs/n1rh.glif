@@ -1,57 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="n1rh" format="2">
-	<advance width="2052"/>
-	<outline>
-		<contour>
-			<point x="1441" y="-172" type="curve" smooth="yes"/>
-			<point x="1298" y="-172"/>
-			<point x="1177" y="-276"/>
-			<point x="1177" y="-418" type="curve" smooth="yes"/>
-			<point x="1177" y="-529"/>
-			<point x="1253" y="-612"/>
-			<point x="1343" y="-638" type="curve" smooth="yes"/>
-			<point x="1366" y="-644"/>
-			<point x="1387" y="-669"/>
-			<point x="1387" y="-699" type="curve" smooth="yes"/>
-			<point x="1387" y="-725"/>
-			<point x="1360" y="-756"/>
-			<point x="1335" y="-756" type="curve" smooth="yes"/>
-			<point x="1324" y="-756"/>
-			<point x="1315" y="-755"/>
-			<point x="1310" y="-754" type="curve"/>
-			<point x="1174" y="-715"/>
-			<point x="1058" y="-587"/>
-			<point x="1058" y="-418" type="curve" smooth="yes"/>
-			<point x="1058" y="-208"/>
-			<point x="1233" y="-52"/>
-			<point x="1443" y="-52" type="curve" smooth="yes"/>
-			<point x="1645" y="-52"/>
-			<point x="1819" y="-211"/>
-			<point x="1819" y="-413" type="curve" smooth="yes"/>
-			<point x="1819" y="-586"/>
-			<point x="1703" y="-716"/>
-			<point x="1561" y="-754" type="curve"/>
-			<point x="1556" y="-755"/>
-			<point x="1548" y="-756"/>
-			<point x="1537" y="-756" type="curve" smooth="yes"/>
-			<point x="1512" y="-756"/>
-			<point x="1484" y="-725"/>
-			<point x="1484" y="-699" type="curve" smooth="yes"/>
-			<point x="1484" y="-669"/>
-			<point x="1506" y="-644"/>
-			<point x="1530" y="-638" type="curve" smooth="yes"/>
-			<point x="1623" y="-613"/>
-			<point x="1698" y="-527"/>
-			<point x="1698" y="-413" type="curve" smooth="yes"/>
-			<point x="1698" y="-277"/>
-			<point x="1578" y="-172"/>
-		</contour>
-		<component base="n1cil"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>org.fontforge.glyphclass</key>
-			<string>baseligature</string>
-		</dict>
-	</lib>
+  <advance width="1872.0"/>
+  <outline>
+    <component base="n1cil"/>
+    <component base="_rh" xOffset="1062"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontforge.glyphclass</key>
+      <string>baseligature</string>
+    </dict>
+  </lib>
 </glyph>
