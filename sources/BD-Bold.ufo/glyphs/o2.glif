@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="o2" format="2">
-  <advance width="2175.0"/>
-  <unicode hex="0D4B"/>
-  <outline>
-    <component base="hyphen" xOffset="682.1275586207" yOffset="-40.9923310345"/>
-    <component base="e2"/>
-    <component base="a2" xOffset="1245" yOffset="6"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>org.fontforge.glyphclass</key>
-      <string>baseglyph</string>
-    </dict>
-  </lib>
+	<unicode hex="0D4B"/>
+	<advance width="2175"/>
+	<outline>
+		<component base="hyphen" xOffset="682.1275586207" yOffset="-40.9923310345"/>
+		<component base="e2"/>
+		<component base="a2" xOffset="1245" yOffset="6"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>org.fontforge.glyphclass</key>
+			<string>baseglyph</string>
+		</dict>
+	</lib>
 </glyph>
