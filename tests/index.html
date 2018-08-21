@@ -6,10 +6,23 @@
     @font-face {
       font-family: 'BD';
       src:  url(../build/BD-Regular.woff2?v=1.0) format('woff2'), url(../build/BD-Regular.woff?v=1.0) format('woff');
-      font-weight: normal;
-      font-style: normal;
+      font-weight: 400;
       unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+0D01-0D7F, U+200C-U+200D, U+25CC;
     }
+
+		@font-face {
+			font-family: 'BD';
+			src:  url(../build/BD-Bold.woff2?v=1.0) format('woff2'), url(../build/BD-Bold.woff?v=1.0) format('woff');
+			font-weight: 700;
+			unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+0D01-0D7F, U+200C-U+200D, U+25CC;
+		}
+
+		@font-face {
+			font-family: 'BD';
+			src:  url(../build/BD-Thin.woff2?v=1.0) format('woff2'), url(../build/BD-Thin.woff?v=1.0) format('woff');
+			font-weight: 100;
+			unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+0D01-0D7F, U+200C-U+200D, U+25CC;
+		}
 
     body {
       width: 100ch;
@@ -25,7 +38,7 @@
     }
     .banner {
       background: steelblue;
-      font-size: 36px;
+      font-size: 24px;
       color: #fff;
       /*text-shadow: 0px 2px 3px #555;*/
       padding: 20px;
@@ -39,7 +52,9 @@
 		<div contenteditable>
 		<div class='banner'>
 
-			ഹെർമൻ ഗുണ്ടർട്ട്
+			<div style="font-weight:700;">ഇന്ത്യയുടെ തെക്കുപടിഞ്ഞാറെ അറ്റത്തുള്ള സംസ്ഥാനമാണ് കേരളം.</div>
+			<div style="font-weight:400;">ഇന്ത്യയുടെ തെക്കുപടിഞ്ഞാറെ അറ്റത്തുള്ള സംസ്ഥാനമാണ് കേരളം.</div>
+			<div style="font-weight:100;">ഇന്ത്യയുടെ തെക്കുപടിഞ്ഞാറെ അറ്റത്തുള്ള സംസ്ഥാനമാണ് കേരളം.</div>
 
 		<p >
 
