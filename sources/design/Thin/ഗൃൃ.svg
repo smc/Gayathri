@@ -1,65 +1,18 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!-- Creator: CorelDRAW X8 -->
-
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xml:space="preserve"
-   width="1515px"
-   height="1486px"
-   version="1.1"
-   style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-   viewBox="0 0 1515 1486"
-   id="svg10"
-   sodipodi:docname="ഗൃൃ.svg"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"><metadata
-   id="metadata14"><rdf:RDF><cc:Work
-       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><sodipodi:namedview
-   pagecolor="#ffffff"
-   bordercolor="#666666"
-   borderopacity="1"
-   objecttolerance="10"
-   gridtolerance="10"
-   guidetolerance="10"
-   inkscape:pageopacity="0"
-   inkscape:pageshadow="2"
-   inkscape:window-width="3200"
-   inkscape:window-height="1693"
-   id="namedview12"
-   showgrid="false"
-   inkscape:zoom="0.89839677"
-   inkscape:cx="253.33417"
-   inkscape:cy="312.54112"
-   inkscape:window-x="0"
-   inkscape:window-y="0"
-   inkscape:window-maximized="1"
-   inkscape:current-layer="Layer_x0020_1" />
- <defs
-   id="defs4">
-  <style
-   type="text/css"
-   id="style2">
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="1475px" height="1486px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 1475 1486"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
    <![CDATA[
-    .fil0 {fill:#669933}
+    .fil0 {fill:#CC9933}
    ]]>
   </style>
  </defs>
- <g
-   id="Layer_x0020_1">
-  <metadata
-   id="CorelCorpID_0Corel-Layer" />
-  <path
-   class="fil0"
-   d="m 658,1408 c -61,0 -137,-5 -193,-30 -39,-17 -66,-47 -65,-91 2,-50 58,-70 101,-71 56,0 87,41 87,97 0,31 47,40 71,40 24,0 71,-9 71,-40 0,-56 31,-97 87,-97 43,1 99,21 101,71 2,44 -26,74 -65,91 -57,26 -133,30 -195,30 z m 389,-121 c 0,-38 -21,-76 -69,-107 -40,-26 -101,-39 -161,-39 -53,0 -114,11 -158,40 -44,-29 -105,-40 -158,-40 -60,0 -120,13 -161,39 -47,30 -67,69 -68,107 -1,67 59,133 143,163 73,27 164,37 242,36 134,-1 257,-22 346,-53 198,-69 340,-224 423,-409 54,-119 84,-251 88,-380 4,-118 -11,-236 -58,-347 C 1383,122 1232,-1 1036,0 694,3 654,259 659,537 661,685 652,933 451,935 364,935 295,877 248,809 185,719 157,592 164,482 174,324 249,150 401,81 436,66 441,37 413,17 370,-12 316,1 273,23 102,112 13,291 1,479 c -8,124 25,260 96,363 84,122 206,182 354,182 319,0 375,-220 370,-489 -2,-151 0,-446 215,-444 117,1 206,94 262,227 38,92 54,207 56,322 1,102 -17,215 -54,321 -50,144 -131,272 -256,353 2,-9 3,-18 3,-27 z"
-   id="path7"
-   inkscape:connector-curvature="0"
-   style="fill:#669933"
-   sodipodi:nodetypes="scccssscccsscscsccccccccccccccccccsccccccs" />
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0" d="M638 1429c-66,0 -144,-5 -205,-33 -42,-19 -74,-52 -73,-101 2,-60 72,-83 122,-83 66,0 105,42 106,108 1,25 31,31 51,31 19,0 51,-6 51,-31 0,-66 40,-108 106,-108 50,0 120,23 122,83 2,49 -31,82 -72,101 -62,28 -141,33 -208,33zm360 -76c7,-18 10,-39 9,-59 -2,-45 -28,-77 -64,-100 -40,-26 -99,-36 -146,-36 -62,0 -106,13 -158,47 -52,-34 -96,-47 -158,-47 -47,0 -105,10 -146,36 -35,23 -62,57 -63,102 -1,74 71,132 134,155 71,26 156,35 231,35 110,-2 232,-16 336,-53 192,-68 332,-222 414,-408 53,-119 83,-252 87,-383 4,-120 -12,-238 -57,-349 -70,-170 -213,-294 -401,-293 -327,3 -362,270 -357,540 3,166 -10,414 -228,416 -95,0 -169,-58 -221,-135 -64,-93 -93,-223 -86,-336 10,-166 88,-351 244,-423 14,-6 23,-16 23,-27 0,-7 -4,-15 -13,-22 -14,-9 -28,-13 -43,-13 -23,0 -47,9 -68,20 -168,89 -254,275 -266,462 -8,124 24,262 94,365 81,117 195,177 336,177 305,0 355,-224 350,-485 -3,-171 3,-471 235,-469 141,1 231,117 281,239 42,101 55,221 57,330 1,109 -19,224 -54,327 -56,161 -148,307 -302,387z"/>
  </g>
 </svg>

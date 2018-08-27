@@ -1,65 +1,18 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!-- Creator: CorelDRAW X8 -->
-
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xml:space="preserve"
-   width="1127px"
-   height="699px"
-   version="1.1"
-   style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-   viewBox="0 0 1127 699"
-   id="svg10"
-   sodipodi:docname="ൃ_short.svg"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"><metadata
-   id="metadata14"><rdf:RDF><cc:Work
-       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><sodipodi:namedview
-   pagecolor="#ffffff"
-   bordercolor="#666666"
-   borderopacity="1"
-   objecttolerance="10"
-   gridtolerance="10"
-   guidetolerance="10"
-   inkscape:pageopacity="0"
-   inkscape:pageshadow="2"
-   inkscape:window-width="3200"
-   inkscape:window-height="1693"
-   id="namedview12"
-   showgrid="false"
-   inkscape:zoom="0.33762518"
-   inkscape:cx="258.42797"
-   inkscape:cy="349.5"
-   inkscape:window-x="0"
-   inkscape:window-y="0"
-   inkscape:window-maximized="1"
-   inkscape:current-layer="Layer_x0020_1" />
- <defs
-   id="defs4">
-  <style
-   type="text/css"
-   id="style2">
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="1087px" height="699px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 1087 699"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
    <![CDATA[
-    .fil0 {fill:red}
+    .fil0 {fill:#CC9933}
    ]]>
   </style>
  </defs>
- <g
-   id="Layer_x0020_1">
-  <metadata
-   id="CorelCorpID_0Corel-Layer" />
-  <path
-   class="fil0"
-   d="m 214,463 c -43,17 -65,40 -66,62 0,24 22,47 65,64 40,16 101,26 177,26 63,0 111,-7 149,-18 58,-18 88,-45 87,-72 0,-26 -29,-52 -86,-69 -38,-11 -86,-18 -150,-18 -76,0 -137,10 -176,25 z M 965,213 966,48 1127,0 v 213 c 0,132 -39,231 -104,301 C 962,582 869,624 774,652 671,682 523,699 383,699 317,699 239,691 177,674 59,643 0,584 0,525 0,466 61,408 182,376 c 56,-14 127,-22 208,-22 75,0 136,7 189,19 76,18 195,65 196,152 0,11 -2,22 -5,31 166,-50 195,-196 195,-343 z"
-   id="path7"
-   inkscape:connector-curvature="0"
-   style="fill:#ff0000"
-   sodipodi:nodetypes="cccscccsccccsccscscscccc" />
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0" d="M370 426c53,0 109,4 160,20 34,11 96,38 96,83 1,47 -63,74 -98,85 -51,15 -105,20 -158,20 -60,0 -132,-6 -188,-29 -30,-12 -74,-37 -73,-76 0,-38 44,-63 74,-75 56,-22 128,-28 187,-28zm365 103c0,-87 -117,-132 -183,-148 -60,-14 -121,-19 -182,-19 -65,0 -136,5 -199,22 -64,17 -171,62 -171,145 0,82 103,128 166,145 62,17 133,25 197,25 121,0 265,-13 382,-48 86,-27 179,-68 241,-139 74,-85 101,-196 101,-309l0 -203 -122 38 0 165c0,206 -44,318 -243,380 8,-15 13,-34 13,-54z"/>
  </g>
 </svg>

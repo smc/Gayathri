@@ -1,65 +1,18 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!-- Creator: CorelDRAW X8 -->
-
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xml:space="preserve"
-   width="2460px"
-   height="1486px"
-   version="1.1"
-   style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-   viewBox="0 0 2460 1486"
-   id="svg10"
-   sodipodi:docname="ഡ്ര.svg"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"><metadata
-   id="metadata14"><rdf:RDF><cc:Work
-       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><sodipodi:namedview
-   pagecolor="#ffffff"
-   bordercolor="#666666"
-   borderopacity="1"
-   objecttolerance="10"
-   gridtolerance="10"
-   guidetolerance="10"
-   inkscape:pageopacity="0"
-   inkscape:pageshadow="2"
-   inkscape:window-width="1062"
-   inkscape:window-height="497"
-   id="namedview12"
-   showgrid="false"
-   inkscape:zoom="0.15881561"
-   inkscape:cx="581.44915"
-   inkscape:cy="743"
-   inkscape:window-x="0"
-   inkscape:window-y="0"
-   inkscape:window-maximized="0"
-   inkscape:current-layer="Layer_x0020_1" />
- <defs
-   id="defs4">
-  <style
-   type="text/css"
-   id="style2">
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="2420px" height="1486px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 2420 1486"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
    <![CDATA[
-    .fil0 {fill:#669933;fill-rule:nonzero}
+    .fil0 {fill:#CC9933;fill-rule:nonzero}
    ]]>
   </style>
  </defs>
- <g
-   id="Layer_x0020_1">
-  <metadata
-   id="CorelCorpID_0Corel-Layer" />
-  <path
-   class="fil0"
-   d="m 1309,1395 c 306,-1 608,-89 798,-287 40,-41 76,-88 106,-140 -71,37 -152,56 -236,56 -130,0 -239,-39 -310,-116 -72,85 -182,116 -290,116 -152,0 -295,-77 -348,-225 C 995,703 994,597 994,495 994,407 993,311 963,227 937,152 887,91 793,91 670,91 594,194 555,309 c -23,69 -33,143 -33,202 1,171 76,366 247,429 38,14 48,42 23,63 -33,28 -86,23 -123,8 C 462,930 361,725 360,511 359,427 373,345 401,272 462,114 591,0 793,0 c 163,0 265,65 318,182 43,96 45,205 46,309 0,96 -1,199 32,291 28,79 98,153 188,151 155,-3 205,-137 205,-270 V 46 c 0,-25 36,-46 81,-46 45,0 82,21 82,46 v 616 c 0,150 70,271 232,271 131,0 238,-96 284,-214 25,-63 35,-132 35,-200 1,-161 -62,-369 -223,-437 -35,-15 -42,-44 -15,-64 32,-24 83,-22 118,-7 97,43 165,112 210,196 55,102 75,226 74,346 -3,274 -103,483 -261,632 -220,208 -552,299 -888,301 -298,1 -598,-69 -825,-190 C 222,1154 27,923 2,571 -14,347 71,127 247,16 c 29,-19 81,-21 114,-4 34,17 37,45 7,64 -145,92 -217,288 -203,488 19,298 166,501 374,632 202,127 487,200 770,199 z"
-   id="path7"
-   inkscape:connector-curvature="0"
-   style="fill:#669933;fill-rule:nonzero"
-   sodipodi:nodetypes="cccscscscsccsccccsccccssssssccccccccccccccccc" />
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0" d="M504 1210c-233,-149 -361,-369 -379,-648 -12,-185 46,-399 208,-503 11,-7 16,-15 16,-23 0,-10 -8,-20 -21,-27 -11,-5 -26,-9 -40,-9 -17,0 -34,5 -46,12 -182,117 -255,346 -240,556 23,330 193,573 478,728 240,131 540,191 811,190 306,-1 643,-81 871,-300 176,-169 255,-392 258,-635 1,-118 -18,-244 -74,-349 -46,-87 -113,-153 -202,-193 -13,-6 -29,-9 -44,-9 -17,0 -34,4 -46,14 -9,6 -13,14 -13,20 0,12 10,22 24,29 167,71 232,283 231,452 0,70 -10,141 -36,206 -49,129 -163,233 -303,233 -172,0 -252,-122 -252,-286l0 -633c0,-26 -42,-35 -62,-35 -20,0 -61,9 -61,35l0 634c0,149 -59,282 -224,286 -99,2 -177,-72 -209,-163 -33,-95 -32,-206 -32,-305 0,-105 -3,-214 -46,-311 -57,-129 -164,-176 -298,-176 -179,0 -309,100 -373,267 -29,77 -41,160 -40,241 1,211 99,424 300,506 15,5 32,10 49,10 17,0 34,-5 47,-16 7,-7 10,-13 10,-20 0,-12 -13,-23 -28,-28 -176,-67 -255,-273 -256,-452 0,-69 12,-142 34,-207 40,-122 119,-231 257,-231 98,0 158,56 190,147 30,87 31,184 31,275 0,102 0,216 35,313 50,143 183,219 328,219 126,0 209,-35 289,-132 89,99 180,132 311,132 116,0 182,-39 279,-91 -40,70 -76,128 -131,186 -206,218 -528,296 -816,297 -263,1 -561,-62 -785,-206z"/>
  </g>
 </svg>
