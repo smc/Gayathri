@@ -1,65 +1,18 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!-- Creator: CorelDRAW X8 -->
-
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xml:space="preserve"
-   width="2765px"
-   height="1024px"
-   version="1.1"
-   style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-   viewBox="0 0 2765 1024"
-   id="svg10"
-   sodipodi:docname="ഝ.svg"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"><metadata
-   id="metadata14"><rdf:RDF><cc:Work
-       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><sodipodi:namedview
-   pagecolor="#ffffff"
-   bordercolor="#666666"
-   borderopacity="1"
-   objecttolerance="10"
-   gridtolerance="10"
-   guidetolerance="10"
-   inkscape:pageopacity="0"
-   inkscape:pageshadow="2"
-   inkscape:window-width="3200"
-   inkscape:window-height="1693"
-   id="namedview12"
-   showgrid="false"
-   inkscape:zoom="0.17649186"
-   inkscape:cx="798.90369"
-   inkscape:cy="512"
-   inkscape:window-x="0"
-   inkscape:window-y="0"
-   inkscape:window-maximized="1"
-   inkscape:current-layer="Layer_x0020_1" />
- <defs
-   id="defs4">
-  <style
-   type="text/css"
-   id="style2">
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="2804px" height="1024px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 2804 1024"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
    <![CDATA[
-    .fil0 {fill:#669933;fill-rule:nonzero}
+    .fil0 {fill:#996633;fill-rule:nonzero}
    ]]>
   </style>
  </defs>
- <g
-   id="Layer_x0020_1">
-  <metadata
-   id="CorelCorpID_0Corel-Layer" />
-  <path
-   class="fil0"
-   d="M 1272,267 C 1226,145 1128,91 1000,91 c -36,0 -70,4 -102,12 160,112 242,302 242,493 0,92 -20,181 -58,251 -65,118 -177,176 -308,176 C 641,1023 529,966 464,847 425,776 406,688 406,596 406,406 487,215 647,103 616,95 582,91 546,91 410,91 287,183 225,301 c -41,79 -62,176 -62,272 0,137 46,304 176,372 33,17 35,46 4,64 -44,27 -96,15 -137,-10 C 60,910 0,738 0,573 0,468 24,362 69,276 162,98 349,0 546,0 631,0 707,14 774,38 840,14 915,0 1000,0 c 173,1 335,52 417,215 44,88 45,192 46,310 0,86 3,175 32,257 27,76 93,148 178,151 159,6 214,-135 214,-270 V 46 c 0,-25 37,-46 82,-46 45,0 81,21 81,46 v 616 c 0,150 71,271 233,271 131,0 237,-96 284,-214 26,-67 36,-142 35,-215 -2,-158 -67,-356 -223,-422 -35,-15 -42,-44 -15,-64 32,-24 83,-22 118,-7 194,86 280,291 283,493 1,91 -14,182 -51,261 -79,169 -248,259 -431,259 -130,0 -239,-39 -310,-116 -72,85 -192,116 -300,116 -151,0 -286,-77 -338,-225 -31,-87 -35,-182 -35,-274 0,-86 1,-178 -28,-258 z M 568,596 c 0,83 17,162 51,224 32,58 84,112 155,112 70,0 121,-53 153,-111 33,-62 50,-142 51,-225 C 978,433 911,257 774,161 637,257 568,433 568,596 Z"
-   id="path7"
-   inkscape:connector-curvature="0"
-   style="fill:#669933;fill-rule:nonzero"
-   sodipodi:nodetypes="cscscscscscscccscsccccccsssssscccccccscscscscscccs" />
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0" d="M1300 525c0,-83 1,-173 -29,-251 -42,-112 -132,-163 -251,-163 -24,0 -47,2 -70,6 152,112 229,294 229,478 0,84 -17,174 -58,248 -68,122 -189,179 -328,179 -140,0 -260,-57 -329,-179 -41,-75 -59,-164 -59,-248 0,-184 78,-366 229,-478 -22,-4 -45,-6 -68,-6 -129,-1 -244,90 -302,198 -42,79 -62,174 -62,263 0,129 45,291 170,355 21,11 33,26 33,41 0,13 -9,27 -27,38 -22,12 -46,18 -70,18 -34,0 -68,-11 -97,-28 -150,-90 -211,-259 -211,-424 0,-100 22,-205 70,-294 96,-180 292,-278 496,-278 77,0 154,11 227,35 73,-25 150,-35 227,-35 178,1 350,52 436,218 47,93 46,205 46,307 0,83 3,169 32,249 14,38 38,75 70,102 29,24 60,37 99,37 140,0 184,-140 184,-254l0 -603c0,-42 69,-56 101,-56 33,0 102,14 102,56l0 603c0,133 61,254 213,254 55,0 107,-20 151,-52 50,-37 89,-90 113,-149 26,-65 36,-138 35,-208 -3,-148 -64,-342 -215,-404 -24,-10 -40,-27 -41,-45 0,-11 6,-22 21,-33 21,-15 50,-22 78,-22 24,0 49,5 69,13 198,86 287,288 290,491 1,88 -13,178 -52,258 -39,83 -101,146 -175,190 -80,48 -175,72 -274,72 -111,0 -227,-26 -310,-101 -75,71 -186,99 -288,101 -164,3 -313,-72 -370,-229 -32,-86 -35,-179 -35,-270zm-507 -339c-123,95 -185,258 -185,409 0,73 14,150 50,215 27,48 75,102 135,102 61,0 107,-53 134,-101 36,-64 50,-144 50,-216 0,-151 -60,-314 -184,-409z"/>
  </g>
 </svg>
