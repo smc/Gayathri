@@ -787,7 +787,7 @@ svgs:
         base: -412
         unicode: 0D0B
         glyph_name: ml_r
-    ഌnew:
+    ഌ:
         left: 80
         right: 80
         base: -24
@@ -2163,9 +2163,9 @@ svgs:
         base: -486
         unicode: 0D44
         glyph_name: r2
-    ml_l1_sign_small:
+    ഌ_small:
         left: -1275
-        right: 100
+        right: 1375
         base: -636
         unicode: 0D62
         glyph_name: l1
