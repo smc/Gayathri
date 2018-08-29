@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="n1th3u1" format="2">
-	<advance width="1790.0119203046"/>
+	<advance width="1830.012517998"/>
 	<outline>
-		<component base="u_sign_drop" xOffset="1084"/>
 		<component base="n1th3"/>
+		<component base="u_sign_drop" xOffset="1084"/>
 	</outline>
 	<lib>
 		<dict>
