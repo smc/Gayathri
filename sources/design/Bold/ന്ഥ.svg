@@ -1,65 +1,18 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!-- Creator: CorelDRAW X8 -->
-
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xml:space="preserve"
-   width="2625px"
-   height="1024px"
-   version="1.1"
-   style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-   viewBox="0 0 2625 1024"
-   id="svg10"
-   sodipodi:docname="ന്ഥ.svg"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"><metadata
-   id="metadata14"><rdf:RDF><cc:Work
-       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><sodipodi:namedview
-   pagecolor="#ffffff"
-   bordercolor="#666666"
-   borderopacity="1"
-   objecttolerance="10"
-   gridtolerance="10"
-   guidetolerance="10"
-   inkscape:pageopacity="0"
-   inkscape:pageshadow="2"
-   inkscape:window-width="1062"
-   inkscape:window-height="497"
-   id="namedview12"
-   showgrid="false"
-   inkscape:zoom="0.18590476"
-   inkscape:cx="758.45287"
-   inkscape:cy="512"
-   inkscape:window-x="0"
-   inkscape:window-y="0"
-   inkscape:window-maximized="0"
-   inkscape:current-layer="Layer_x0020_1" />
- <defs
-   id="defs4">
-  <style
-   type="text/css"
-   id="style2">
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="2665px" height="1024px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 2665 1024"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
    <![CDATA[
-    .fil0 {fill:#003399;fill-rule:nonzero}
+    .fil0 {fill:#996633;fill-rule:nonzero}
    ]]>
   </style>
  </defs>
- <g
-   id="Layer_x0020_1">
-  <metadata
-   id="CorelCorpID_0Corel-Layer" />
-  <path
-   class="fil0"
-   d="m 1429,508 c 1,-73 -9,-142 -35,-209 C 1347,181 1241,91 1110,91 948,91 877,206 877,356 v 622 c 0,25 -36,46 -81,46 -45,0 -82,-21 -82,-46 V 356 C 714,206 643,91 482,91 351,91 244,187 198,305 c -26,67 -36,142 -35,215 2,158 67,356 223,422 35,15 42,44 15,64 -32,23 -83,22 -118,7 C 89,927 3,722 0,520 -1,429 14,338 51,259 130,90 299,0 482,0 614,0 725,38 796,117 866,38 978,0 1110,0 c 183,0 352,84 431,253 37,79 52,164 51,255 -2,153 -52,300 -160,400 h 317 V 392 c 0,-263 212,-392 431,-392 218,0 445,143 445,399 v 555 c 0,34 -56,45 -81,45 H 1253 c -23,0 -45,-5 -62,-18 -28,-19 -21,-48 15,-63 156,-66 221,-252 223,-410 z m 482,400 h 551 l 1,-509 c 0,-200 -147,-308 -285,-308 -137,0 -267,96 -267,301 z"
-   id="path7"
-   inkscape:connector-curvature="0"
-   style="fill:#003399;fill-rule:nonzero"
-   sodipodi:nodetypes="ccssssssscccccccscsccccssssssccccccssc" />
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0" d="M1214 901c151,-63 213,-244 215,-393 1,-70 -9,-137 -35,-202 -43,-107 -142,-195 -264,-195 -151,0 -213,114 -213,249l0 608c0,42 -69,56 -101,56 -32,0 -102,-14 -102,-56l0 -608c0,-135 -61,-249 -212,-249 -123,0 -222,94 -264,201 -27,65 -36,138 -35,208 2,148 64,342 215,404 22,10 39,26 40,43 1,12 -6,24 -21,35 -21,15 -49,22 -77,22 -24,0 -49,-5 -69,-13 -199,-86 -288,-288 -291,-491 -1,-88 13,-178 52,-258 82,-172 260,-262 450,-262 111,0 231,26 314,103 83,-77 203,-103 314,-103 189,0 368,83 450,256 38,80 53,165 52,253 -2,138 -45,279 -146,380l263 0 0 -494c0,-254 208,-395 451,-395 238,0 465,151 465,401l0 544c0,41 -69,55 -101,55l-1291 0c-31,0 -101,-15 -99,-56 1,-18 17,-34 40,-43zm737 -506l0 494 512 0 0 -488c0,-149 -102,-290 -265,-290 -165,0 -247,136 -247,284z"/>
  </g>
 </svg>
