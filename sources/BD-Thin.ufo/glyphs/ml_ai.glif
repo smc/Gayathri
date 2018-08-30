@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ml_ai" format="2">
 	<unicode hex="0D10"/>
-	<advance width="3386"/>
+	<advance width="3266.2562884665"/>
 	<outline>
 		<component base="e1"/>
-		<component base="ml_e" xOffset="1230"/>
+		<component base="ml_e" xOffset="1190"/>
 	</outline>
 	<lib>
 		<dict>
