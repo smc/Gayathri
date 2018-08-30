@@ -158,7 +158,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 		<key>openTypeNamePreferredSubfamilyName</key>
 		<string>Bold</string>
 		<key>openTypeNameUniqueID</key>
-		<string>BD SMC</string>
+		<string>BD Bold SMC</string>
 		<key>openTypeNameVersion</key>
 		<string>1.0</string>
 		<key>openTypeOS2CodePageRanges</key>
@@ -175,7 +175,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 		<array>
 			<integer>2</integer>
 			<integer>0</integer>
-			<integer>5</integer>
+			<integer>8</integer>
 			<integer>3</integer>
 			<integer>0</integer>
 			<integer>0</integer>
@@ -230,7 +230,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 		<key>openTypeOS2WeightClass</key>
 		<integer>700</integer>
 		<key>openTypeOS2WidthClass</key>
-		<integer>9</integer>
+		<integer>5</integer>
 		<key>openTypeOS2WinAscent</key>
 		<integer>1500</integer>
 		<key>openTypeOS2WinDescent</key>
@@ -275,6 +275,10 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 		<integer>0</integer>
 		<key>postscriptWeightName</key>
 		<string>Bold</string>
+		<key>styleMapFamilyName</key>
+		<string></string>
+		<key>styleMapStyleName</key>
+		<string>bold</string>
 		<key>styleName</key>
 		<string>Bold</string>
 		<key>trademark</key>

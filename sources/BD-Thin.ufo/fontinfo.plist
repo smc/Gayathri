@@ -158,7 +158,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 		<key>openTypeNamePreferredSubfamilyName</key>
 		<string>Thin</string>
 		<key>openTypeNameUniqueID</key>
-		<string>BD SMC</string>
+		<string>BD Thin SMC</string>
 		<key>openTypeNameVersion</key>
 		<string>1.0</string>
 		<key>openTypeOS2CodePageRanges</key>
@@ -173,9 +173,9 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 		</array>
 		<key>openTypeOS2Panose</key>
 		<array>
-			<integer>2</integer>
 			<integer>0</integer>
-			<integer>5</integer>
+			<integer>0</integer>
+			<integer>4</integer>
 			<integer>3</integer>
 			<integer>0</integer>
 			<integer>0</integer>
