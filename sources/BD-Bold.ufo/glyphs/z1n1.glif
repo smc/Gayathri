@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="z1n1" format="2">
-	<advance width="1878.0393830331"/>
+	<advance width="1918.0414757474"/>
 	<outline>
-		<component base="_n1" xOffset="817"/>
 		<component base="z1"/>
+		<component base="_n1" xOffset="817"/>
 	</outline>
 	<lib>
 		<dict>
