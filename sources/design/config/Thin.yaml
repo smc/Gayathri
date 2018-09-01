@@ -1070,6 +1070,7 @@ svgs:
     ഛ:
         left: 20
         right: 80
+        base: -24
         unicode: 0D1B
         glyph_name: ch2
     ഛു:
@@ -2100,7 +2101,7 @@ svgs:
     ു_short:
         left: 30
         right: 30
-        base: -440
+        base: -458
         glyph_name: u_sign_drop
     ു_small:
         left: 30
@@ -2116,7 +2117,7 @@ svgs:
     ൂ_short:
         left: 10
         right: 10
-        base: -600
+        base: -620
         glyph_name: uu_sign_drop
     ൂ_small:
         left: 30
@@ -2165,7 +2166,7 @@ svgs:
         glyph_name: r2
     ഌ_small:
         left: -1275
-        right: -1375
+        right: 1276
         base: -636
         unicode: 0D62
         glyph_name: l1

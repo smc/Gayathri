@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="t2xx" format="2">
-	<advance width="1201"/>
+	<advance width="1222.0032067984"/>
 	<outline>
 		<component base="t2"/>
-		<component base="xx" xOffset="1190" yOffset="-6"/>
+		<component base="xx" xOffset="1280" yOffset="-6"/>
 	</outline>
 	<lib>
 		<dict>

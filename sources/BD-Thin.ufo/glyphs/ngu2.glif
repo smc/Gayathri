@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ngu2" format="2">
-	<advance width="1934.085972589"/>
+	<advance width="1878.0107292745"/>
 	<outline>
-		<component base="uu_sign_drop" xOffset="1234"/>
 		<component base="ng"/>
+		<component base="uu_sign_drop" xOffset="1208" yOffset="-30"/>
 	</outline>
 	<lib>
 		<dict>

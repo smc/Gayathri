@@ -1070,6 +1070,7 @@ svgs:
     ഛ:
         left: 20
         right: 80
+        base: -24
         unicode: 0D1B
         glyph_name: ch2
     ഛു:
@@ -2165,7 +2166,7 @@ svgs:
         glyph_name: r2
     ഌ_small:
         left: -1275
-        right: 100
+        right: 1356
         base: -636
         unicode: 0D62
         glyph_name: l1
