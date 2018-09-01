@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ch4u2" format="2">
-	<advance width="2925.0466934853"/>
+	<advance width="2885.0497075855"/>
 	<outline>
-		<component base="uu_sign_drop" xOffset="2132"/>
 		<component base="ch4"/>
+		<component base="uu_sign_drop" xOffset="2132"/>
 	</outline>
 	<lib>
 		<dict>
