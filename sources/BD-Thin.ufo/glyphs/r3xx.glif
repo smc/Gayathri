@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="r3xx" format="2">
-	<advance width="1420.1846612067"/>
+	<advance width="1308.0438416976"/>
 	<outline>
 		<component base="r3"/>
-		<component base="xx" xOffset="1279.7595916499" yOffset="2.9779336826"/>
+		<component base="xx" xOffset="1365.7595916499" yOffset="2.9779336826"/>
 	</outline>
 	<lib>
 		<dict>
