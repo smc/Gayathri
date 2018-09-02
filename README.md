@@ -1,4 +1,7 @@
-A new typeface in development. Designer: Binoy Domenic
+Gayathri Malayalam Typeface
+===========================
+
+Designed by Binoy Dominic
 
 
 Building from source

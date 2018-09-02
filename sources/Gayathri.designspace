@@ -4,12 +4,12 @@
 		<axis default="200" maximum="900" minimum="100" name="weight" tag="wght" />
 	</axes>
 	<sources>
-		<source filename="BD-Thin.ufo" name="thin">
+		<source filename="Gayathri-Thin.ufo" name="thin">
 			<location>
 				<dimension name="weight" xvalue="200"/>
 			</location>
 		</source>
-		<source filename="BD-Regular.ufo" name="regular">
+		<source filename="Gayathri-Regular.ufo" name="regular">
 			<location>
 				<dimension name="weight" xvalue="400"/>
 			</location>
@@ -17,7 +17,7 @@
 			<info copy="1" />
 			<lib copy="1" />
 		</source>
-		<source filename="BD-Bold.ufo" name="bold">
+		<source filename="Gayathri-Bold.ufo" name="bold">
 			<location>
 				<dimension name="weight" xvalue="700"/>
 			</location>

@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-NAME=BD
+NAME=Gayathri
 FONTS=Regular Bold Thin
 INSTALLPATH=/usr/share/fonts/opentype/malayalam
 PY=python3
@@ -8,7 +8,7 @@ version=`cat VERSION`
 TOOLDIR=tools
 SRCDIR=sources
 webfontscript=$(TOOLDIR)/webfonts.py
-designspace=$(SRCDIR)/BDProject.designspace
+designspace=$(SRCDIR)/GayathriProject.designspace
 tests=tests/tests.txt
 BLDDIR=build
 default: otf

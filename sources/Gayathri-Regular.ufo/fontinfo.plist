@@ -7,11 +7,11 @@
 		<key>capHeight</key>
 		<integer>1385</integer>
 		<key>copyright</key>
-		<string>Digitized data copyright 2018, Binoy Domenic, Santhosh Thottingal, Kavya Manohar, Swathanthra Malayalam Computing, smc.org.in, with reserved font name "BD".</string>
+		<string>Digitized data copyright 2018, Binoy Dominic, Santhosh Thottingal, Kavya Manohar, Swathanthra Malayalam Computing, smc.org.in, with reserved font name "Gayathri".</string>
 		<key>descender</key>
 		<integer>-634</integer>
 		<key>familyName</key>
-		<string>BD</string>
+		<string>Gayathri</string>
 		<key>guidelines</key>
 		<array>
 			<dict>
@@ -46,15 +46,15 @@
 		<key>openTypeHheaLineGap</key>
 		<integer>0</integer>
 		<key>openTypeNameCompatibleFullName</key>
-		<string>BD</string>
+		<string>Gayathri</string>
 		<key>openTypeNameDescription</key>
 		<string>Malayalam unicode font with rounded terminals suitable for body text</string>
 		<key>openTypeNameDesigner</key>
-		<string>Binoy Domenic &lt;binoy.domenic@gmail.com&gt;</string>
+		<string>Binoy Dominic &lt;binoy.domenic@gmail.com&gt;</string>
 		<key>openTypeNameDesignerURL</key>
-		<string>http://thottingal.in</string>
+		<string>https://thottingal.in</string>
 		<key>openTypeNameLicense</key>
-		<string>Digitized data copyright (c) 2018, Binoy Domenic, Santhosh Thottingal, Kavya Manohar, Swathanthra Malayalam Computing(http://smc.org.in)
+		<string>Digitized data copyright (c) 2018, Binoy Dominic, Santhosh Thottingal, Kavya Manohar, Swathanthra Malayalam Computing(http://smc.org.in)
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
@@ -148,17 +148,17 @@ DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
 OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 		<key>openTypeNameLicenseURL</key>
-		<string>http://scripts.sil.org/OFL</string>
+		<string>https://scripts.sil.org/OFL</string>
 		<key>openTypeNameManufacturer</key>
 		<string>SMC</string>
 		<key>openTypeNameManufacturerURL</key>
-		<string>http://smc.org.in</string>
+		<string>https://smc.org.in</string>
 		<key>openTypeNamePreferredFamilyName</key>
-		<string>BD</string>
+		<string>Gayathri</string>
 		<key>openTypeNamePreferredSubfamilyName</key>
 		<string>Regular</string>
 		<key>openTypeNameUniqueID</key>
-		<string>BD SMC</string>
+		<string>Gayathri SMC</string>
 		<key>openTypeNameVersion</key>
 		<string>1.0</string>
 		<key>openTypeOS2CodePageRanges</key>
@@ -253,9 +253,9 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 		<array>
 		</array>
 		<key>postscriptFontName</key>
-		<string>BD-Regular</string>
+		<string>Gayathri-Regular</string>
 		<key>postscriptFullName</key>
-		<string>BD Regular</string>
+		<string>Gayathri Regular</string>
 		<key>postscriptOtherBlues</key>
 		<array>
 		</array>
