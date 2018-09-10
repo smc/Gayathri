@@ -54,11 +54,11 @@
 		<key>openTypeNameDesignerURL</key>
 		<string>https://thottingal.in</string>
 		<key>openTypeNameLicense</key>
-		<string>Digitized data copyright (c) 2018, Binoy Dominic, Santhosh Thottingal, Kavya Manohar, Swathanthra Malayalam Computing(http://smc.org.in)
+		<string>Digitized data copyright (c) 2018, Binoy Dominic, Santhosh Thottingal, Kavya Manohar, Swathanthra Malayalam Computing(https://smc.org.in)
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
-http://scripts.sil.org/OFL
+https://scripts.sil.org/OFL
 
 
 -----------------------------------------------------------
@@ -160,7 +160,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 		<key>openTypeNameUniqueID</key>
 		<string>Gayathri SMC</string>
 		<key>openTypeNameVersion</key>
-		<string>1.0</string>
+		<string>Version 1.0</string>
 		<key>openTypeOS2CodePageRanges</key>
 		<array>
 			<integer>0</integer>
