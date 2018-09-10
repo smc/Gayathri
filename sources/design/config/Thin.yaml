@@ -989,6 +989,11 @@ svgs:
         right: 80
         base: -486
         glyph_name: k1u2
+    കൂ_new:
+        left: 80
+        right: 80
+        base: -486
+        glyph_name: k1u2.alt1
     കൃ:
         left: 80
         right: 80
@@ -1217,6 +1222,10 @@ svgs:
       right: 100
       base: -420
       glyph_name: ch1ch1
+    ച്ച_new:
+      left: 80
+      right: 100
+      glyph_name: ch1ch1.alt1
     ഛ:
         left: 20
         right: 80
@@ -2170,6 +2179,11 @@ svgs:
         right: 80
         base: -412
         glyph_name: lhlh
+    ള്ള_new:
+        left: 80
+        right: 80
+        base: -412
+        glyph_name: lhlh.alt1
     ൖ:
         left: 80
         right: 80
