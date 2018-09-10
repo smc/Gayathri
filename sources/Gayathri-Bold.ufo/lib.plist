@@ -120,7 +120,6 @@
 			<string>Ocircumflex</string>
 			<string>acircumflex</string>
 			<string>ccircumflex</string>
-			<string>vocalic_rr_sign_drop</string>
 			<string>Gcircumflex</string>
 			<string>Hcircumflex</string>
 			<string>ecircumflex</string>
@@ -353,30 +352,30 @@
 			<string>au2</string>
 			<string>datemark</string>
 			<string>rh_half</string>
-			<string>uni0D66</string>
-			<string>uni0D67</string>
-			<string>uni0D68</string>
-			<string>uni0D69</string>
-			<string>uni0D6A</string>
-			<string>uni0D6B</string>
-			<string>uni0D6C</string>
-			<string>uni0D6D</string>
-			<string>uni0D6E</string>
-			<string>uni0D6F</string>
+			<string>ml_0</string>
+			<string>ml_1</string>
+			<string>ml_2</string>
+			<string>ml_3</string>
+			<string>ml_4</string>
+			<string>ml_5</string>
+			<string>ml_6</string>
+			<string>ml_7</string>
+			<string>ml_8</string>
+			<string>ml_9</string>
 			<string>mlpara</string>
-			<string>arakani</string>
+			<string>arakaani</string>
 			<string>aramaa</string>
 			<string>muunnukaani</string>
 			<string>orumaa</string>
 			<string>ml_ii_archaic</string>
-			<string>uni0D73</string>
-			<string>uni0D74</string>
-			<string>uni0D75</string>
-			<string>uni0D70</string>
-			<string>uni0D71</string>
-			<string>uni0D72</string>
-			<string>randumaa</string>
-			<string>munnumaa</string>
+			<string>kaal</string>
+			<string>ara</string>
+			<string>mukkaal</string>
+			<string>ml_10</string>
+			<string>ml_100</string>
+			<string>ml_1000</string>
+			<string>rantumaa</string>
+			<string>muunnumaa</string>
 			<string>naalumaa</string>
 			<string>maakaani</string>
 			<string>arakkaal</string>
@@ -1037,6 +1036,7 @@
 			<string>va_sign</string>
 			<string>th2_half</string>
 			<string>vocalic_r_sign_drop</string>
+			<string>vocalic_rr_sign_drop</string>
 			<string>_k1</string>
 			<string>_k1u1</string>
 			<string>_k1u2</string>

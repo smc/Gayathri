@@ -20,7 +20,7 @@ svgs:
         right: 100
         base: -24
         unicode: 0D66
-        glyph_name: uni0D66
+        glyph_name: ml_0
     '1':
         left: 50
         right: 100
@@ -38,7 +38,7 @@ svgs:
         right: 100
         base: -412
         unicode: 0D67
-        glyph_name: uni0D67
+        glyph_name: ml_1
     '2':
         left: 100
         right: 100
@@ -55,7 +55,7 @@ svgs:
         right: 80
         base: -12
         unicode: 0D68
-        glyph_name: uni0D68
+        glyph_name: ml_2
     '3':
         left: 100
         right: 100
@@ -73,7 +73,7 @@ svgs:
         right: 60
         base: -24
         unicode: 0D69
-        glyph_name: uni0D69
+        glyph_name: ml_3
     '4':
         left: 50
         right: 50
@@ -91,7 +91,7 @@ svgs:
         right: 80
         base: -24
         unicode: 0D6A
-        glyph_name: uni0D6A
+        glyph_name: ml_4
     '5':
         left: 100
         right: 100
@@ -109,7 +109,7 @@ svgs:
         right: 80
         base: -402
         unicode: 0D6B
-        glyph_name: uni0D6B
+        glyph_name: ml_5
     '6':
         left: 100
         right: 100
@@ -127,7 +127,7 @@ svgs:
         right: 80
         base: -412
         unicode: 0D6C
-        glyph_name: uni0D6C
+        glyph_name: ml_6
     '7':
         left: 50
         right: 50
@@ -145,7 +145,7 @@ svgs:
         right: 80
         base: -412
         unicode: 0D6D
-        glyph_name: uni0D6D
+        glyph_name: ml_7
     '8':
         left: 100
         right: 100
@@ -163,7 +163,7 @@ svgs:
         right: 100
         base: -412
         unicode: 0D6E
-        glyph_name: uni0D6E
+        glyph_name: ml_8
     '9':
         left: 100
         right: 100
@@ -181,7 +181,7 @@ svgs:
         right: 80
         base: -24
         unicode: 0D6F
-        glyph_name: uni0D6F
+        glyph_name: ml_9
     AA:
         left: 50
         right: 50
@@ -645,7 +645,7 @@ svgs:
         right: 60
         base: -24
         unicode: 0D73
-        glyph_name: uni0D73
+        glyph_name: kaal
     tilde:
         left: 100
         right: 100

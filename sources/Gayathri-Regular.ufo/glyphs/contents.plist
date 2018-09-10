@@ -366,8 +366,10 @@
 		<string>anuswara.glif</string>
 		<key>anuswaraabove</key>
 		<string>anuswaraabove.glif</string>
-		<key>arakani</key>
-		<string>arakani.glif</string>
+		<key>ara</key>
+		<string>ara.glif</string>
+		<key>arakaani</key>
+		<string>arakaani.glif</string>
 		<key>arakkaal</key>
 		<string>arakkaal.glif</string>
 		<key>aramaa</key>
@@ -910,6 +912,8 @@
 		<string>k4u2.glif</string>
 		<key>k4xx</key>
 		<string>k4xx.glif</string>
+		<key>kaal</key>
+		<string>kaal.glif</string>
 		<key>l</key>
 		<string>l.glif</string>
 		<key>l1</key>
@@ -1024,6 +1028,32 @@
 		<string>maakaani.glif</string>
 		<key>macron</key>
 		<string>macron.glif</string>
+		<key>ml_0</key>
+		<string>ml_0.glif</string>
+		<key>ml_1</key>
+		<string>ml_1.glif</string>
+		<key>ml_10</key>
+		<string>ml_10.glif</string>
+		<key>ml_100</key>
+		<string>ml_100.glif</string>
+		<key>ml_1000</key>
+		<string>ml_1000.glif</string>
+		<key>ml_2</key>
+		<string>ml_2.glif</string>
+		<key>ml_3</key>
+		<string>ml_3.glif</string>
+		<key>ml_4</key>
+		<string>ml_4.glif</string>
+		<key>ml_5</key>
+		<string>ml_5.glif</string>
+		<key>ml_6</key>
+		<string>ml_6.glif</string>
+		<key>ml_7</key>
+		<string>ml_7.glif</string>
+		<key>ml_8</key>
+		<string>ml_8.glif</string>
+		<key>ml_9</key>
+		<string>ml_9.glif</string>
 		<key>ml_a</key>
 		<string>ml_a.glif</string>
 		<key>ml_aa</key>
@@ -1050,6 +1080,8 @@
 		<string>ml_o.glif</string>
 		<key>ml_oo</key>
 		<string>ml_oo.glif</string>
+		<key>ml_para</key>
+		<string>ml_para.glif</string>
 		<key>ml_r</key>
 		<string>ml_r.glif</string>
 		<key>ml_rr</key>
@@ -1060,16 +1092,16 @@
 		<string>ml_uu.glif</string>
 		<key>mlchandrabindu</key>
 		<string>mlchandrabindu.glif</string>
-		<key>mlpara</key>
-		<string>mlpara.glif</string>
+		<key>mukkaal</key>
+		<string>mukkaal.glif</string>
 		<key>multiply</key>
 		<string>multiply.glif</string>
-		<key>munnumaa</key>
-		<string>munnumaa.glif</string>
 		<key>muntaani</key>
 		<string>muntaani.glif</string>
 		<key>muunnukaani</key>
 		<string>muunnukaani.glif</string>
+		<key>muunnumaa</key>
+		<string>muunnumaa.glif</string>
 		<key>n</key>
 		<string>n.glif</string>
 		<key>n1</key>
@@ -1512,8 +1544,8 @@
 		<string>r4.glif</string>
 		<key>racute</key>
 		<string>racute.glif</string>
-		<key>randumaa</key>
-		<string>randumaa.glif</string>
+		<key>rantumaa</key>
+		<string>rantumaa.glif</string>
 		<key>rcaron</key>
 		<string>rcaron.glif</string>
 		<key>registered</key>
@@ -1998,38 +2030,6 @@
 		<string>uni01D_4.glif</string>
 		<key>uni0D4C</key>
 		<string>uni0D_4C_.glif</string>
-		<key>uni0D66</key>
-		<string>uni0D_66.glif</string>
-		<key>uni0D67</key>
-		<string>uni0D_67.glif</string>
-		<key>uni0D68</key>
-		<string>uni0D_68.glif</string>
-		<key>uni0D69</key>
-		<string>uni0D_69.glif</string>
-		<key>uni0D6A</key>
-		<string>uni0D_6A_.glif</string>
-		<key>uni0D6B</key>
-		<string>uni0D_6B_.glif</string>
-		<key>uni0D6C</key>
-		<string>uni0D_6C_.glif</string>
-		<key>uni0D6D</key>
-		<string>uni0D_6D_.glif</string>
-		<key>uni0D6E</key>
-		<string>uni0D_6E_.glif</string>
-		<key>uni0D6F</key>
-		<string>uni0D_6F_.glif</string>
-		<key>uni0D70</key>
-		<string>uni0D_70.glif</string>
-		<key>uni0D71</key>
-		<string>uni0D_71.glif</string>
-		<key>uni0D72</key>
-		<string>uni0D_72.glif</string>
-		<key>uni0D73</key>
-		<string>uni0D_73.glif</string>
-		<key>uni0D74</key>
-		<string>uni0D_74.glif</string>
-		<key>uni0D75</key>
-		<string>uni0D_75.glif</string>
 		<key>uni25CC</key>
 		<string>uni25C_C_.glif</string>
 		<key>uring</key>
