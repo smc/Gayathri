@@ -745,6 +745,156 @@ svgs:
         right: 100
         unicode: 005A
         glyph_name: Z
+    ml_para:
+        left: 80
+        right: 80
+        base: -486
+        unicode: 0D4F
+        glyph_name: mlpara
+    mlnum_arakaani:
+        left: 80
+        right: 80
+        base: -24
+        unicode: 0D58
+        glyph_name: arakaani
+    mlnum_aramaa:
+        left: 80
+        right: 60
+        base: -24
+        unicode: 0D59
+        glyph_name: aramaa
+    mlnum_muunnukaani:
+        left: 80
+        right: 100
+        base: -24
+        unicode: 0D5A
+        glyph_name: muunnukaani
+    mlnum_rantumaa:
+        left: 80
+        right: 80
+        base: -24
+        unicode: 0D5C
+        glyph_name: rantumaa
+    mlnum_muunnumaa:
+        left: 80
+        right: 80
+        base: -24
+        unicode: 0D5D
+        glyph_name: muunnumaa
+    mlnum_naalumaa:
+        left: 80
+        right: 80
+        base: -24
+        unicode: 0D5E
+        glyph_name: naalumaa
+    archaic_ii:
+        left: 80
+        right: 80
+        base: -24
+        unicode: 0D5F
+        glyph_name: ml_ii_archaic
+    mlnum_ten:
+        left: 80
+        right: 80
+        base: -412
+        unicode: 0D70
+        glyph_name: ml_10
+    mlnum_onehundred:
+        left: 80
+        right: 80
+        base: -412
+        unicode: 0D71
+        glyph_name: ml_100
+    mlnum_onethousand:
+        left: 80
+        right: 80
+        base: -24
+        unicode: 0D72
+        glyph_name: ml_1000
+    mlnum_ara:
+        left: 80
+        right: 80
+        base: -24
+        unicode: 0D74
+        glyph_name: ara
+    mlnum_mukkaal:
+        left: 80
+        right: 80
+        base: -24
+        unicode: 0D75
+        glyph_name: mukkaal
+    mlnum_maakaani:
+        left: 80
+        right: 80
+        base: -24
+        unicode: 0D76
+        glyph_name: maakaani
+    mlnum_arakkaal:
+        left: 80
+        right: 80
+        base: -24
+        unicode: 0D77
+        glyph_name: arakkaal
+    mlnum_muntaani:
+        left: 80
+        right: 80
+        base: -24
+        unicode: 0D78
+        glyph_name: muntaani
+    ml_datemark:
+        left: 80
+        right: 60
+        base: -24
+        unicode: 0D79
+        glyph_name: datemark
+    archaic_na:
+        left: 80
+        right: 80
+        base: -24
+        unicode: 0D29
+        glyph_name: n2
+    archaic_tta:
+        left: 80
+        right: 80
+        base: -24
+        unicode: 0D3A
+        glyph_name: rh_half
+    Bullet:
+        left: 80
+        right: 80
+        base: 500
+        unicode: '2022'
+        glyph_name: bullet
+    dieresis:
+        left: 80
+        right: 80
+        base: 1000
+        unicode: '00A8'
+        glyph_name: dieresis
+    Latin_Capital_Letter_Eth:
+        left: 80
+        right: 80
+        base: -24
+        unicode: '00D0'
+        glyph_name: Eth
+    Latin_Small_Letter_Eth:
+        left: 80
+        right: 80
+        base: -24
+        unicode: '00F0'
+        glyph_name: eth
+    Latin_Small_Letter_Thorn:
+        left: 80
+        right: 80
+        base: -412
+        unicode: '00FE'
+        glyph_name: thorn
+    Ø:
+        left: 80
+        right: 80
+        base: -24
+        unicode: '00D8'
+        glyph_name: Oslash
     ം:
         left: 90
         right: 90
