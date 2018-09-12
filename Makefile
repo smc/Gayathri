@@ -9,17 +9,14 @@ TOOLDIR=tools
 SRCDIR=sources
 webfontscript=$(TOOLDIR)/webfonts.py
 designspace=$(SRCDIR)/GayathriProject.designspace
-tests=tests/tests.txt
-test2=tests/test2.txt
-test3=test/test3.txt
+tests=tests
 BLDDIR=build
 default: otf
 all: clean lint otf ttf webfonts test
 OTF=$(FONTS:%=$(BLDDIR)/$(NAME)-%.otf)
 TTF=$(FONTS:%=$(BLDDIR)/$(NAME)-%.ttf)
 WOFF2=$(FONTS:%=$(BLDDIR)/$(NAME)-%.woff2)
-PDF=$(FONTS:%=$(BLDDIR)/$(NAME)-%.pdf)
-PDF2=$(FONTS:%=$(BLDDIR)/$(NAME)-%-special.pdf)
+PDFS=$(FONTS:%=$(BLDDIR)/$(NAME)-%-ligatures.pdf) $(FONTS:%=$(BLDDIR)/$(NAME)-%-content.pdf)
 
 $(BLDDIR)/%.otf: $(SRCDIR)/%.ufo
 	@echo "  BUILD    $(@F)"
@@ -33,16 +30,16 @@ $(BLDDIR)/%.woff2: $(BLDDIR)/%.otf
 	@echo "WEBFONT    $(@F)"
 	@$(PY) $(webfontscript) -i $<
 
-$(BLDDIR)/%.pdf: $(BLDDIR)/%.otf $(tests)
+$(BLDDIR)/%-ligatures.pdf: $(BLDDIR)/%.ttf
 	@echo "   TEST    $(@F)"
 	@hb-view $< --font-size 14 --margin 100 --line-space 1.5 \
-		--foreground=333333 --text-file $(tests) \
+		--foreground=333333 --text-file $(tests)/ligatures.txt \
 		--output-file $(BLDDIR)/$(@F);
 
-$(BLDDIR)/%-special.pdf: $(BLDDIR)/%.otf $(test2)
-	@echo "   TEST-CONJUNCTS    $(@F)"
+$(BLDDIR)/%-content.pdf: $(BLDDIR)/%.ttf
+	@echo "   TEST    $(@F)"
 	@hb-view $< --font-size 14 --margin 100 --line-space 1.5 \
-		--foreground=333333 --text-file $(test2) \
+		--foreground=333333 --text-file $(tests)/content.txt \
 		--output-file $(BLDDIR)/$(@F);
 
 ttf: $(TTF)
@@ -61,7 +58,7 @@ install: otf
 	@mkdir -p ${DESTDIR}${INSTALLPATH}
 	install -D -m 0644 $(BLDDIR)/*.otf ${DESTDIR}${INSTALLPATH}/
 
-test: otf $(PDF) $(PDF2)
+test: ttf $(PDFS)
 
 glyphs: $(FONTS:%=$(SRCDIR)/$(NAME)-%/glyphs)
 
