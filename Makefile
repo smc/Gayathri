@@ -16,7 +16,9 @@ all: clean lint otf ttf webfonts test
 OTF=$(FONTS:%=$(BLDDIR)/$(NAME)-%.otf)
 TTF=$(FONTS:%=$(BLDDIR)/$(NAME)-%.ttf)
 WOFF2=$(FONTS:%=$(BLDDIR)/$(NAME)-%.woff2)
-PDFS=$(FONTS:%=$(BLDDIR)/$(NAME)-%-ligatures.pdf) $(FONTS:%=$(BLDDIR)/$(NAME)-%-content.pdf)
+PDFS=$(FONTS:%=$(BLDDIR)/$(NAME)-%-ligatures.pdf)   \
+	$(FONTS:%=$(BLDDIR)/$(NAME)-%-content.pdf)      \
+	$(FONTS:%=$(BLDDIR)/$(NAME)-%-table.pdf)
 
 $(BLDDIR)/%.otf: $(SRCDIR)/%.ufo
 	@echo "  BUILD    $(@F)"
@@ -29,6 +31,15 @@ $(BLDDIR)/%.ttf: $(SRCDIR)/%.ufo
 $(BLDDIR)/%.woff2: $(BLDDIR)/%.otf
 	@echo "WEBFONT    $(@F)"
 	@$(PY) $(webfontscript) -i $<
+
+$(BLDDIR)/%-table.pdf: $(BLDDIR)/%.ttf
+	@echo "   TEST    $(@F)"
+	@fntsample --font-file $< --output-file $(BLDDIR)/$(@F)        \
+		--write-outline --use-pango                                \
+		--style="header-font: Noto Sans Bold 12"                   \
+		--style="font-name-font: Noto Serif Bold 12"               \
+		--style="table-numbers-font: Noto Sans 10"                 \
+		--style="cell-numbers-font:Noto Sans Mono 8"
 
 $(BLDDIR)/%-ligatures.pdf: $(BLDDIR)/%.ttf
 	@echo "   TEST    $(@F)"

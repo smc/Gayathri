@@ -16,7 +16,7 @@ test:
   stage: test
   before_script:
     - apt-get update -y
-    - apt-get install -y make libharfbuzz-bin python3-pip
+    - apt-get install -y make libharfbuzz-bin python3-pip fntsample
     - pip3 install -r requirements.txt
   script:
     - make test
