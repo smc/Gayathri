@@ -159,8 +159,6 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 		<string>Thin</string>
 		<key>openTypeNameUniqueID</key>
 		<string>Gayathri Thin SMC</string>
-		<key>openTypeNameVersion</key>
-		<string>Version 1.0</string>
 		<key>openTypeOS2CodePageRanges</key>
 		<array>
 			<integer>0</integer>
@@ -216,7 +214,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 		<key>openTypeOS2TypoDescender</key>
 		<integer>-750</integer>
 		<key>openTypeOS2TypoLineGap</key>
-		<integer>0</integer>
+		<integer>100</integer>
 		<key>openTypeOS2UnicodeRanges</key>
 		<array>
 			<integer>0</integer>
