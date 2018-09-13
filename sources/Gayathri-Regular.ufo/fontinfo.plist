@@ -12,27 +12,6 @@
 		<integer>-634</integer>
 		<key>familyName</key>
 		<string>Gayathri</string>
-		<key>guidelines</key>
-		<array>
-			<dict>
-				<key>y</key>
-				<integer>246</integer>
-			</dict>
-			<dict>
-				<key>y</key>
-				<integer>1732</integer>
-			</dict>
-			<dict>
-				<key>y</key>
-				<integer>1572</integer>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>latin-top</string>
-				<key>y</key>
-				<integer>1304</integer>
-			</dict>
-		</array>
 		<key>italicAngle</key>
 		<integer>0</integer>
 		<key>note</key>
