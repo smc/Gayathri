@@ -187,7 +187,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 		<key>openTypeOS2TypoAscender</key>
 		<integer>1500</integer>
 		<key>openTypeOS2TypoDescender</key>
-		<integer>-100</integer>
+		<integer>-1000</integer>
 		<key>openTypeOS2TypoLineGap</key>
 		<integer>100</integer>
 		<key>openTypeOS2UnicodeRanges</key>
