@@ -747,6 +747,12 @@ svgs:
         base: -24
         unicode: '0059'
         glyph_name: Y
+    ¥:
+        left: 50
+        right: 50
+        base: -24
+        unicode: '00A5'
+        glyph_name: yen
     z:
         left: 100
         right: 100
