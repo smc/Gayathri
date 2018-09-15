@@ -116,7 +116,7 @@ def main(args=None):
 
     infoObject = InfoObject()
     reader.readInfo(infoObject)
-    fontName = getattr(infoObject, 'postscriptFullName')
+    fontName =  config['font']['name']
 
     with open(svg_file, "r", encoding="utf-8") as f:
         svg = f.read()
