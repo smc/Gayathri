@@ -184,13 +184,13 @@ svgs:
         unicode: 0D6F
         glyph_name: ml_9
     AA:
-        left: 50
-        right: 50
+        left: 25
+        right: 25
         base: -24
         unicode: '0041'
         glyph_name: A
     AE_capital:
-        left: 50
+        left: 25
         right: 50
         base: -24
         unicode: '00C6'
@@ -208,14 +208,14 @@ svgs:
         unicode: 002A
         glyph_name: asterisk
     a:
-        left: 100
-        right: 100
+        left: 75
+        right: 25
         base: -24
         unicode: '0061'
         glyph_name: a
     ae:
-        left: 100
-        right: 100
+        left: 75
+        right: 50
         base: -24
         unicode: '00E6'
         glyph_name: ae
@@ -233,7 +233,7 @@ svgs:
         glyph_name: avagraha
     BB:
         left: 100
-        right: 100
+        right: 75
         base: 0
         unicode: '0042'
         glyph_name: B
@@ -245,7 +245,7 @@ svgs:
         glyph_name: braceleft
     b:
         left: 100
-        right: 100
+        right: 50
         base: -24
         unicode: '0062'
         glyph_name: b
@@ -256,14 +256,14 @@ svgs:
         unicode: 005E
         glyph_name: asciicircum
     CC:
-        left: 100
-        right: 100
+        left: 50
+        right: 50
         base: -24
         unicode: '0043'
         glyph_name: C
     C_cedilla_capital:
-        left: 100
-        right: 100
+        left: 50
+        right: 50
         base: -790
         unicode: '00C7'
         glyph_name: Ccedilla
@@ -292,14 +292,14 @@ svgs:
         unicode: '00A9'
         glyph_name: copyright
     c:
-        left: 100
-        right: 100
+        left: 50
+        right: 50
         base: -24
         unicode: '0063'
         glyph_name: c
     DD:
         left: 100
-        right: 100
+        right: 50
         unicode: '0044'
         glyph_name: D
     degree:
@@ -327,14 +327,14 @@ svgs:
         unicode: 25CC
         glyph_name: uni25CC
     d:
-        left: 100
+        left: 50
         right: 100
         base: -24
         unicode: '0064'
         glyph_name: d
     EE:
         left: 100
-        right: 100
+        right: 75
         unicode: '0045'
         glyph_name: E
     equalssign:
@@ -344,14 +344,14 @@ svgs:
         unicode: 003D
         glyph_name: equal
     e:
-        left: 100
-        right: 100
+        left: 50
+        right: 50
         base: -24
         unicode: '0065'
         glyph_name: e
     exclamationmark:
-        left: 80
-        right: 80
+        left: 100
+        right: 100
         base: -24
         unicode: '0021'
         glyph_name: exclam
@@ -368,8 +368,8 @@ svgs:
         unicode: '0046'
         glyph_name: F
     f:
-        left: 50
-        right: 50
+        left: 25
+        right: 25
         base: -24
         unicode: '0066'
         glyph_name: f
@@ -379,8 +379,8 @@ svgs:
         unicode: 002E
         glyph_name: period
     GG:
-        left: 100
-        right: 100
+        left: 50
+        right: 75
         base: -24
         unicode: '0047'
         glyph_name: G
@@ -391,7 +391,7 @@ svgs:
         unicode: '0060'
         glyph_name: grave
     g:
-        left: 100
+        left: 50
         right: 100
         base: -404
         unicode: '0067'
@@ -410,43 +410,43 @@ svgs:
         glyph_name: H
     h:
         left: 100
-        right: 100
+        right: 50
         base: -24
         unicode: '0068'
         glyph_name: h
     II:
-        left: 100
-        right: 100
+        left: 50
+        right: 50
         base: -24
         unicode: '0049'
         glyph_name: I
     i:
-        left: 100
-        right: 100
+        left: 75
+        right: 75
         base: -24
         unicode: '0069'
         glyph_name: i
     JJ:
-        left: 50
-        right: 10
+        left: 25
+        right: 100
         base: -24
         unicode: 004A
         glyph_name: J
     j:
-        left: 50
+        left: 25
         right: 100
         base: -407
         unicode: 006A
         glyph_name: j
     KK:
         left: 100
-        right: 50
+        right: 25
         base: -24
         unicode: 004B
         glyph_name: K
     k:
         left: 100
-        right: 50
+        right: 25
         base: -24
         unicode: 006B
         glyph_name: k
@@ -470,12 +470,12 @@ svgs:
         glyph_name: less
     LL:
         left: 100
-        right: 50
+        right: 25
         unicode: 004C
         glyph_name: L
     l:
-        left: 100
-        right: 100
+        left: 75
+        right: 75
         base: -24
         unicode: 006C
         glyph_name: l
@@ -517,14 +517,14 @@ svgs:
         glyph_name: Danuswara
         glyph_name: n
     OO:
-        left: 100
-        right: 100
+        left: 50
+        right: 50
         base: -24
         unicode: 004F
         glyph_name: O
     OE_capital:
-        left: 100
-        right: 100
+        left: 50
+        right: 75
         base: 0
         unicode: '0152'
         glyph_name: OE
@@ -535,14 +535,14 @@ svgs:
         unicode: 00F8
         glyph_name: oslash
     o:
-        left: 100
-        right: 100
+        left: 50
+        right: 50
         base: -24
         unicode: 006F
         glyph_name: o
     oe:
-        left: 100
-        right: 100
+        left: 50
+        right: 50
         base: -24
         unicode: '0153'
         glyph_name: oe
@@ -582,8 +582,8 @@ svgs:
         unicode: '00A3'
         glyph_name: pound
     QQ:
-        left: 100
-        right: 100
+        left: 50
+        right: 50
         base: -24
         unicode: '0051'
         glyph_name: Q
@@ -607,13 +607,13 @@ svgs:
         glyph_name: registered
     RR:
         left: 100
-        right: 100
+        right: 50
         base: -24
         unicode: '0052'
         glyph_name: R
     r:
         left: 100
-        right: 50
+        right: 25
         base: -24
         unicode: '0072'
         glyph_name: r
@@ -642,14 +642,14 @@ svgs:
         unicode: 005B
         glyph_name: bracketleft
     SS:
-        left: 100
-        right: 100
+        left: 50
+        right: 50
         base: -24
         unicode: '0053'
         glyph_name: S
     s:
-        left: 100
-        right: 100
+        left: 50
+        right: 50
         base: -24
         unicode: '0073'
         glyph_name: s
@@ -666,8 +666,8 @@ svgs:
         unicode: 007E
         glyph_name: asciitilde
     t:
-        left: 50
-        right: 50
+        left: 25
+        right: 25
         base: -24
         unicode: '0074'
         glyph_name: t
@@ -678,8 +678,8 @@ svgs:
         unicode: '00DE'
         glyph_name: Thorn
     TT:
-        left: 50
-        right: 50
+        left: 25
+        right: 25
         base: -12
         unicode: '0054'
         glyph_name: T
@@ -701,50 +701,50 @@ svgs:
         unicode: 007C
         glyph_name: bar
     v:
-        left: 50
-        right: 50
+        left: 25
+        right: 25
         base: -24
         unicode: '0076'
         glyph_name: v
     VV:
-        left: 50
-        right: 50
+        left: 25
+        right: 25
         base: -24
         unicode: '0056'
         glyph_name: V
     w:
-        left: 50
-        right: 50
+        left: 25
+        right: 25
         base: -24
         unicode: '0077'
         glyph_name: w
     WW:
-        left: 50
-        right: 50
+        left: 25
+        right: 25
         base: -24
         unicode: '0057'
         glyph_name: W
     x:
-        left: 100
-        right: 100
+        left: 25
+        right: 25
         base: -24
         unicode: '0078'
         glyph_name: x
     XX:
-        left: 100
-        right: 100
+        left: 25
+        right: 25
         base: -24
         unicode: '0058'
         glyph_name: X
     y:
-        left: 50
-        right: 50
+        left: 25
+        right: 25
         base: -400
         unicode: '0079'
         glyph_name: y
     YY:
-        left: 50
-        right: 50
+        left: 25
+        right: 25
         base: -24
         unicode: '0059'
         glyph_name: Y
@@ -755,13 +755,13 @@ svgs:
         unicode: '00A5'
         glyph_name: yen
     z:
-        left: 100
-        right: 100
+        left: 25
+        right: 25
         unicode: 007A
         glyph_name: z
     ZZ:
-        left: 100
-        right: 100
+        left: 25
+        right: 25
         unicode: 005A
         glyph_name: Z
     ml_para:
