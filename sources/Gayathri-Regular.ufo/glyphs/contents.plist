@@ -574,6 +574,8 @@
 		<string>equal.glif</string>
 		<key>eth</key>
 		<string>eth.glif</string>
+		<key>euro</key>
+		<string>euro.glif</string>
 		<key>exclam</key>
 		<string>exclam.glif</string>
 		<key>f</key>
@@ -1514,6 +1516,8 @@
 		<string>period.glif</string>
 		<key>plus</key>
 		<string>plus.glif</string>
+		<key>pound</key>
+		<string>pound.glif</string>
 		<key>q</key>
 		<string>q.glif</string>
 		<key>question</key>

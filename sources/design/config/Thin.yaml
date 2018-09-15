@@ -354,6 +354,12 @@ svgs:
         base: -24
         unicode: '0021'
         glyph_name: exclam
+    €:
+        left: 80
+        right: 20
+        base: -24
+        unicode: '20AC'
+        glyph_name: euro
     FF:
         left: 100
         right: 50
@@ -568,6 +574,12 @@ svgs:
         base: -404
         unicode: '0070'
         glyph_name: p
+    £:
+        left: 50
+        right: 50
+        base: -24
+        unicode: '00A3'
+        glyph_name: pound
     QQ:
         left: 100
         right: 100
