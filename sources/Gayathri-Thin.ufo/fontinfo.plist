@@ -222,11 +222,11 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 		<key>postscriptFamilyOtherBlues</key>
 		<array>
 		</array>
+		<key>postscriptForceBold</key>
+		<false/>
 		<key>postscriptOtherBlues</key>
 		<array>
 		</array>
-		<key>postscriptForceBold</key>
-		<false/>
 		<key>postscriptSlantAngle</key>
 		<integer>0</integer>
 		<key>postscriptStemSnapH</key>
@@ -243,10 +243,10 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 		<integer>0</integer>
 		<key>styleMapFamilyName</key>
 		<string>Gayathri Thin</string>
-		<key>styleName</key>
-		<string>Thin</string>
 		<key>styleMapStyleName</key>
 		<string>regular</string>
+		<key>styleName</key>
+		<string>Thin</string>
 		<key>trademark</key>
 		<string></string>
 		<key>unitsPerEm</key>

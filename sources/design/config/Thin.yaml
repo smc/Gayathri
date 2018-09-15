@@ -1,5 +1,6 @@
 font:
     transform: 1 0 0 -1 0 0
+    name: Gayathri Thin
     ufo: sources/Gayathri-Thin.ufo
     version: 2 # UFO version
 svgs:
@@ -251,7 +252,7 @@ svgs:
     caret:
         left: 100
         right: 100
-        base: 1000
+        base: 1080
         unicode: 005E
         glyph_name: asciicircum
     CC:
@@ -304,7 +305,7 @@ svgs:
     degree:
         left: 0
         right: 0
-        base: 1000
+        base: 1080
         unicode: '00B0'
         glyph_name: degree
     divisionsign:
@@ -386,7 +387,7 @@ svgs:
     graveaccent:
         left: 0
         right: 0
-        base: 1000
+        base: 1080
         unicode: '0060'
         glyph_name: grave
     g:
@@ -886,7 +887,7 @@ svgs:
     dieresis:
         left: 80
         right: 80
-        base: 1000
+        base: 1080
         unicode: '00A8'
         glyph_name: dieresis
     Latin_Capital_Letter_Eth:
