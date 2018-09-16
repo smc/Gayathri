@@ -8,7 +8,7 @@ A gentle and modern Malayalam display typeface. Available in three weights, Gaya
 
 Gayathri is part of [Swathanthra Malayalam Computing projects' Malayalam typefaces](https://smc.org.in/fonts)
 
-Gayathri has wide coverage of Malayalam orthography with a total of 116 glyphs including basic latin and punctuations. It comes with three weights: Regular, Bold and Thin.
+Gayathri has wide coverage of Malayalam orthography with a total of 1116 glyphs including basic latin and punctuations. It comes with three weights: Regular, Bold and Thin.
 
 Building from source
 --------------------
