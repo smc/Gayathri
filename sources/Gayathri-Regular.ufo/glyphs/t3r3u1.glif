@@ -2,7 +2,7 @@
 <glyph name="t3r3u1" format="2">
 	<advance width="2653"/>
 	<outline>
-		<component base="u_sign_drop" xOffset="2023" yOffset="-194"/>
+		<component base="u_sign_drop" xOffset="2023" yOffset="-164"/>
 		<component base="t3r3"/>
 	</outline>
 	<lib>

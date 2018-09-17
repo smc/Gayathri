@@ -2,7 +2,7 @@
 <glyph name="zhu2" format="2">
 	<advance width="1202.3837382741"/>
 	<outline>
-		<component base="uu_sign_drop" xOffset="352"/>
+		<component base="uu_sign_drop" xOffset="342" yOffset="-20"/>
 		<component base="zh"/>
 	</outline>
 	<lib>

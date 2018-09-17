@@ -2,7 +2,7 @@
 <glyph name="nju1" format="2">
 	<advance width="2480"/>
 	<outline>
-		<component base="u_sign_drop" xOffset="1839"/>
+		<component base="u_sign_drop" xOffset="1839" yOffset="10"/>
 		<component base="nj" yOffset="7"/>
 	</outline>
 	<lib>

@@ -2,7 +2,7 @@
 <glyph name="nht3u2" format="2">
 	<advance width="3673.085972589"/>
 	<outline>
-		<component base="uu_sign_drop" xOffset="2893"/>
+		<component base="uu_sign_drop" xOffset="2893" yOffset="-15"/>
 		<component base="nht3"/>
 	</outline>
 	<lib>

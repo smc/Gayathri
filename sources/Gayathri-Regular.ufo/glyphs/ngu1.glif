@@ -2,7 +2,7 @@
 <glyph name="ngu1" format="2">
 	<advance width="1918.0119203046"/>
 	<outline>
-		<component base="u_sign_drop" xOffset="1234"/>
+		<component base="u_sign_drop" xOffset="1234" yOffset="2"/>
 		<component base="ng" yOffset="1"/>
 	</outline>
 	<lib>
