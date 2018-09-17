@@ -26,10 +26,10 @@ Building from source
 Development
 -----------
 Following development workflow is used for this typeface
-1. Designer produces SVG files with correct dimentions in the 2048em size. Commits to the repository
-2. Typeface Engineers prepared a big  configuration file containing svg file name to UFO glif mapping. See sources/svg-glif-mapping.yaml. It has left, right bearings, glyph width, base position in em canvas, unicode value and glyph name.
+1. Designer produces SVG files with correct dimensions in the 2048em size. Commits to the repository
+2. Typeface Engineers prepared a big configuration file containing svg file name to UFO glif mapping. See sources/design/config. It has left, right bearings, glyph width, base position in em canvas, unicode value and glyph name.
 3. Typeface Engineers execute a script `make ufo` to prepare or update the UFO from the svgs.
-   1. `Make ufo` first executes tools/import-svg-to-ufo.py to convert the svg to a UFO glif file. It uses the configuration for the svg defined in sources/svg-glif-mapping.yaml
+   1. `Make ufo` first executes tools/import-svg-to-ufo.py to convert the svg to a UFO glif file. It uses the configuration for the svg defined in sources/design/config
    2. `Make ufo` then executes `ufonormalizer` to clean up the UFO and do various normalization
    3. Finally `ufolint` is executed to lint the UFO.
 4. Typeface engineers construct the glyphs that use components(references) using a UFO editor like `trufont`
