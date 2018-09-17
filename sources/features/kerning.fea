@@ -10,8 +10,8 @@ lookup viramaPos {
 
 lookup latinPos {
   lookupflag 0;
-    pos [r y v f V Y A L w W T t] [e c a d o q g] -75;
-    pos [a e b c o p g] [v V A L y Y w W T] -75;
+    pos [r v f V Y A L w W T t] [e c a d o q g] -75;
+    pos [a e b c o p g] [v V A L Y w W T] -75;
     pos [A L] [T V] -25;
     pos [V T] [A] -25;
  } latinPos;
