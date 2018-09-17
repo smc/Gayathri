@@ -2,9 +2,11 @@ Gayathri Malayalam Typeface
 ===========================
 A gentle and modern Malayalam display typeface. Available in three weights, Gayathri is best suited for headlines, posters, titles and captions. Unicode compliant and libre licensed.
 
-* Design: Binoy Dominic
-* Opentype engineering: Kavya Manohar
-* Project coordination: Santhosh Thottingal
+* **Design**: Binoy Dominic
+* **Opentype engineering**: Kavya Manohar
+* **Project coordination**: Santhosh Thottingal
+
+**This project is financially supported by [Kerala Bhasha Institute](http://www.keralabhashainstitute.org/)**
 
 Gayathri is part of [Swathanthra Malayalam Computing projects' Malayalam typefaces](https://smc.org.in/fonts)
 
