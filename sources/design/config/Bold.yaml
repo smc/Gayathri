@@ -737,8 +737,8 @@ svgs:
         unicode: '0058'
         glyph_name: X
     y:
-        left: 25
-        right: 25
+        left: 100
+        right: 100
         base: -400
         unicode: '0079'
         glyph_name: y
