@@ -3,6 +3,6 @@
 	<advance width="2954"/>
 	<outline>
 		<component base="k3k4"/>
-		<component base="uu_sign_drop" xOffset="2284"/>
+		<component base="uu_sign_drop" xOffset="2284" yOffset="-10"/>
 	</outline>
 </glyph>
