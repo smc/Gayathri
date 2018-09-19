@@ -151,6 +151,7 @@
 			<string>Ccircumflex</string>
 			<string>Ccaron</string>
 			<string>Ccedilla</string>
+			<string>Cdotaccent</string>
 			<string>Dcaron</string>
 			<string>Ecircumflex</string>
 			<string>Egrave</string>
@@ -238,7 +239,6 @@
 			<string>otilde</string>
 			<string>odieresis</string>
 			<string>omacron</string>
-			<string>odieresis</string>
 			<string>oslash</string>
 			<string>uni01D2</string>
 			<string>oe</string>
