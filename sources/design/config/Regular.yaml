@@ -679,7 +679,7 @@ svgs:
         glyph_name: t
     Thorn_capital:
         left: 100
-        right: 100
+        right: 50
         base: -24
         unicode: '00DE'
         glyph_name: Thorn
@@ -909,8 +909,8 @@ svgs:
         unicode: '00F0'
         glyph_name: eth
     Latin_Small_Letter_Thorn:
-        left: 80
-        right: 80
+        left: 100
+        right: 50
         base: -412
         unicode: '00FE'
         glyph_name: thorn
