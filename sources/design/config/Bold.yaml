@@ -264,7 +264,7 @@ svgs:
     C_cedilla_capital:
         left: 50
         right: 50
-        base: -790
+        base: -401
         unicode: '00C7'
         glyph_name: Ccedilla
     cedilla:
