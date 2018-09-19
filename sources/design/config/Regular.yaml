@@ -191,7 +191,7 @@ svgs:
         glyph_name: A
     AE_capital:
         left: 25
-        right: 50
+        right: 75
         base: -24
         unicode: '00C6'
         glyph_name: AE
