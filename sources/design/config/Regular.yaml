@@ -426,6 +426,12 @@ svgs:
         base: -24
         unicode: '0069'
         glyph_name: i
+    Dotless_i:
+        left: 75
+        right: 75
+        base: -24
+        unicode: '0131'
+        glyph_name: dotlessi
     JJ:
         left: 25
         right: 100
