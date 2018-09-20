@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ml_rr" format="2">
 	<unicode hex="0D60"/>
-	<advance width="1557.0833333333"/>
+	<advance width="1557"/>
 	<outline>
-		<component base="n1" xScale="0.361007" yScale="0.322177" xOffset="455.2361396304" yOffset="-236.2032854209"/>
-		<component base="ml_r" yOffset="3"/>
+		<component base="ml_r"/>
+		<component base="_n1" xScale="0.6" yScale="0.6" xOffset="478" yOffset="155"/>
 	</outline>
 	<lib>
 		<dict>
