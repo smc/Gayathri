@@ -3,7 +3,7 @@
 	<advance width="2265"/>
 	<outline>
 		<component base="p3l3"/>
-		<component base="u_sign_drop" xOffset="1827" yOffset="-438"/>
+		<component base="u_sign_drop_small" xOffset="1883.0258968286" yOffset="-332.0567114032"/>
 	</outline>
 	<lib>
 		<dict>
