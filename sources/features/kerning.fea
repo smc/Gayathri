@@ -5,38 +5,57 @@ lookup viramaPos {
     pos xx [quotesingle quotedbl quoteleft quoteright quotedblleft quotedblright] 400;
     pos xx parenleft 200;
     pos xx parenright 400;
-	pos xx exclam 200;
+    pos xx exclam 200;
 } viramaPos;
+
+@lc_right_slant = [r v f w t];
+@lc_left_slant = [v w];
+@lc_left_round = [e c a d o q g];
+@lc_right_round = [a e b c o p g];
+
+@uc_left_slant = [V Y W T];
+@uc_right_slant = [V Y W T];
+@uc_left_round = [O Q];
+@uc_right_round = [O Q D P];
 
 lookup latinPos {
   lookupflag 0;
-    pos [r v f V Y A L w W T t] [e c a d o q g] -75;
-    pos [a e b c o p g] [v V A L Y w W T] -75;
-    pos [A L] [T V] -25;
-    pos [V T] [A] -25;
- } latinPos;
+    pos @lc_right_slant @lc_left_round -75;
+    pos @lc_right_round @lc_left_slant -75;
+
+    pos @uc_right_slant @lc_left_round  -200;
+    pos @uc_right_slant @uc_left_slant  -200;
+
+    pos A @uc_left_slant -200;
+    pos @uc_right_slant A -200;
+
+    pos @uc_right_slant @uc_left_round -200;
+    pos @uc_right_round @uc_left_slant -200;
+    pos @uc_left_slant @uc_left_slant 50;
+
+    pos [P T] J -200;
+    pos L @uc_left_slant -200;
+
+    pos [i l I ] [I i l] 100;
+} latinPos;
 
 feature kern {
-
- script DFLT;
-     language dflt ;
+  script DFLT;
+    language dflt;
       lookup viramaPos;
       lookup latinPos;
 
- script latn;
-     language dflt ;
-      lookup viramaPos;
+  script latn;
+    language dflt;
       lookup latinPos;
 
- script mlm2;
-     language dflt ;
+  script mlm2;
+    language dflt;
       lookup viramaPos;
-      lookup latinPos;
 
  script mlym;
-     language dflt ;
+    language dflt;
       lookup viramaPos;
-      lookup latinPos;
 } kern;
 
 #Mark attachment classes (defined in GDEF, used in lookupflags)
