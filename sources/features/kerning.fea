@@ -27,14 +27,20 @@ lookup latinPos {
     pos @uc_right_slant @uc_left_slant  -200;
 
     pos A @uc_left_slant -200;
+    pos A @lc_left_slant -100;
     pos @uc_right_slant A -200;
 
     pos @uc_right_slant @uc_left_round -200;
     pos @uc_right_round @uc_left_slant -200;
     pos @uc_left_slant @uc_left_slant 50;
 
-    pos [P T] J -200;
+    pos [P T V W] J -200;
     pos L @uc_left_slant -200;
+    pos L @lc_left_slant -200;
+
+    pos T @uc_left_round -100;
+    pos T @lc_left_round -200;
+    pos T @lc_left_slant -200;
 
     pos [i l I ] [I i l] 100;
 } latinPos;
