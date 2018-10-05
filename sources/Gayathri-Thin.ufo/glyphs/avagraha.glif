@@ -10,12 +10,12 @@
 			<point x="20" y="-121" type="curve"/>
 			<point x="19" y="-284"/>
 			<point x="146" y="-385"/>
-			<point x="299" y="-393" type="curve" smooth="yes"/>
+			<point x="299" y="-392" type="curve" smooth="yes"/>
 			<point x="395" y="-397"/>
 			<point x="497" y="-364"/>
 			<point x="561" y="-288" type="curve" smooth="yes"/>
 			<point x="690" y="-133"/>
-			<point x="721" y="292"/>
+			<point x="721" y="293"/>
 			<point x="741" y="496" type="curve" smooth="yes"/>
 			<point x="760" y="685"/>
 			<point x="790" y="1110"/>
@@ -29,16 +29,13 @@
 			<point x="1219" y="1105"/>
 			<point x="1214" y="1067"/>
 			<point x="1203" y="1032" type="curve" smooth="yes"/>
-			<point x="1202" y="1029"/>
-			<point x="1201" y="1026"/>
-			<point x="1201" y="1024" type="curve" smooth="yes"/>
-			<point x="1202" y="1000"/>
-			<point x="1247" y="991"/>
+			<point x="1193" y="1002"/>
+			<point x="1244" y="991"/>
 			<point x="1265" y="991" type="curve" smooth="yes"/>
 			<point x="1284" y="991"/>
 			<point x="1317" y="999"/>
 			<point x="1324" y="1020" type="curve" smooth="yes"/>
-			<point x="1334" y="1051"/>
+			<point x="1333" y="1051"/>
 			<point x="1339" y="1083"/>
 			<point x="1339" y="1116" type="curve" smooth="yes"/>
 			<point x="1339" y="1278"/>
@@ -52,7 +49,7 @@
 			<point x="618" y="500" type="curve" smooth="yes"/>
 			<point x="600" y="310"/>
 			<point x="569" y="-115"/>
-			<point x="450" y="-259" type="curve" smooth="yes"/>
+			<point x="450" y="-258" type="curve" smooth="yes"/>
 			<point x="415" y="-300"/>
 			<point x="364" y="-326"/>
 			<point x="310" y="-323" type="curve" smooth="yes"/>
@@ -62,11 +59,8 @@
 			<point x="140" y="-111"/>
 			<point x="145" y="-73"/>
 			<point x="156" y="-38" type="curve" smooth="yes"/>
-			<point x="157" y="-35"/>
-			<point x="158" y="-33"/>
-			<point x="158" y="-30" type="curve" smooth="yes"/>
-			<point x="157" y="-6"/>
-			<point x="113" y="3"/>
+			<point x="166" y="-8"/>
+			<point x="116" y="3"/>
 			<point x="95" y="3" type="curve" smooth="yes"/>
 			<point x="76" y="3"/>
 			<point x="42" y="-4"/>
