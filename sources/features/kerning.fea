@@ -2,10 +2,12 @@
 # GPOS
 lookup viramaPos {
   lookupflag 0;
-    pos xx [quotesingle quotedbl quoteleft quoteright quotedblleft quotedblright] 400;
+    pos xx [quotesingle quotedbl quoteleft quoteright quotedblleft quotedblright] 200;
     pos xx parenleft 200;
-    pos xx parenright 400;
+    pos xx parenright 200;
     pos xx exclam 200;
+    pos n1rh xx 150;
+    pos n1cil xx 150;
 } viramaPos;
 
 @lc_right_slant = [r v f w t];
