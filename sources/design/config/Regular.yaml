@@ -520,7 +520,6 @@ svgs:
         right: 100
         base: -24
         unicode: 006E
-        glyph_name: Danuswara
         glyph_name: n
     OO:
         left: 50
@@ -921,14 +920,14 @@ svgs:
         unicode: '00D8'
         glyph_name: Oslash
     ം:
-        left: 90
-        right: 90
+        left: 60
+        right: 80
         base: -24
         unicode: 0D02
         glyph_name: anuswara
     ഃ:
-        left: 100
-        right: 100
+        left: 60
+        right: 80
         base: -24
         unicode: 0D03
         glyph_name: visarga
@@ -1941,7 +1940,7 @@ svgs:
         base: -486
         glyph_name: p4r3
     ം:
-        left: 80
+        left: 60
         right: 80
         base: -24
         unicode: 0D02
@@ -2264,7 +2263,7 @@ svgs:
         base: -210
         glyph_name: v2
     ാ:
-        left: 80
+        left: 60
         right: 80
         base: -24
         unicode: 0D3E
@@ -2315,18 +2314,18 @@ svgs:
         glyph_name: uu_sign_drop_small
     െ:
         left: 80
-        right: 80
+        right: 60
         base: -24
         unicode: 0D46
         glyph_name: e1
     േ:
         left: 80
-        right: 80
+        right: 60
         base: -24
         unicode: 0D47
         glyph_name: e2
     ൗ:
-        left: 80
+        left: 60
         right: 80
         base: -24
         unicode: 0D57
