@@ -6,8 +6,8 @@ lookup viramaPos {
     pos xx parenleft 200;
     pos xx parenright 200;
     pos xx exclam 200;
-    pos n1rh xx 150;
-    pos n1cil xx 150;
+    pos [n1cil n1rh] i1 100;
+    pos [n1cil n1rh] [xx i2] 150;
 } viramaPos;
 
 @lc_right_slant = [r v f w t];
