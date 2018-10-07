@@ -22,29 +22,29 @@ lookup viramaPos {
 
 lookup latinPos {
   lookupflag 0;
-    pos @lc_right_slant @lc_left_round -75;
-    pos @lc_right_round @lc_left_slant -75;
+    pos @lc_right_slant @lc_left_round -50;
+    pos @lc_right_round @lc_left_slant -50;
 
-    pos @uc_right_slant @lc_left_round  -200;
-    pos @uc_right_slant @uc_left_slant  -200;
+    pos @uc_right_slant @lc_left_round  -160;
+    pos @uc_right_slant @uc_left_slant  -160;
 
-    pos A @uc_left_slant -200;
-    pos A @lc_left_slant -100;
-    pos @uc_right_slant A -200;
+    pos A @uc_left_slant -160;
+    pos A @lc_left_slant -80;
+    pos @uc_right_slant A -160;
 
-    pos @uc_right_slant @uc_left_round -200;
-    pos @uc_right_round @uc_left_slant -200;
+    pos @uc_right_slant @uc_left_round -160;
+    pos @uc_right_round @uc_left_slant -160;
     pos @uc_left_slant @uc_left_slant 50;
 
-    pos [P T V W] J -200;
-    pos L @uc_left_slant -200;
-    pos L @lc_left_slant -200;
+    pos [P T V W] J -160;
+    pos L @uc_left_slant -160;
+    pos L @lc_left_slant -160;
 
-    pos T @uc_left_round -100;
+    pos T @uc_left_round -80;
     pos T @lc_left_round -200;
-    pos T @lc_left_slant -200;
+    pos T @lc_left_slant -160;
 
-    pos [i l I ] [I i l] 100;
+    pos [i l I ] [I i l] 80;
 } latinPos;
 
 feature kern {
