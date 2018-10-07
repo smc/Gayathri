@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="quoteleft" format="2">
 	<unicode hex="2018"/>
-	<advance width="365"/>
+	<advance width="261.0925637233"/>
 	<outline>
-		<component base="quoteright" xScale="-0.992509" yScale="-1" xOffset="464.273" yOffset="2740"/>
+		<component base="comma" xScale="-1" yScale="-1" xOffset="341.0925637233" yOffset="1336.0679349704"/>
 	</outline>
 </glyph>
