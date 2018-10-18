@@ -931,6 +931,12 @@ svgs:
         base: -24
         unicode: 0D03
         glyph_name: visarga
+    Dot_Reph:
+        left: 50
+        right: -198
+        base: 1120
+        unicode: 0D4E
+        glyph_name: dotreph
     അ:
         left: 80
         right: 80
