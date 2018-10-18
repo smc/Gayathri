@@ -60,17 +60,11 @@
 			<point x="200" y="648"/>
 			<point x="279" y="867"/>
 			<point x="459" y="935" type="curve" smooth="yes"/>
-			<point x="473" y="940"/>
-			<point x="486" y="952"/>
-			<point x="486" y="964" type="curve" smooth="yes"/>
-			<point x="486" y="971"/>
-			<point x="483" y="977"/>
+			<point x="481" y="943"/>
+			<point x="498" y="964"/>
 			<point x="476" y="983" type="curve" smooth="yes"/>
-			<point x="463" y="995"/>
-			<point x="446" y="1000"/>
-			<point x="429" y="1000" type="curve" smooth="yes"/>
-			<point x="412" y="1000"/>
-			<point x="395" y="995"/>
+			<point x="448" y="1007"/>
+			<point x="411" y="1002"/>
 			<point x="380" y="989" type="curve" smooth="yes"/>
 			<point x="174" y="905"/>
 			<point x="77" y="684"/>
