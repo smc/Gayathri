@@ -19,7 +19,7 @@
 			<point x="2312" y="579"/>
 			<point x="2272" y="517"/>
 			<point x="2210" y="476" type="curve"/>
-			<point x="2284" y="434"/>
+			<point x="2284" y="433"/>
 			<point x="2335" y="366"/>
 			<point x="2342" y="281" type="curve" smooth="yes"/>
 			<point x="2348" y="210"/>
@@ -31,17 +31,11 @@
 			<point x="2022" y="-31"/>
 			<point x="1938" y="-26"/>
 			<point x="1860" y="1" type="curve" smooth="yes"/>
-			<point x="1835" y="10"/>
-			<point x="1813" y="28"/>
-			<point x="1812" y="48" type="curve" smooth="yes"/>
-			<point x="1812" y="58"/>
-			<point x="1817" y="68"/>
+			<point x="1824" y="14"/>
+			<point x="1792" y="46"/>
 			<point x="1828" y="78" type="curve" smooth="yes"/>
-			<point x="1849" y="96"/>
-			<point x="1883" y="104"/>
-			<point x="1915" y="103" type="curve" smooth="yes"/>
-			<point x="1934" y="103"/>
-			<point x="1953" y="100"/>
+			<point x="1862" y="107"/>
+			<point x="1927" y="109"/>
 			<point x="1968" y="95" type="curve" smooth="yes"/>
 			<point x="1986" y="89"/>
 			<point x="2006" y="85"/>

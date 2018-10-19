@@ -1,18 +1,65 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Creator: CorelDRAW X8 -->
-<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="1615px" height="868px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-viewBox="0 0 1635 879"
- xmlns:xlink="http://www.w3.org/1999/xlink">
- <defs>
-  <style type="text/css">
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xml:space="preserve"
+   width="1615px"
+   height="868px"
+   version="1.1"
+   style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+   viewBox="0 0 1635 879"
+   id="svg10"
+   sodipodi:docname="റ്റ്ര_small.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"><metadata
+   id="metadata14"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="3200"
+   inkscape:window-height="1685"
+   id="namedview12"
+   showgrid="false"
+   inkscape:zoom="0.2718894"
+   inkscape:cx="358.78814"
+   inkscape:cy="434"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Layer_x0020_1" />
+ <defs
+   id="defs4">
+  <style
+   type="text/css"
+   id="style2">
    <![CDATA[
     .fil0 {fill:#B2B09C;fill-rule:nonzero}
    ]]>
   </style>
  </defs>
- <g id="Layer_x0020_1">
-  <metadata id="CorelCorpID_0Corel-Layer"/>
-  <path class="fil0" d="M466 559c19,9 23,26 4,38 -21,13 -52,12 -74,1 -110,-55 -177,-168 -176,-287 2,-178 150,-311 333,-311 181,0 328,135 332,311 3,120 -64,230 -174,286 -23,11 -53,14 -76,0 -19,-12 -14,-29 5,-38 101,-48 147,-147 146,-248 -3,-128 -85,-257 -233,-257 -151,0 -233,127 -233,257 -1,99 46,201 146,248zm488 -248c-1,119 67,232 176,287 22,11 53,12 75,-1 19,-12 14,-29 -5,-38 -99,-47 -146,-149 -146,-248 1,-130 82,-257 233,-257 176,0 253,154 248,309 -3,104 -39,186 -95,251 -150,172 -434,218 -667,212 -181,-5 -381,-49 -514,-155 -95,-76 -158,-184 -159,-334 -1,-116 49,-227 156,-292 19,-11 17,-28 -2,-38 -20,-10 -51,-10 -70,2 -128,76 -185,199 -184,328 2,174 84,298 205,383 155,108 376,153 568,158 239,7 548,-43 728,-214 79,-75 130,-173 134,-301 6,-205 -131,-363 -348,-363 -180,0 -331,130 -333,311z"/>
+ <g
+   id="Layer_x0020_1">
+  <metadata
+   id="CorelCorpID_0Corel-Layer" />
+  <path
+   class="fil0"
+   d="m 320,311 c 0,-130 82,-257 233,-257 148,0 230,129 233,257 1,101 -45,200 -146,248 -19,9 -24,26 -5,38 23,14 53,11 76,0 C 821,541 888,431 885,311 881,135 734,0 553,0 370,0 222,133 220,311 c -1,119 66,232 176,287 22,11 53,12 74,-1 19,-12 15,-29 -4,-38 C 366,512 319,410 320,311 Z M 1287,0 c 217,0 354,158 348,363 -4,128 -55,226 -134,301 C 1321,835 1012,885 773,878 581,873 360,828 205,720 84,635 2,511 0,337 -1,208 56,85 184,9 c 19,-12 50,-12 70,-2 19,10 21,27 2,38 -107,65 -157,176 -156,292 1,150 64,258 159,334 133,106 333,150 514,155 233,6 517,-40 667,-212 56,-65 92,-147 95,-251 5,-155 -72,-309 -248,-309 -151,0 -232,127 -233,257 0,99 47,201 146,248 19,9 24,26 5,38 -22,13 -53,12 -75,1 C 1021,543 953,430 954,311 956,130 1107,0 1287,0 Z"
+   id="path7"
+   inkscape:connector-curvature="0"
+   style="fill:#b2b09c;fill-rule:nonzero"
+   sodipodi:nodetypes="cscccccscscccscccccccccccccscccccs" />
  </g>
 </svg>

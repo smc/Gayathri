@@ -141,18 +141,12 @@
 			<point x="1601" y="177"/>
 			<point x="1662" y="62"/>
 			<point x="1766" y="-2" type="curve" smooth="yes"/>
-			<point x="1786" y="-14"/>
-			<point x="1809" y="-24"/>
-			<point x="1832" y="-23" type="curve" smooth="yes"/>
-			<point x="1846" y="-23"/>
-			<point x="1860" y="-20"/>
+			<point x="1799" y="-22"/>
+			<point x="1838" y="-33"/>
 			<point x="1873" y="-12" type="curve" smooth="yes"/>
-			<point x="1885" y="-5"/>
-			<point x="1890" y="4"/>
-			<point x="1890" y="12" type="curve" smooth="yes"/>
-			<point x="1890" y="21"/>
-			<point x="1883" y="31"/>
-			<point x="1870" y="37" type="curve"/>
+			<point x="1897" y="3"/>
+			<point x="1894" y="25"/>
+			<point x="1870" y="37" type="curve" smooth="yes"/>
 			<point x="1736" y="109"/>
 			<point x="1687" y="289"/>
 			<point x="1687" y="433" type="curve" smooth="yes"/>
