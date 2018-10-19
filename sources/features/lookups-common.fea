@@ -91,7 +91,9 @@ lookup blws_la_sign_excludes {
         [
            t1 r3 va_sign
            k1l3 k3l3 th1l3 p1l3 p2l3 m1l3 l3l3 v1v1 v1l3 z1l3 s1l3 h1l3
-           ch1ch1 ch1ch2 k3k3 rhrh s1s1 t1t1 z1z1
+           k1t1 k1nh k1n1 k1m1 k1s1 k1rhrh k3k3 ch1ch1 ch1ch2 t1t1 p1th1 p1n1 p1p2
+           p1s1 y1k1 y1k1k1 l3k1 l3p1 z1n1 z1m1 z1z1 shk1 sht1 sht2 shnh sh1p1 shm1
+           s1k1 s1k1k1 s1th1 s1s1 s1p1 s1m1 s1n1 rhrh zhk1 zhch1
         ]
         l4'
         lookup restore_virama;
@@ -218,9 +220,9 @@ lookup akhn_conditional_stacking {
     sub sh' xx' m1' by shm1;
 
     ignore sub s1' xx' [m1 n1 p1]' [u1 u2 r1 r2 l1 l2];
-    ignore sub s1' xx' m1' xx [m1 r3];
-    ignore sub s1' xx' n1' xx [n1 r3];
-    ignore sub s1' xx' p1' xx [p1 r3];
+    ignore sub s1' xx' m1' xx [m1 r3 l3];
+    ignore sub s1' xx' n1' xx [n1 r3 l3];
+    ignore sub s1' xx' p1' xx [p1 r3 l3];
     sub s1' xx' m1' by s1m1;
     sub s1' xx' n1' by s1n1;
     sub s1' xx' p1' by s1p1;
