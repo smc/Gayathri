@@ -20,9 +20,9 @@
 		<key>openTypeHeadCreated</key>
 		<string>2018/04/22 10:00:00</string>
 		<key>openTypeHheaAscender</key>
-		<integer>1414</integer>
+		<integer>1500</integer>
 		<key>openTypeHheaDescender</key>
-		<integer>-750</integer>
+		<integer>-1000</integer>
 		<key>openTypeHheaLineGap</key>
 		<integer>0</integer>
 		<key>openTypeNameCompatibleFullName</key>
@@ -34,7 +34,7 @@
 		<key>openTypeNameLicense</key>
 		<string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL</string>
 		<key>openTypeNameLicenseURL</key>
-		<string>https://scripts.sil.org/OFL</string>
+		<string>http://scripts.sil.org/OFL</string>
 		<key>openTypeNameManufacturer</key>
 		<string>SMC</string>
 		<key>openTypeNameManufacturerURL</key>
@@ -96,7 +96,7 @@
 		<key>openTypeOS2TypoDescender</key>
 		<integer>-1000</integer>
 		<key>openTypeOS2TypoLineGap</key>
-		<integer>100</integer>
+		<integer>0</integer>
 		<key>openTypeOS2UnicodeRanges</key>
 		<array>
 			<integer>0</integer>
@@ -112,9 +112,9 @@
 		<key>openTypeOS2WidthClass</key>
 		<integer>5</integer>
 		<key>openTypeOS2WinAscent</key>
-		<integer>1500</integer>
+		<integer>2038</integer>
 		<key>openTypeOS2WinDescent</key>
-		<integer>1000</integer>
+		<integer>1234</integer>
 		<key>postscriptBlueValues</key>
 		<array>
 			<integer>-24</integer>
