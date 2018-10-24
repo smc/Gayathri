@@ -49,9 +49,9 @@
 			<point x="1057" y="91" type="line"/>
 			<point x="1057" y="607" type="line" smooth="yes"/>
 			<point x="1057" y="870"/>
-			<point x="1269" y="1000"/>
-			<point x="1488" y="1000" type="curve" smooth="yes"/>
-			<point x="1706" y="1000"/>
+			<point x="1269" y="999"/>
+			<point x="1488" y="999" type="curve" smooth="yes"/>
+			<point x="1706" y="999"/>
 			<point x="1933" y="856"/>
 			<point x="1933" y="601" type="curve" smooth="yes"/>
 		</contour>
