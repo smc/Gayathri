@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ellipsis" format="2">
 	<unicode hex="2026"/>
-	<advance width="1268"/>
+	<advance width="1159"/>
 	<outline>
 		<component base="period" xOffset="779" yOffset="4"/>
 		<component base="period" xOffset="389" yOffset="4"/>

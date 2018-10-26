@@ -898,7 +898,7 @@ svgs:
     Latin_Capital_Letter_Eth:
         left: 80
         right: 80
-        base: -24
+        base: 0
         unicode: '00D0'
         glyph_name: Eth
     Latin_Small_Letter_Eth:
@@ -910,7 +910,7 @@ svgs:
     Latin_Small_Letter_Thorn:
         left: 100
         right: 50
-        base: -412
+        base: -402
         unicode: '00FE'
         glyph_name: thorn
     Ø:
@@ -1102,7 +1102,7 @@ svgs:
     ഖ:
         left: 80
         right: 100
-        base: -12
+        base: -24
         unicode: 0D16
         glyph_name: k2
     ഖ്ര:
