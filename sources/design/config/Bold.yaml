@@ -910,7 +910,7 @@ svgs:
     Latin_Small_Letter_Thorn:
         left: 100
         right: 50
-        base: -412
+        base: -402
         unicode: '00FE'
         glyph_name: thorn
     Ø:
