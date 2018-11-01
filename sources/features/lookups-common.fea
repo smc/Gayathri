@@ -219,7 +219,8 @@ lookup akhn_conditional_stacking {
     ignore sub sh' xx' m1' xx [m1 r3 l3];
     sub sh' xx' m1' by shm1;
 
-    ignore sub s1' xx' [m1 n1 p1]' [u1 u2 r1 r2 l1 l2];
+    ignore sub s1' xx' [m1 n1]' [u1 u2 r1 r2 l1 l2];
+    ignore sub s1' xx' p1' [r1 r2 l1 l2];
     ignore sub s1' xx' m1' xx [m1 r3 l3];
     ignore sub s1' xx' n1' xx [n1 r3 l3];
     ignore sub s1' xx' p1' xx [p1 r3 l3];
@@ -901,6 +902,8 @@ lookup psts_vowel_signs_common {
     sub s1th2 u1  by s1th2u1;
     sub s1th2 u2  by s1th2u2;
     sub s1th2 r1  by s1th2r1;
+    sub s1p1 u1 by s1p1u1;
+    sub s1p1 u2 by s1p1u2;
     sub s1r3 u1  by s1r3u1;
     sub s1r3 u2  by s1r3u2;
     sub s1l3 u1  by s1l3u1;
