@@ -51,13 +51,13 @@
 			<point x="77" y="-451"/>
 			<point x="227" y="-486"/>
 			<point x="357" y="-486" type="curve" smooth="yes"/>
-			<point x="1679" y="-486" type="line" smooth="yes"/>
-			<point x="1711" y="-486"/>
-			<point x="1740" y="-460"/>
-			<point x="1740" y="-427" type="curve" smooth="yes"/>
-			<point x="1740" y="-394"/>
-			<point x="1711" y="-368"/>
-			<point x="1679" y="-368" type="curve" smooth="yes"/>
+			<point x="1660" y="-486" type="line" smooth="yes"/>
+			<point x="1692" y="-486"/>
+			<point x="1721" y="-460"/>
+			<point x="1721" y="-427" type="curve" smooth="yes"/>
+			<point x="1721" y="-394"/>
+			<point x="1692" y="-368"/>
+			<point x="1660" y="-368" type="curve" smooth="yes"/>
 			<point x="357" y="-368" type="line" smooth="yes"/>
 			<point x="290" y="-368"/>
 			<point x="207" y="-356"/>

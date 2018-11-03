@@ -67,13 +67,13 @@
 			<point x="-2" y="-883"/>
 			<point x="97" y="-904"/>
 			<point x="180" y="-904" type="curve" smooth="yes"/>
-			<point x="1148" y="-904" type="line" smooth="yes"/>
-			<point x="1175" y="-904"/>
-			<point x="1197" y="-886"/>
-			<point x="1197" y="-864" type="curve" smooth="yes"/>
-			<point x="1197" y="-841"/>
-			<point x="1175" y="-823"/>
-			<point x="1148" y="-823" type="curve" smooth="yes"/>
+			<point x="1150" y="-904" type="line" smooth="yes"/>
+			<point x="1177" y="-904"/>
+			<point x="1199" y="-886"/>
+			<point x="1199" y="-864" type="curve" smooth="yes"/>
+			<point x="1199" y="-841"/>
+			<point x="1177" y="-823"/>
+			<point x="1150" y="-823" type="curve" smooth="yes"/>
 			<point x="180" y="-823" type="line" smooth="yes"/>
 			<point x="128" y="-823"/>
 			<point x="101" y="-810"/>
