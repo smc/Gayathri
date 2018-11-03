@@ -18,17 +18,14 @@ from ufoLib.plistlib import readPlist
 import argparse
 import os
 import re
-
+import xml.etree.ElementTree as etree
 
 class InfoObject(object):
     pass
 
 
 def parseSvg(path):
-    import xml.etree.ElementTree as etree
-    tree = etree.parse(path)
-    return tree.getroot()
-
+    return etree.parse(path).getroot()
 
 def getConfig(configFile):
     import yaml
@@ -41,7 +38,7 @@ def split(arg):
     return arg.replace(",", " ").split()
 
 
-def svg2glif(svg, name, width=0, height=0, unicodes=None, transform=None,
+def svg2glif(svg_file, name, width=0, height=0, unicodes=None, transform=None,
              version=2):
     """ Convert an SVG outline to a UFO glyph with given 'name', advance
     'width' and 'height' (int), and 'unicodes' (list of int).
@@ -50,7 +47,7 @@ def svg2glif(svg, name, width=0, height=0, unicodes=None, transform=None,
     conversion (must be tuple of 6 floats, or a FontTools Transform object).
     """
     glyph = SimpleNamespace(width=width, height=height, unicodes=unicodes)
-    outline = SVGPath.fromstring(svg, transform=transform)
+    outline = SVGPath(svg_file, transform)
 
     # writeGlyphToString takes a callable (usually a glyph's drawPoints
     # method) that accepts a PointPen, however SVGPath currently only has
@@ -118,9 +115,6 @@ def main(args=None):
     reader.readInfo(infoObject)
     fontName =  config['font']['name']
 
-    with open(svg_file, "r", encoding="utf-8") as f:
-        svg = f.read()
-
     # Get the configuration for this svg
     try:
         svg_config = config['svgs'][name]
@@ -158,7 +152,7 @@ def main(args=None):
     transform[4] += int(svg_config['left'])  # X offset = left bearing
     transform[5] += height + base # Y offset
 
-    glif = svg2glif(svg,
+    glif = svg2glif(svg_file,
                     name=svg_config['glyph_name'],
                     width=glyphWidth,
                     height=getattr(infoObject, 'unitsPerEm'),
