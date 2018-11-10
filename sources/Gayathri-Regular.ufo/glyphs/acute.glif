@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="acute" format="2">
 	<unicode hex="00B4"/>
-	<advance width="439"/>
+	<advance height="2048" width="569"/>
 	<outline>
-		<component base="grave" xScale="0" xyScale="-1" yxScale="1" yScale="0" xOffset="-995" yOffset="1437"/>
+		<contour>
+			<point x="547.24607" y="1371" type="curve" smooth="yes"/>
+			<point x="167.246069" y="1091" type="line" smooth="yes"/>
+			<point x="143.246069" y="1072"/>
+			<point x="119.246069" y="1081"/>
+			<point x="97.246069" y="1106" type="curve" smooth="yes"/>
+			<point x="76.2460694" y="1131"/>
+			<point x="71.2460694" y="1157"/>
+			<point x="94.246069" y="1179" type="curve" smooth="yes"/>
+			<point x="439.24607" y="1501" type="line" smooth="yes"/>
+			<point x="471.24607" y="1531"/>
+			<point x="517.24607" y="1509"/>
+			<point x="544.24607" y="1474" type="curve" smooth="yes"/>
+			<point x="570.24607" y="1440"/>
+			<point x="580.24607" y="1395"/>
+		</contour>
 	</outline>
 </glyph>

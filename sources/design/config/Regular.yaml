@@ -213,6 +213,12 @@ svgs:
         base: -24
         unicode: '0061'
         glyph_name: a
+    acute:
+        left: 80
+        right: 0
+        base: 1080
+        unicode: '00B4'
+        glyph_name: acute
     ae:
         left: 75
         right: 50
