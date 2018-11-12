@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="k2u2" format="2">
-	<advance width="1740"/>
+	<advance width="1740.0812397147"/>
 	<outline>
-		<component base="k2"/>
-		<component base="uu_sign_drop" xOffset="991" yOffset="26"/>
+		<component base="k2" yOffset="-6"/>
+		<component base="uu_sign_drop" xOffset="990" yOffset="16"/>
 	</outline>
 	<lib>
 		<dict>
