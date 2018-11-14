@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ngk1r3u1" format="2">
-	<advance width="2312.2905140708"/>
+	<advance width="2272.2977871362"/>
 	<outline>
 		<component base="ngk1r3"/>
-		<component base="u_sign_drop" xOffset="1822.8704333383" yOffset="-201.1310517942"/>
+		<component base="u_sign_drop" xOffset="1718.8704333383" yOffset="-261.1310517942"/>
 	</outline>
 </glyph>
