@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="njch1u2" format="2">
-	<advance width="2682"/>
+	<advance width="2702"/>
 	<outline>
-		<component base="njch1"/>
-		<component base="uu_sign_drop" xOffset="2012" yOffset="-10"/>
+		<component base="njch1" yOffset="-1"/>
+		<component base="uu_sign_drop" xOffset="2032" yOffset="-40"/>
 	</outline>
 	<lib>
 		<dict>

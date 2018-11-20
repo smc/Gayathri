@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="njnju2" format="2">
-	<advance width="3742.085972589"/>
+	<advance width="3674"/>
 	<outline>
-		<component base="uu_sign_drop" xOffset="3043" yOffset="-18"/>
 		<component base="njnj"/>
+		<component base="uu_sign_drop" xOffset="3043" yOffset="-18"/>
 	</outline>
 	<lib>
 		<dict>

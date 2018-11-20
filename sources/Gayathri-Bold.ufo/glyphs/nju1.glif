@@ -2,8 +2,8 @@
 <glyph name="nju1" format="2">
 	<advance width="2501"/>
 	<outline>
-		<component base="nj" yOffset="7"/>
-		<component base="u_sign_drop" xOffset="1879" yOffset="40"/>
+		<component base="u_sign_drop" xOffset="1799" yOffset="18"/>
+		<component base="nj"/>
 	</outline>
 	<lib>
 		<dict>
