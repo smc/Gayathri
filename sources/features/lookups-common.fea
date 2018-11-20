@@ -277,6 +277,7 @@ lookup akhn_conjuncts {
     sub ch3 xx ch3  by ch3ch3;
     sub ch3 xx nj  by ch3nj;
     sub nj xx ch1  by njch1;
+	sub nj xx ch2  by njch2;
     sub nj xx ch3  by njch3;
     sub nj xx nj  by njnj;
     sub t1 xx t1  by t1t1;
@@ -638,6 +639,8 @@ lookup psts_vowel_signs_common {
     sub njch1 u1  by njch1u1;
     sub njch1 u2  by njch1u2;
     sub njch1 r1  by njch1r1;
+	sub njch2 u1  by njch2u1;
+	sub njch2 u2  by njch2u2;
     sub njch3 u1  by njch3u1;
     sub njch3 u2  by njch3u2;
     sub njnj u1  by njnju1;
