@@ -5,14 +5,26 @@
 viewBox="0 0 1079 110"
  xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
+  <font id="FontID0" horiz-adv-x="1060" font-variant="normal" style="fill-rule:nonzero" font-weight="400">
+	<font-face 
+		font-family="SVGBOLD">
+		<font-face-src>
+			<font-face-name name="SVGBOLD Bold"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="_" horiz-adv-x="959" d="M811 0c23.1667,0 73.5001,10.5001 73.5001,41.3334 0,30.6666 -50.3334,41.1667 -73.5001,41.1667l-662.5 0c-23.1667,0 -73.5001,-10.5001 -73.5001,-41.1667 0,-30.8333 50.3334,-41.3334 73.5001,-41.3334l662.5 0z"/>
+  </font>
   <style type="text/css">
    <![CDATA[
-    .fil0 {fill:#A82682;fill-rule:nonzero}
+    @font-face { font-family:"SVGBOLD";font-variant:normal;font-weight:normal;src:url("#FontID0") format(svg)}
+    .fil0 {fill:#2B2A29}
+    .fnt0 {font-weight:normal;font-size:1332.92px;font-family:'SVGBOLD'}
    ]]>
   </style>
  </defs>
  <g id="Layer_x0020_1">
   <metadata id="CorelCorpID_0Corel-Layer"/>
-  <path class="fil0" d="M98 110c-31,0 -98,-14 -98,-55 0,-41 67,-55 98,-55l883 0c31,0 98,14 98,55 0,41 -67,55 -98,55l-883 0z"/>
+  <text x="-100" y="110"  class="fil0 fnt0">_</text>
  </g>
 </svg>

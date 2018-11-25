@@ -5,14 +5,26 @@
 viewBox="0 0 955 868"
  xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
+  <font id="FontID0" horiz-adv-x="1060" font-variant="normal" style="fill-rule:nonzero" font-style="normal" font-weight="700">
+	<font-face 
+		font-family="SVGNEW B">
+		<font-face-src>
+			<font-face-name name="SVGNEW B Bold"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="Ǧ" horiz-adv-x="519" d="M33.8332 0.833386l420.833 0 0 838.667 -420.833 0 0 -838.667zm42.6668 40.5l0 756.167 337.667 0 0 -756.167 -337.667 0z"/>
+  </font>
   <style type="text/css">
    <![CDATA[
-    .fil0 {fill:#A82682}
+    @font-face { font-family:"SVGNEW B";font-variant:normal;font-style:normal;font-weight:bold;src:url("#FontID0") format(svg)}
+    .fil0 {fill:#2B2A29}
+    .fnt0 {font-weight:bold;font-size:1332.87px;font-family:'SVGNEW B'}
    ]]>
   </style>
  </defs>
  <g id="Layer_x0020_1">
   <metadata id="CorelCorpID_0Corel-Layer"/>
-  <path class="fil0" d="M421 718c-29,0 -63,3 -90,13 -12,4 -32,14 -33,29 0,15 20,26 33,30 27,10 61,13 90,13 25,0 51,-2 75,-9 15,-4 44,-15 44,-34 0,-18 -28,-29 -43,-33 -24,-7 -50,-9 -76,-9zm118 -411c2,179 -43,292 -245,292 -96,1 -178,-32 -235,-110 -40,-55 -60,-129 -59,-197 1,-117 77,-253 196,-286 28,-8 57,-9 84,3 32,13 31,39 0,52 -88,37 -137,141 -138,231 0,58 16,126 51,173 21,29 60,66 100,65 102,-1 104,-151 103,-223 -3,-183 38,-306 249,-307 125,-1 225,63 275,177 27,63 37,132 35,200 -3,76 -21,151 -53,220 -53,111 -142,199 -261,238 -34,12 -70,19 -106,25 -37,5 -75,7 -113,8 -47,1 -97,-4 -142,-16 -43,-10 -116,-39 -116,-92 1,-53 76,-82 119,-93 45,-10 92,-14 138,-14 42,0 84,3 125,12 40,9 98,30 120,66 55,-45 91,-108 116,-174 21,-57 33,-121 32,-182 -2,-61 -9,-127 -34,-183 -22,-52 -71,-122 -135,-123 -104,-1 -108,166 -106,238z"/>
+  <text x="0" y="-36"  class="fil0 fnt0">Ǧ</text>
  </g>
 </svg>
