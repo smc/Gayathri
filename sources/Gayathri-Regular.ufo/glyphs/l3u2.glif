@@ -2,8 +2,8 @@
 <glyph name="l3u2" format="2">
 	<advance width="1457"/>
 	<outline>
-		<component base="uu_sign_drop" xOffset="757"/>
 		<component base="l3"/>
+		<component base="uu_sign_drop" xOffset="747"/>
 	</outline>
 	<lib>
 		<dict>
