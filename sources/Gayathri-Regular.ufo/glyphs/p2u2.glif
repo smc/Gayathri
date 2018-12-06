@@ -2,8 +2,8 @@
 <glyph name="p2u2" format="2">
 	<advance width="1939.085972589"/>
 	<outline>
-		<component base="uu_sign_drop" xOffset="1239"/>
 		<component base="p2"/>
+		<component base="uu_sign_drop" xOffset="1229"/>
 	</outline>
 	<lib>
 		<dict>
