@@ -2,8 +2,8 @@
 <glyph name="th2u2" format="2">
 	<advance width="1528"/>
 	<outline>
-		<component base="uu_sign_drop" xOffset="828"/>
 		<component base="th2"/>
+		<component base="uu_sign_drop" xOffset="818"/>
 	</outline>
 	<lib>
 		<dict>
