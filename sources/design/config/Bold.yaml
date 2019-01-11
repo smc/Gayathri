@@ -664,6 +664,12 @@ svgs:
         base: -24
         unicode: '0073'
         glyph_name: s
+    germandbls:
+        left: 50
+        right: 50
+        base: -24
+        unicode: '00DF'
+        glyph_name: germandbls
     ൳:
         left: 100
         right: 60
