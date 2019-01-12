@@ -69,6 +69,9 @@ install: otf
 	install -D -m 0644 $(BLDDIR)/*.otf ${DESTDIR}${INSTALLPATH}/
 
 test: ttf $(PDFS)
+	fontbakery check-fontval $(BLDDIR)/*.ttf
+	fontbakery check-ufo-sources $(SRCDIR)/*.ufo
+	fontbakery check-opentype $(BLDDIR)/*.otf
 
 glyphs: $(FONTS:%=$(SRCDIR)/$(NAME)-%/glyphs)
 
