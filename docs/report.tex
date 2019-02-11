@@ -1,4 +1,4 @@
-\documentclass[12pt]{report}
+\documentclass[a4paper, 12pt]{report}
 
 \usepackage{hyperref}
 \usepackage{fontspec}
@@ -10,6 +10,7 @@
 \usepackage[pages=some,placement=top]{background}
 \usepackage{longtable}
 \usepackage[top=.5in, bottom=.5in, left=1in, right=1in]{geometry}
+\newfontface\customfont[Path = ./../build/, Color = 0000AA]{Gayathri-Regular.otf}
 \definecolor{header}{gray}{.9}
 
 \hypersetup{
@@ -44,7 +45,7 @@
 \backgroundsetup{
 scale=1,
 color=black,
-opacity=0.6,
+opacity=0.9,
 angle=0,
 contents={%
   \includegraphics[width=\paperwidth]{title.png}
@@ -86,7 +87,7 @@ contents={%
 	
 	\begin{figure}
 		\begin{centering}
-			\includegraphics[width=0.8\textwidth]{ml-unicode.png}
+			\includegraphics[width=1.0\textwidth]{ml-unicode.png}
 			\caption{മലയാളം യൂണിക്കോഡ് സമ്പൂര്‍ണ്ണ കവറേജ്}
 			\label{unicode}
 		\end{centering}
@@ -103,7 +104,7 @@ contents={%
 	‍ 
 	\begin{figure}
 		\begin{centering}
-			\includegraphics[width=0.8\textwidth]{style.jpg}
+			\includegraphics[width=1.0\textwidth]{style.jpg}
 			\caption{കൂ, ച്ച, ള്ള എന്നിവയുടെ ശൈലീഭേദങ്ങൾ ചിത്രീകരിച്ചിരിക്കുന്നു.}
 			\label{style}
 		\end{centering}
@@ -116,7 +117,7 @@ contents={%
 	
 	\begin{figure}
 		\begin{centering}
-			\includegraphics[width=0.8\textwidth]{ga.jpg}
+			\includegraphics[width=1.0\textwidth]{ga.jpg}
 			\caption{ഡിസൈന്‍ വിശദാംശങ്ങള്‍. അക്ഷരങ്ങളുടെ അറ്റങ്ങൾ ഉരുണ്ടതും വായനാസുഖം നൽകുന്നതുമാണ്.}
 			\label{one}
 		\end{centering}
