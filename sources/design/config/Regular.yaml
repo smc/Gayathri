@@ -204,7 +204,7 @@ svgs:
     asterisk:
         left: 50
         right: 50
-        base: 500
+        base: 800
         unicode: 002A
         glyph_name: asterisk
     a:
