@@ -29,7 +29,7 @@ build-branch:
 build-tag:
   stage: build
   script:
-    - apt-get install zip
+    - apt-get install -y zip
     - make otf ttf webfonts
     - sh tools/artifacts.sh
   artifacts:
@@ -41,7 +41,7 @@ build-tag:
 test:
   stage: test
   script:
-    - apt-get install libharfbuzz-bin fntsample
+    - apt-get install -y libharfbuzz-bin fntsample
     - make test
 
 pages:
