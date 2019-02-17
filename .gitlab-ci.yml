@@ -1,4 +1,4 @@
-image: "debian:buster"
+image: "registry.gitlab.com/smc/dockerfiles:font-builder"
 
 stages:
   - build
@@ -11,8 +11,6 @@ variables:
   WEBSITE_REPO_BRANCH: "master"
 
 before_script:
-  - apt-get update -y
-  - apt-get install -y make python3-pip
   - pip3 install -r requirements.txt
 
 build-branch:
@@ -29,7 +27,6 @@ build-branch:
 build-tag:
   stage: build
   script:
-    - apt-get install -y zip
     - make otf ttf webfonts
     - sh tools/artifacts.sh
   artifacts:
@@ -41,7 +38,6 @@ build-tag:
 test:
   stage: test
   script:
-    - apt-get install -y libharfbuzz-bin fntsample
     - make test
 
 pages:
