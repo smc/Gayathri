@@ -22,10 +22,12 @@ Building from source
     ```
     pip3 install -r requirements.txt
     ```
-2. Build the ttf, otf, woff2 files:
+2. Build the otf
    ```
-   make all
+   make
    ```
+
+If you want to build ttf use `make ttf`. For webfonts, use `make webfonts`. For testing use `make test`.
 
 Development
 -----------
