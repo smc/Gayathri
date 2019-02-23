@@ -12,6 +12,10 @@ Gayathri is part of [Swathanthra Malayalam Computing projects' Malayalam typefac
 
 Gayathri has wide coverage of Malayalam orthography with a total of 1116 glyphs including basic latin and punctuations. It comes with three weights: Regular, Bold and Thin.
 
+Release announcement: [Malayalam](https://blog.smc.org.in/gayathri-malayalam-font-release/), [English](https://thottingal.in/blog/2019/02/21/gayathri-new-malayalam-typeface/)
+
+![GitHub Logo](docs/Gayathri_1200x630.jpg)
+
 Building from source
 --------------------
 1. Install the python libraries required for build script:
