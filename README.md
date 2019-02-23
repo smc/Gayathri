@@ -27,7 +27,13 @@ Building from source
    make
    ```
 
-If you want to build ttf use `make ttf`. For webfonts, use `make webfonts`. For testing use `make test`.
+Note that it will take about 10 minutes to build all fonts in a typical computer. 
+
+If you want to build ttf use `make ttf`. For webfonts, use `make webfonts`.
+
+Testing
+-------
+For testing use `make test`. You will require Font-Validator from https://github.com/HinTak/Font-Validator/ for testing. Also hb-view from harfbuzz package.
 
 Development
 -----------
