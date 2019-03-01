@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dotreph" format="2">
 	<unicode hex="0D4E"/>
-	<advance height="2048" width="32"/>
+	<advance height="2048" width="67"/>
 	<outline>
 		<contour>
-			<point x="140" y="1300" type="curve" smooth="yes"/>
-			<point x="90" y="1300"/>
-			<point x="50" y="1260"/>
-			<point x="50" y="1210" type="curve" smooth="yes"/>
-			<point x="50" y="1160"/>
-			<point x="90" y="1120"/>
-			<point x="140" y="1120" type="curve" smooth="yes"/>
-			<point x="190" y="1120"/>
-			<point x="230" y="1160"/>
-			<point x="230" y="1210" type="curve" smooth="yes"/>
-			<point x="230" y="1260"/>
-			<point x="190" y="1300"/>
+			<point x="157" y="1335" type="curve" smooth="yes"/>
+			<point x="98" y="1335"/>
+			<point x="50" y="1287"/>
+			<point x="50" y="1228" type="curve" smooth="yes"/>
+			<point x="50" y="1168"/>
+			<point x="98" y="1120"/>
+			<point x="157" y="1120" type="curve" smooth="yes"/>
+			<point x="217" y="1120"/>
+			<point x="265" y="1168"/>
+			<point x="265" y="1228" type="curve" smooth="yes"/>
+			<point x="265" y="1287"/>
+			<point x="217" y="1335"/>
 		</contour>
 	</outline>
 </glyph>

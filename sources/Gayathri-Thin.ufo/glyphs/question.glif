@@ -59,17 +59,17 @@
 		</contour>
 		<contour>
 			<point x="525" y="-24" type="curve" smooth="yes"/>
-			<point x="568" y="-24"/>
-			<point x="600" y="15"/>
-			<point x="600" y="51" type="curve" smooth="yes"/>
-			<point x="600" y="88"/>
-			<point x="568" y="126"/>
-			<point x="525" y="126" type="curve" smooth="yes"/>
-			<point x="481" y="126"/>
-			<point x="450" y="88"/>
-			<point x="450" y="51" type="curve" smooth="yes"/>
-			<point x="450" y="15"/>
-			<point x="481" y="-24"/>
+			<point x="578" y="-24"/>
+			<point x="617" y="23"/>
+			<point x="617" y="69" type="curve" smooth="yes"/>
+			<point x="617" y="114"/>
+			<point x="578" y="161"/>
+			<point x="525" y="161" type="curve" smooth="yes"/>
+			<point x="472" y="161"/>
+			<point x="433" y="114"/>
+			<point x="433" y="69" type="curve" smooth="yes"/>
+			<point x="433" y="23"/>
+			<point x="472" y="-24"/>
 		</contour>
 	</outline>
 </glyph>
