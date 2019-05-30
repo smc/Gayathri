@@ -72,7 +72,7 @@ test: ttf $(PDFS)
 	fontbakery check-fontval $(BLDDIR)/*.ttf
 	fontbakery check-ufo-sources $(SRCDIR)/*.ufo
 	fontbakery check-opentype $(BLDDIR)/*.otf
-	fontbakery check-googlefonts -x com.google.fonts/check/029 -x com.google.fonts/check/117 $(BLDDIR)/*.ttf
+	fontbakery check-googlefonts -x com.google.fonts/check/name/license -x com.google.fonts/check/version_bump $(BLDDIR)/*.ttf
 
 glyphs: $(FONTS:%=$(SRCDIR)/$(NAME)-%/glyphs)
 
