@@ -7,7 +7,6 @@ PY=python3
 version=`cat VERSION`
 TOOLDIR=tools
 SRCDIR=sources
-webfontscript=$(TOOLDIR)/webfonts.py
 designspace=$(SRCDIR)/GayathriProject.designspace
 tests=tests
 BLDDIR=build
