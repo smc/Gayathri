@@ -6,7 +6,7 @@ A gentle and modern Malayalam display typeface. Available in three weights, Gaya
 * **Opentype engineering**: Kavya Manohar
 * **Project coordination**: Santhosh Thottingal
 
-**This project is financially supported by [Kerala Bhasha Institute](http://www.keralabhashainstitute.org/)**
+This project was financially supported by [Kerala Bhasha Institute](http://www.keralabhashainstitute.org/)
 
 Gayathri is part of [Swathanthra Malayalam Computing projects' Malayalam typefaces](https://smc.org.in/fonts)
 
@@ -26,8 +26,6 @@ Building from source
    ```
    make
    ```
-
-Note that it will take about 10 minutes to build all fonts in a typical computer. 
 
 If you want to build ttf use `make ttf`. For webfonts, use `make webfonts`.
 
@@ -49,6 +47,11 @@ Following development workflow is used for this typeface
 6. `make test` Generates a PDF with sample content for manual visual inspection.
 7. Webfonts, TTF are also generated.
 8. Gitlab CI pipeline executes `make otf ttf webfonts` and uploads the webfonts to a Gitlab pages so that a demo webpage is also prepared. From this pipeline results the generated font can also be downloaded.
+
+Credits
+-------
+
+See FONTLOG.md for details on contributions.
 
 License
 -------
