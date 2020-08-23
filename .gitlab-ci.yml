@@ -30,16 +30,27 @@ build-tag:
     - make otf ttf webfonts
     - sh tools/artifacts.sh
   artifacts:
+    expire_in: 1000 yrs
     paths:
     - build/
   only:
     - tags
+
 
 test:
   stage: test
   script:
     - make test
 
+create-gitlab-release:
+  image: "ruby:2.5-alpine"
+  stage: release
+  script:
+    - gem install --no-document gitlab
+    - ruby release.rb
+  only:
+    - tags
+    
 pages:
   stage: deploy
   script:
