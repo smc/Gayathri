@@ -4,17 +4,13 @@ stages:
   - build
   - test
   - release
-  - deploy
-
-variables:
-  WEBSITE_REPO_TRIGGER: "https://gitlab.com/api/v4/projects/125326/trigger/pipeline"
-  WEBSITE_REPO_BRANCH: "master"
-
-before_script:
-  - pip3 install -r requirements.txt
 
 build-branch:
   stage: build
+  before_script:
+    - apt-get update -y
+    - apt-get install -y make python3-pip
+    - pip3 install -r requirements.txt
   script:
     - make otf ttf webfonts
   artifacts:
@@ -23,11 +19,14 @@ build-branch:
   except:
     - tags
 
-
 build-tag:
   stage: build
+  before_script:
+    - apt-get update -y
+    - apt-get install -y make python3-pip zip
+    - pip3 install -r requirements.txt
   script:
-    - make otf ttf webfonts
+    - make ttf otf webfonts
     - sh tools/artifacts.sh
   artifacts:
     expire_in: 1000 yrs
@@ -36,9 +35,12 @@ build-tag:
   only:
     - tags
 
-
 test:
   stage: test
+  before_script:
+    - apt-get update -y
+    - apt-get install -y make libharfbuzz-bin python3-pip
+    - pip3 install -r requirements.txt
   script:
     - make test
 
@@ -50,25 +52,9 @@ create-gitlab-release:
     - ruby release.rb
   only:
     - tags
-    
-pages:
-  stage: deploy
-  script:
-    - make webfonts
-    - mkdir .public
-    - cp -r build tests .public
-    - mv .public public
-  artifacts:
-    paths:
-    - public
-  only:
-    - master
 
 release:
-  image: "pstauffer/curl:latest"
   stage: release
-  before_script: []
-  script:
-    - curl --request POST --form "token=$CI_JOB_TOKEN" --form ref=${WEBSITE_REPO_BRANCH} "${WEBSITE_REPO_TRIGGER}"
+  trigger: smc/smc.org.in
   only:
     - tags
