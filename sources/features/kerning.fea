@@ -14,9 +14,12 @@ lookup viramaPos {
 @lc_left_slant = [v w];
 @lc_left_round = [e c a d o q g];
 @lc_right_round = [a e b c o p g];
+@lc_postive_space = [r f y v w ];
+@lc_above_base = [a b c d e f h i k l m n o r s t u v w x z];
+@lc_negative_space = [j];
 
 @uc_left_slant = [V Y W T];
-@uc_right_slant = [V Y W T];
+@uc_right_slant = [V Y W T F];
 @uc_left_round = [O Q];
 @uc_right_round = [O Q D P];
 
@@ -24,13 +27,15 @@ lookup latinPos {
   lookupflag 0;
     pos @lc_right_slant @lc_left_round -50;
     pos @lc_right_round @lc_left_slant -50;
+    pos @lc_postive_space @lc_negative_space -350;
+    pos @lc_above_base @lc_negative_space -300;
 
     pos @uc_right_slant @lc_left_round  -160;
     pos @uc_right_slant @uc_left_slant  -160;
 
-    pos A @uc_left_slant -160;
+    pos A @uc_left_slant -200;
     pos A @lc_left_slant -80;
-    pos @uc_right_slant A -160;
+    pos @uc_right_slant A -200;
 
     pos @uc_right_slant @uc_left_round -160;
     pos @uc_right_round @uc_left_slant -160;

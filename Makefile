@@ -17,6 +17,7 @@ TTF=$(FONTS:%=$(BLDDIR)/$(NAME)-%.ttf)
 WOFF2=$(FONTS:%=$(BLDDIR)/$(NAME)-%.woff2)
 PDFS=$(FONTS:%=$(BLDDIR)/$(NAME)-%-ligatures.pdf)   \
 	$(FONTS:%=$(BLDDIR)/$(NAME)-%-content.pdf)      \
+	$(FONTS:%=$(BLDDIR)/$(NAME)-%-kerning.pdf)      \
 	$(FONTS:%=$(BLDDIR)/$(NAME)-%-table.pdf)
 
 $(BLDDIR)/%.otf: $(SRCDIR)/%.ufo
@@ -43,6 +44,12 @@ $(BLDDIR)/%-ligatures.pdf: $(BLDDIR)/%.ttf
 	@echo "   TEST    $(@F)"
 	@hb-view $< --font-size 14 --margin 100 --line-space 1.5 \
 		--foreground=333333 --text-file $(tests)/ligatures.txt \
+		--output-file $(BLDDIR)/$(@F);
+
+$(BLDDIR)/%-kerning.pdf: $(BLDDIR)/%.ttf
+	@echo "   TEST    $(@F)"
+	@hb-view $< --font-size 14 --margin 100 --line-space 1.5 \
+		--foreground=333333 --text-file $(tests)/kerning.txt \
 		--output-file $(BLDDIR)/$(@F);
 
 $(BLDDIR)/%-content.pdf: $(BLDDIR)/%.ttf
