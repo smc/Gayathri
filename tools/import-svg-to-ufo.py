@@ -14,7 +14,7 @@ from fontTools.svgLib import SVGPath
 from ufoLib import UFOReader, UFOWriter, writePlistAtomically, UFOLibError
 from ufoLib.pointPen import SegmentToPointPen
 from ufoLib.glifLib import writeGlyphToString
-from ufoLib.plistlib import readPlist
+from ufoLib.plistlib import load
 import argparse
 import os
 import re
@@ -30,7 +30,7 @@ def parseSvg(path):
 def getConfig(configFile):
     import yaml
     with open(configFile, 'r') as ymlfile:
-        cfg = yaml.load(ymlfile)
+        cfg = yaml.load(ymlfile, Loader=yaml.FullLoader)
     return cfg
 
 
@@ -132,7 +132,7 @@ def main(args=None):
     contentsPlistPath = ufo_font_path + '/glyphs/contents.plist'
     try:
         with open(contentsPlistPath, "rb") as f:
-            contentsPlist = readPlist(f)
+            contentsPlist = load(f)
     except:
         raise UFOLibError("The file %s could not be read." % contentsPlistPath)
 
