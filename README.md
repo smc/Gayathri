@@ -6,7 +6,7 @@ A gentle and modern Malayalam display typeface. Available in three weights, Gaya
 * **Opentype engineering**: Kavya Manohar
 * **Project coordination**: Santhosh Thottingal
 
-This project was financially supported by [Kerala Bhasha Institute](http://www.keralabhashainstitute.org/)
+This project was financially supported by [Kerala Bhasha Institute](https://www.keralabhashainstitute.org/)
 
 Gayathri is part of [Swathanthra Malayalam Computing projects' Malayalam typefaces](https://smc.org.in/fonts)
 
