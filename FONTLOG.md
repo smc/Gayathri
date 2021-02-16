@@ -12,9 +12,9 @@ A gentle and modern Malayalam display typeface. Gayathri is best suited for head
 * Opentype engineering: Kavya Manohar
 * Project coordination: Santhosh Thottingal
 
-This project was financially supported by [Kerala Bhasha Institute](http://www.keralabhashainstitute.org/)
+This project was financially supported by [Kerala Bhasha Institute](https://www.keralabhashainstitute.org/)
 
-Gayathri belongs to the typefaces released by [Swathanthra Malayalam Computing](smc.org.in), a volunteer driven organization for developing and promoting free and opensource software for Malayalam computing. It shares the experience and expertise by the organization in its more than a decade effort in standardizing and improving opentype Malayalam typeface technology.
+Gayathri belongs to the typefaces released by [Swathanthra Malayalam Computing](https://smc.org.in), a volunteer driven organization for developing and promoting free and opensource software for Malayalam computing. It shares the experience and expertise by the organization in its more than a decade effort in standardizing and improving opentype Malayalam typeface technology.
 
 Gayathri inherits the traditional orthography style opentype font development practices pioneered by Rachana by K H Hussain and Rachana Aksharavedi. This includes glyph naming conventions, the supported ligature collection, a significant parts of opentype rules.
 
@@ -41,4 +41,4 @@ Gayathri is released under the OFL 1.1 - https://scripts.sil.org/OFL For informa
 When you are submitting patches, please add your name to CONTRIBUTORS.md if you wish to be listed there.
 
 See the project website for the current master and the various branches:
-http://gitlab.com/smc/fonts/gayathri
+https://gitlab.com/smc/fonts/gayathri
