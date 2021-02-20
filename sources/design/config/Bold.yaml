@@ -503,7 +503,7 @@ svgs:
         base: -24
         unicode: 006D
         glyph_name: m
-    minus:
+    hyphen:
         left: 100
         right: 100
         base: 450
@@ -2756,3 +2756,135 @@ svgs:
       right: 0
       base: -904
       glyph_name: _rhrhr3
+    cent:
+        left: 100
+        right: 100
+        base: -24
+        unicode: '00A2'
+        glyph_name: cent
+    smalltilde:
+        left: 100
+        right: 100
+        base: 1060
+        unicode: '02DC'
+        glyph_name: tilde
+    currency:
+        left: 100
+        right: 100
+        base: -24
+        unicode: '00A4'
+        glyph_name: currency
+    brokenbar:
+        left: 100
+        right: 100
+        base: -24
+        unicode: '00A6'
+        glyph_name: brokenbar
+    plusminus:
+        left: 100
+        right: 100
+        base: -24
+        unicode: '00B1'
+        glyph_name: plusminus
+    periodcentered:
+        left: 100
+        right: 100
+        base: 450
+        unicode: '00B7'
+        glyph_name: periodcentered
+    minus:
+        left: 100
+        right: 100
+        base: 450
+        unicode: '2212'
+        glyph_name: minus
+    divisionslash:
+        left: 100
+        right: 100
+        base: -24
+        unicode: '2215'
+        glyph_name: divisionslash
+    logicalnot:
+        left: 100
+        right: 100
+        base: -24
+        unicode: '00AC'
+        glyph_name: logicalnot
+    circumflex:
+        left: 100
+        right: 100
+        base: 1060
+        unicode: '02C6'
+        glyph_name: circumflex
+    ring:
+        left: 100
+        right: 100
+        base: 1060
+        unicode: '02DA'
+        glyph_name: ring
+    uni2039:
+        left: 100
+        right: 100
+        base: 80
+        unicode: '2039'
+        glyph_name: uni2039
+    uni203A:
+        left: 100
+        right: 100
+        base: 80
+        unicode: '203A'
+        glyph_name: uni203A
+    fraction:
+        left: 100
+        right: 100
+        base: -24
+        unicode: '2044'
+        glyph_name: fraction
+    feminineordinal:
+        left: 100
+        right: 100
+        base: 1060
+        unicode: '00AA'
+        glyph_name: feminineordinal
+    masculineordinal:
+        left: 100
+        right: 100
+        base: 1060
+        unicode: '00BA'
+        glyph_name: masculineordinal
+    micro:
+        left: 100
+        right: 100
+        base: -24
+        unicode: '00B5'
+        glyph_name: micro
+    section:
+        left: 100
+        right: 100
+        base: -24
+        unicode: '00A7'
+        glyph_name: section
+    onehalf:
+        left: 100
+        right: 100
+        base: -24
+        unicode: '00BD'
+        glyph_name: onehalf
+    onequarter:
+        left: 100
+        right: 100
+        base: -24
+        unicode: '00BC'
+        glyph_name: onequarters
+    threequarters:
+        left: 100
+        right: 100
+        base: -24
+        unicode: '00BE'
+        glyph_name: threequarters
+    exclamdown:
+        left: 100
+        right: 100
+        base: -24
+        unicode: '00A1'
+        glyph_name: exclamdown

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="divisionslash" format="2">
+	<unicode hex="2215"/>
+	<advance height="2048" width="1012"/>
+	<outline>
+		<contour>
+			<point x="178.202" y="-8.367" type="line"/>
+			<point x="907.985" y="1348.349" type="line" smooth="yes"/>
+			<point x="909.594" y="1351.34"/>
+			<point x="912" y="1355.854"/>
+			<point x="912" y="1359.209" type="curve" smooth="yes"/>
+			<point x="912" y="1372.841"/>
+			<point x="891.501" y="1381"/>
+			<point x="871.179" y="1381" type="curve" smooth="yes"/>
+			<point x="855.346" y="1381"/>
+			<point x="839.897" y="1376.123"/>
+			<point x="834.022" y="1365.21" type="curve" smooth="yes"/>
+			<point x="103.413" y="8.259" type="line" smooth="yes"/>
+			<point x="102.035" y="5.7"/>
+			<point x="99.952" y="1.965"/>
+			<point x="100.001" y="-1.477" type="curve" smooth="yes"/>
+			<point x="100.208" y="-15.785"/>
+			<point x="119.986" y="-24"/>
+			<point x="140.038" y="-24.001" type="curve" smooth="yes"/>
+			<point x="155.595" y="-24.001"/>
+			<point x="172.15" y="-19.618"/>
+			<point x="178.202" y="-8.367" type="curve" smooth="yes"/>
+		</contour>
+	</outline>
+</glyph>

@@ -1139,6 +1139,28 @@
 			<string>lhlh.alt1</string>
 			<string>lhlhu1.alt1</string>
 			<string>lhlhu2.alt1</string>
+			<string>brokenbar</string>
+			<string>cent</string>
+			<string>circumflex</string>
+			<string>currency</string>
+			<string>divisionslash</string>
+			<string>feminineordinal</string>
+			<string>fraction</string>
+			<string>logicalnot</string>
+			<string>masculineordinal</string>
+			<string>micro</string>
+			<string>minus</string>
+			<string>onehalf</string>
+			<string>periodcentered</string>
+			<string>plusminus</string>
+			<string>ring</string>
+			<string>section</string>
+			<string>tilde</string>
+			<string>threequarters</string>
+			<string>uni2039</string>
+			<string>uni203A</string>
+			<string>onequarter</string>
+			<string>exclamdown</string>
 		</array>
 	</dict>
 </plist>

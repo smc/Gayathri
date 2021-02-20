@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dotreph" format="2">
 	<unicode hex="0D4E"/>
-	<advance height="2048"/>
+	<advance height="2048" width="67"/>
 	<outline>
 		<contour>
 			<point x="157" y="1335" type="curve" smooth="yes"/>
