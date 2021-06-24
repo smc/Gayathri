@@ -7,14 +7,15 @@ Copyright 2018, MIT License
 
 from __future__ import print_function, absolute_import
 
-__requires__ = ["FontTools", "ufoLib"]
+__requires__ = ["FontTools"]
 
 from fontTools.misc.py23 import SimpleNamespace
 from fontTools.svgLib import SVGPath
-from ufoLib import UFOReader, UFOWriter, writePlistAtomically, UFOLibError
-from ufoLib.pointPen import SegmentToPointPen
-from ufoLib.glifLib import writeGlyphToString
-from ufoLib.plistlib import load
+from fontTools.ufoLib import UFOLibError, UFOReader, UFOWriter
+from fontTools.ufoLib.pointPen import SegmentToPointPen
+from fontTools.ufoLib.glifLib import writeGlyphToString
+from fontTools.ufoLib.plistlib import load, writePlist
+
 import argparse
 import os
 import re
