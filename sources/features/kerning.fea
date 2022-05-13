@@ -38,7 +38,7 @@ lookup latinPos {
     pos @uc_right_slant A -200;
 
     pos @uc_right_slant @uc_left_round -160;
-    pos @uc_right_round @uc_left_slant -160;
+    pos @uc_right_round @uc_left_slant -50;
     pos @uc_left_slant @uc_left_slant 50;
 
     pos [P T V W] J -160;
