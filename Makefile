@@ -26,7 +26,7 @@ $(BLDDIR)/%.otf: $(SRCDIR)/%.ufo
 
 $(BLDDIR)/%.ttf: $(SRCDIR)/%.ufo
 	@echo "  BUILD    $(@F)"
-	@fontmake --verbose=WARNING -o ttf -e 0.01 --output-dir $(BLDDIR) -u $<
+	@fontmake --verbose=WARNING -o ttf -e 0.01 --flatten-components --filter DecomposeTransformedComponentsFilter --output-dir $(BLDDIR) -u $<
 
 $(BLDDIR)/%.woff2: $(BLDDIR)/%.otf
 	@echo "WEBFONT    $(@F)"
@@ -78,7 +78,7 @@ test: ttf otf $(PDFS)
 	# fontbakery check-fontval $(BLDDIR)/*.ttf <- enable when https://github.com/microsoft/Font-Validator/issues/62 fixed
 	fontbakery check-ufo-sources $(SRCDIR)/*.ufo
 	fontbakery check-opentype $(BLDDIR)/*.otf
-	fontbakery check-googlefonts -x com.google.fonts/check/version_bump -x com.google.fonts/check/glyph_coverage -x com.google.fonts/check/repo/zip_files $(BLDDIR)/*.ttf
+	fontbakery check-googlefonts -x com.google.fonts/check/version_bump -x com.google.fonts/check/repo/zip_files -x com.google.fonts/check/fontdata_namecheck $(BLDDIR)/*.ttf
 
 glyphs: $(FONTS:%=$(SRCDIR)/$(NAME)-%/glyphs)
 
