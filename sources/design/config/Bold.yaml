@@ -607,7 +607,7 @@ svgs:
     quotesingle:
         left: 100
         right: 100
-        base: 880
+        base: 1090
         unicode: '0027'
         glyph_name: quotesingle
     registeredsign:
