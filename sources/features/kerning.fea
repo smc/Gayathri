@@ -27,9 +27,20 @@ lookup latinPos {
   lookupflag 0;
     pos @lc_right_slant @lc_left_round -50;
     pos @lc_right_round @lc_left_slant -50;
-    pos @lc_postive_space @lc_negative_space -350;
     pos @lc_above_base @lc_negative_space -300;
-
+    pos a j -300;
+    pos b j -300;
+    pos c j -300;
+    pos d j -300;
+    pos e j -300;
+    pos o j -300;
+    pos p j -300;
+    pos r j -300;
+    pos f j -300;
+    pos t j -300;
+    pos v j -300;
+    pos w j -300;
+    pos y j -300;
     pos @uc_right_slant @lc_left_round  -160;
     pos @uc_right_slant @uc_left_slant  -160;
 
