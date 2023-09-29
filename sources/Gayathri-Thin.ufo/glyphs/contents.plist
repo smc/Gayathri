@@ -344,6 +344,8 @@
 		<string>a2.glif</string>
 		<key>aacute</key>
 		<string>aacute.glif</string>
+		<key>aam</key>
+		<string>aam.glif</string>
 		<key>acircumflex</key>
 		<string>acircumflex.glif</string>
 		<key>acute</key>
@@ -2092,8 +2094,6 @@
 		<string>uni0000.glif</string>
 		<key>uni00A0</key>
 		<string>uni00A_0.glif</string>
-		<key>uni00AD</key>
-		<string>uni00A_D_.glif</string>
 		<key>uni01D2</key>
 		<string>uni01D_2.glif</string>
 		<key>uni01D3</key>
