@@ -51,7 +51,7 @@ Following development workflow is used for this typeface
 Credits
 -------
 
-See [FONTLOG.md](FONTLOG.md] for details on contributions.
+See [FONTLOG.md](FONTLOG.md) for details on contributions.
 
 License
 -------
